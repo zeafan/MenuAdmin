@@ -1,0 +1,1990 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="read_more">Daha fazla göster</string>
+    <string name="read_less">Daha az göster</string>
+    <string name="watermark">Android için Al-Ameen Dağıtım
+</string>
+    <string name="background">Arkaplan</string>
+    <string name="set_background">Arkaplanı Ayarla</string>
+    <string name="store_inventory">Mağaza Envanteri</string>
+    <string name="inventory">Envanter</string>
+    <string name="please_enter_new_value">Lütfen Yeni Değer Girin</string>
+    <string name="new_value_bigger_than_total">İndirim değeri fatura tutarından fazla olamaz!</string>
+    <string name="item_discount_bigger_than_item_total">Kalem indirim değeri, kalem toplamından büyük olamaz!</string>
+    <string name="neg_no_permissions">Negatif Satış İzni Yok</string>
+    <string name="settings">Ayarlar</string>
+    <string name="main">Ana</string>
+    <string name="promotion_details">Detaylar</string>
+    <string name="bonus_promotion">Bonus</string>
+    <string name="CurrenciesEntry">Birkaç para birimiyle işlem</string>
+    <string name="cheque_value">Çek değerini girin!</string>
+    <string name="cheque_number">Çek numarasını girin!</string>
+    <string name="No_selsectTypeCheque">Çek kaydedilemiyor! .. Çek tiplerini kontrol edin</string>
+    <string name="start_date">Başlangıç ​​Tarihi
+</string>
+    <string name="end_date">Bitiş Tarihi
+</string>
+    <string name="condition">Koşul
+</string>
+    <string name="available">Mevcut
+</string>
+    <string name="meter">m</string>
+    <string name="kelo_meter">km</string>
+    <string name="type_product_name">Ürün adını yazın;
+</string>
+    <string name="share">Paylaş
+</string>
+    <string name="share_by">ile Paylaş
+</string>
+    <string name="realized">Gerçekleştirilen
+</string>
+    <string name="remaining">Kalan
+</string>
+    <string name="customers">Müşteriler
+</string>
+    <string name="invoice">Fatura
+</string>
+    <string name="activities">Faaliyetler
+</string>
+    <string name="no_sale">Satış Yok
+</string>
+    <string name="vist_operations">Ziyaret İşlemleri
+</string>
+    <string name="new_customer">Yeni müşteri
+</string>
+    <string name="over_max_visit_out_of_route">Maksimum Rota Dışı Ziyaret sayısını aştınız
+</string>
+    <string name="over_max_visit_per_day">Günlük maksimum ziyareti aştınız
+</string>
+    <string name="show_prodcuts_by_groups">Ürünleri Gruplara Göre Göster
+</string>
+    <string name="name">Ad</string>
+    <string name="phone">Telefon</string>
+    <string name="phone4">الهاتف</string>
+    <string name="mobile">Cep Telefonu</string>
+    <string name="area">Alan
+</string>
+    <string name="street">Sokak
+</string>
+    <string name="type">Tip
+</string>
+    <string name="expense">Gider
+</string>
+    <string name="channel">Kanal</string>
+    <string name="location">Konum</string>
+    <string name="save">Kaydet</string>
+    <string name="ok">Tamam</string>
+    <string name="show_all">Tümünü Göster</string>
+    <string name="search_hint">Arama…</string>
+
+
+    <string name="disc_type">İndirim Tipi
+</string>
+    <string name="calced_value">İndirim tutarı
+</string>
+    <string name="custom_value">Özel değer
+</string>
+    <string name="all">Tümünü Göster
+</string>
+    <string name="today_route">Bugün Rotası
+</string>
+    <string name="specific_day">Belirli Gün
+</string>
+    <string name="nearby_customers">Yakındaki Müşteri
+</string>
+    <string name="cash">Nakit
+</string>
+    <string name="cheque">Çek</string>
+    <string name="cheques">Çekler</string>
+    <string name="no_questionnaires_delete">Veriler Silinmek için kaydedilmedi</string>
+    <string name="no_questionnaires_save"> İlk önce anket girilmelidir
+</string>
+    <string name="add_check">Yeni bir çek ekle
+</string>
+    <string name="pay_type">Ödeme Tipi</string>
+    <string name="stock_quantity">Stok Adeti
+</string>
+    <string name="store">Mağaza
+</string>
+    <string name="products">Ürünler
+</string>
+    <string name="promotion">Promosyonlar
+</string>
+    <string name="promotion_product">Promosyon Ürünler
+</string>
+    <string name="bonus_product">Bonus Ürünler
+</string>
+    <string name="customer_type">Müşteri Tipi
+</string>
+    <string name="details">Detaylar
+</string>
+    <string name="select">Seçin
+</string>
+    <string name="select_bonus">Bonus Seçin
+</string>
+    <string name="discounts">İndirimler
+</string>
+    <string name="payments">Ödemeler</string>
+    <string name="set_quantity_or_bonus">Adet veya Bonus Ayarlayın
+</string>
+    <string name="printing">Yazdırma
+</string>
+    <string name="printing_fields">Baskı Alanları</string>
+    <string name="print">Yazdır
+</string>
+    <string name="print_all_invoces">Faturaları Yazdır
+</string>
+    <string name="print_all_entries">Girdileri Yazdır
+</string>
+    <string name="logo">Logo</string>
+    <string name="select_logo">Maks. 900w x 900h</string>
+    <string name="size_image_msg1">Resim Yüklenemedi \ n Maksimum Resim Boyutu 900g x 900y olmalıdır</string>
+    <string name="size_image_msg2">Maksimum Resim Boyutu:</string>
+    <string name="size_image_title">Uyarı
+</string>
+    <string name="custom_footer">Özel Altbilgi
+</string>
+    <string name="custom_header">Özel Üstbilgi
+</string>
+    <string name="no_permission_to_add_new_customers">Yeni müşteri ekleme izni yok
+</string>
+    <string name="set_gps_location">GPS konumunu ayarla
+</string>
+    <string name="set_customer_name">Müşteri adını belirleyin!
+!</string>
+    <string name="no_connection_customer_will_synced_when_connection_available">Bağlantı yok! \n Bağlantı kurulduğunda müşteri senkronize edilecek.
+</string>
+    <string name="no_connection_address_card_will_synced_when_connection_available">Bağlantı yok! \ n Bağlantı kurulduğunda Adres Kartı senkronize edilecek.
+</string>
+    <string name="can_not_get_your_location_Please_check_GPS_enabled_or_change_position">Konumunuzu alamıyorum! \ n Lütfen GPS\'in etkin olup olmadığını kontrol edin veya konumunuzu değiştirin.
+</string>
+    <string name="no_connection_data_will_be_synced_when_connection_available">Bağlantı yok! \n Bağlantı kurulduğunda veriler senkronize edilecek.</string>
+    <string name="no_">Hayır</string>
+    <string name="max_invoices_count_is_10">Maksimum fatura sayısı 10!!</string>
+    <string name="customer_account_over_max_debt">Müşteri hesabı maksimum borcun üzerinde!</string>
+    <string name="no_items">Öğe yok!
+!</string>
+    <string name="can_not_update_invoice_visit_finished">Fatura güncellenemiyor! Ziyaret sonlandırıldı.
+</string>
+    <string name="visit_crached">Ziyaret sonlandırıldı!
+</string>
+    <string name="invoice_saved_previously">Fatura önceden kaydedildi
+</string>
+    <string name="stock_saved_previously">Daha önce kaydedilen stok
+</string>
+    <string name="invoice_saved">Fatura kaydedildi
+</string>
+    <string name="stock_saved">Stok kaydedildi
+</string>
+    <string name="custom_company_name">Özel şirket adı
+</string>
+    <string name="display">Görüntüle
+</string>
+    <string name="add_products_method">Ürün yöntemi ekle
+</string>
+    <string name="show_quantity_on_product_image">Resimde ürün adetini göster</string>
+    <string name="show_product_name_on_image">Resimde ürün adını göster
+</string>
+    <string name="serial_number_check">Seri numarasını kontrol edin
+</string>
+    <!--27-3-2017-->
+    <string name="allow_repeat_product_in_bill">Ürünün faturada tekrarlanmasına izin ver
+</string>
+    <!--&lt;!&ndash;29-3-2017&ndash;&gt;-->
+    <!--<string name="show_all_product">Show all product</string>-->
+
+
+    <string name="products_view_style">Ürün görüntüleme tipi
+</string>
+    <string name="printer">Yazıcı
+</string>
+    <string name="printer_model">Yazıcı Modeli
+</string>
+    <string name="no_connection_invoice_will_synced_when_connection_availabl">Bağlantı Yok! \n Bağlantı kurulduğunda fatura senkronize edilecek!
+</string>
+    <string name="error_deleting_invoice">Fatura silinirken hata oluştu!
+</string>
+    <string name="error_deleting_stock">Stok silinirken hata oluştu!
+</string>
+    <string name="invoice_deleted">Fatura silindi
+</string>
+    <string name="delete_entry">Girdiyi sil
+</string>
+    <string name="print_entry">Girdiyi yazdır
+</string>
+    <string name="print_cheque">Çeki yazdır
+</string>
+    <string name="delete_chque">Çeki sil
+</string>
+    <string name="stock_deleted">Stok silindi
+</string>
+    <string name="no_permission_to_delete_invoice">Faturayı silme izniniz yok!
+
+</string>
+    <string name="no_permission_to_delete_entry">Girdiyi silme izniniz yok!
+</string>
+    <string name="no_permission_to_delete_cheque">Çeki silme izniniz yok!
+</string>
+    <string name="bills">Faturalar
+</string>
+    <string name="can_not_start_visit_before_sync_date">Senkronizasyon tarihinden önce ziyaret başlatılamaz!
+</string>
+    <string name="can_not_add_bill_before_sync_date">Senkronizasyon tarihinden önce fatura eklenemez!
+</string>
+    <string name="can_not_add_entry_before_sync_date">Senkronizasyon tarihinden önce girdi eklenemez!
+</string>
+    <string name="can_not_add_data_before_sync_date">Senkronizasyon tarihinden önce veri eklenemez!
+</string>
+    <string name="entry_deleted">Girdi silindi
+</string>
+    <string name="cheque_deleted">Çek silindi
+</string>
+    <string name="done">Bitti
+</string>
+    <string name="default_unit">Varsayılan Birim
+</string>
+    <string name="first_unit">İlk Birim
+</string>
+    <string name="second_unit">İkinci Birim
+</string>
+    <string name="third_unit">Üçüncü Birim
+</string>
+    <string name="there_are_no_products_in_selected_options">There are no products in the selected options</string>
+    <string name="customer">Müşteri
+</string>
+    <string name="no_products">Seçilen seçeneklerde ürün yok</string>
+    <string name="customer2">Müşteri
+</string>
+    <string name="customer3">زبون</string>
+    <string name="using_print_model_UAE">BAE Yazdırma Modeli Kullan
+</string>
+    <string name="group">Grup</string>
+    <string name="from_date">tarihinden
+</string>
+    <string name="to_date">tarihine kadar
+</string>
+    <string name="customer_statement">Müşteri Açıklaması
+</string>
+    <string name="error_deleting_entry">Girdi silinirken hata oluştu!</string>
+    <string name="error_deleting_cheque">Çek silinirken hata oluştu!</string>
+    <string name="error_saving_shelve_share">Raf paylaşımı kaydedilirken hata oluştu!
+</string>
+    <string name="error_saving_questionnair">Anket kaydedilirken hata oluştu!
+</string>
+    <string name="error_saving_SerialNumberTransaction">Seri numarası İşlemi kaydedilirken hata oluştu
+</string>
+    <string name="typeexportserialnumber">Seri numaralarını girme yöntemi
+</string>
+    <string name="max_entry_count_is_10">Maksimum Girdi sayısı 10!
+</string>
+    <string name="max_cheque_count_is_10">Maksimum Çek sayısı 10!
+</string>
+    <string name="enter_value">Değer girin!
+</string>
+    <string name="select_expense">Gider seçin!
+</string>
+    <string name="can_not_update_entry_visit_finished">CGirdi güncellenemiyor! Ziyaret sonlandırıldı.
+</string>
+    <string name="can_not_save_entry">Girdi kaydedilemiyor! Hata var.
+</string>
+    <string name="can_not_save_cheque">Çek kaydedilemiyor! Hata var.
+</string>
+    <string name="can_not_delete_cheque">Çek kaydedilmedi, silinemez.
+</string>
+    <string name="no_connection_entry_synced_when_connection_available">Bağlantı yok! \n Bağlantı kurulduğunda girdi senkronize edilecek.
+</string>
+    <string name="no_connection_cheque_synced_when_connection_available">Bağlantı yok! \n Bağlantı kurulduğunda çek senkronize edilecek.
+</string>
+    <string name="entry_saved_previously">Girdi önceden kaydedilmiş
+</string>
+    <string name="cheque_saved_previously">Çek önceden kaydedilmiş
+</string>
+    <string name="expense_saved_previously">Gider önceden kaydedilmiş</string>
+    <string name="no_customers">Müşteri yok!
+</string>
+    <string name="material_name">Malzeme Adı
+</string>
+    <string name="code">Kod
+</string>
+    <string name="in_qty">Adet Olarak
+</string>
+    <string name="cur_qty">Mevcut Adet
+</string>
+    <string name="out_qty">Çıkış Adeti
+</string>
+    <string name="group_name">Grup Adı
+</string>
+    <string name="enter_password">Şifre girin
+</string>
+    <string name="incorrect_password">Şifre hatalı!
+</string>
+    <string name="sync_data_first">Önce Verileri Senkronize Et
+</string>
+    <string name="must_enable_location_service">Konum servisini etkinleştirmelisiniz
+</string>
+    <string name="cannot_get_current_location">Mevcut konum alınamıyor. \n Daha sonra tekrar deneyin.
+</string>
+    <string name="select_bill_type">Fatura Tipi Seçin
+</string>
+    <string name="select_check_type">Çek Tipi Seçin
+</string>
+    <string name="select_questionnaire">Anket Seçin
+</string>
+    <string name="set_ip">Bağlantı servisinin kurulu olduğu bilgisayar IP ayarlayın!
+</string>
+    <string name="set_dns">Bağlantı hizmeti yüklü olan Domain Adı ayarlayın
+</string>
+    <string name="set_device_name">Cihaz adını ayarlayın!
+</string>
+    <string name="show_groups">Grupları Göster
+</string>
+    <string name="show_products_by_groups">Ürünleri Gruplara Göre Göster
+</string>
+    <string name="_new">Yeni
+</string>
+    <string name="change_discount_value">Değeri Değiştir
+</string>
+    <string name="close">Kapat
+</string>
+    <string name="refresh">Yenile
+</string>
+    <string name="end_visit">Ziyareti Bitir
+</string>
+    <string name="view">Görünüm
+</string>
+    <string name="price">Fiyat
+</string>
+    <string name="price_type">Fiyat Tipi
+</string>
+    <string name="none">Yok
+</string>
+    <string name="questionnaires_saved">Anket var
+</string>
+    <string name="product_name">Ad
+</string>
+    <string name="choose_date">Tarih Seçin
+</string>
+    <string name="date">Tarih
+</string>
+    <string name="date2">Tarih
+</string>
+    <string name="debit">Borç
+</string>
+    <string name="cus_balance">Müşteri Bakiyesi
+</string>
+    <string name="debit1">Borç
+</string>
+    <string name="credit">Alacak
+</string>
+    <string name="note">Not
+</string>
+    <string name="store_quantity">Mağaza Adeti
+</string>
+    <string name="received">Alınan
+</string>
+    <string name="receivedTotal">Toplam Alınan
+</string>
+    <string name="notes">Notlar
+</string>
+    <string name="sales">Satış
+</string>
+    <string name="bill">Fatura
+</string>
+    <string name="entry">Girdi
+</string>
+    <string name="customers_list">Müşteri Listesi
+</string>
+    <string name="sort_by">Göre sırala
+</string>
+    <string name="stock">Stok
+</string>
+    <string name="dist_stock">Distribütör Stoku
+</string>
+    <string name="cust_stock">Müşteri Stoku
+    </string>
+    <string name="balance">Bakiye
+</string>
+    <string name="prev_balance">Önceki Bakiye
+</string>
+    <string name="previous">Önceki
+</string>
+    <string name="current_balance">Mevcut Bakiye
+</string>
+    <string name="new_balance">Yeni Bakiye
+</string>
+    <string name="value">Değer
+</string>
+    <string name="version">Sürüm
+</string>
+    <string name="new_visit">Yeni Ziyaret
+</string>
+    <string name="visit">Ziyaret
+</string>
+    <string name="entry_type">Girdi Tipi
+</string>
+    <string name="items_count">Kalem Sayısı
+</string>
+    <string name="items_discount">Kalem İndirimi
+</string>
+    <string name="total">Toplam
+</string>
+    <string name="current_bal">Mevcut Bakiye
+</string>
+    <string name="current">Mevcut
+</string>
+    <string name="discount_total">Fatura İndirimi
+</string>
+    <string name="search">Arama
+</string>
+    <string name="hide_empty_products">Boş Ürünleri Gizle
+</string>
+    <string name="daily_round">Günlük
+</string>
+    <string name="show_products">Ürünleri Göster
+</string>
+    <string name="password">Şifre
+</string>
+    <string name="login_name">Kullanıcı Adı
+</string>
+    <string name="device_name">Cihaz Adı
+</string>
+    <string name="local_ip">Yerel IP
+</string>
+    <string name="static_ip">Statik IP
+</string>
+    <string name="ip">IP</string>
+    <string name="domain">DNS</string>
+    <string name="login">Oturum Aç
+</string>
+    <string name="sync">Senkronize Et
+</string>
+    <string name="synced">Senkronize Edildi
+</string>
+    <string name="cancel">İptal Et
+</string>
+    <string name="balance_movement">Bakiye Hareketi
+</string>
+    <string name="list_promotion">Promosyon Listesi
+</string>
+    <string name="check_bonus">Bonusu Kontrol Et
+</string>
+    <string name="add">Ekle
+</string>
+    <string name="add2">Ürün başarıyla eklendi
+</string>
+    <string name="distributor_name">Distribütör Adı
+</string>
+    <string name="selected_qty">Seçilen Adet
+</string>
+    <string name="bonus_quantity">Bonus Adeti
+</string>
+    <string name="bonus_unit">Bonus Birimi
+</string>
+    <string name="holiday">Tatil
+</string>
+    <string name="choose_action">Etkinlik Seçin
+</string>
+    <string name="open_map">Haritayı Aç
+</string>
+    <string name="Sync_caution">Dikkat: İnternet hızınıza ve veri boyutunuza bağlı olarak senkronizasyon uzun sürebilir, bu nedenle sabırlı olun.
+</string>
+    <string name="no_connection">Bağlantı yok!
+</string>
+    <string name="no_response">Cevap yok, tekrar deneyin.
+</string>
+    <string name="now_syncing">Şimdi senkronize ediliyor…</string>
+    <string name="podting_signature_fail">İmza gönderimi başarısız
+</string>
+    <string name="error_sync_data">Veri senkronizasyonu hatası!
+</string>
+    <string name="yes">Evet
+</string>
+    <string name="backup">Yedekle
+</string>
+    <string name="restore">Geri Yükle
+</string>
+    <string name="you_cannt_use_expenses">Gider kullanma izniniz yok
+</string>
+    <string name="your_gps_disale_do_you_want_enable">YGPS\'iniz devre dışı görünüyor, onu etkinleştirmeniz gerekiyor.
+</string>
+    <string name="no">Hayır
+</string>
+    <string name="num">Num.</string>
+
+    <string name="confirm">Onayla
+</string>
+    <string name="save_confirmation">Kaydetmek istediğinizden emin misiniz?
+</string>
+    <string name="stop_sync_confirmation">İşlemi durdurmak istediğinizden emin misiniz?
+</string>
+    <string name="save_bill_confirmation">Faturayı kaydetmek istediğinizden emin misiniz?
+    </string>
+    <string name="print_confirmation">Yazdırmak istediğinizden emin misiniz?
+</string>
+    <string name="save_entry_confirmation">Girdiyi kaydetmek istediğinizden emin misiniz?
+</string>
+    <string name="save_cheque_confirmation">Çeki kaydetmek istediğinizden emin misiniz?
+</string>
+    <string name="update_cheque_confirmation">Çeki güncellemek istediğinizden emin misiniz?
+</string>
+    <string name="save_expense_confirmation">Gideri kaydetmek istediğinizden emin misiniz?
+</string>
+    <string name="new_bill_confirmation">Yeni bir fatura oluşturmak istediğinizden emin misiniz?
+</string>
+    <string name="print_bill_confirmation">Fatura yazdırmak istediğinizden emin misiniz?
+</string>
+    <string name="print_all_bills_confirmation">Tüm faturayı yazdırmak istediğinizden emin misiniz?
+</string>
+    <string name="new_entry_confirmation">Yeni bir girdi oluşturmak istediğinizden emin misiniz?
+</string>
+    <string name="new_cheque_confirmation">Yeni bir çek oluşturmak istediğinizden emin misiniz?
+</string>
+    <string name="new_expense_confirmation">Yeni bir gider oluşturmak istediğinizden emin misiniz?
+</string>
+    <string name="discard_changes_confirmation">Değişiklikleri iptal etmek istediğinizden emin misiniz?
+</string>
+    <string name="discard_entry_confirmation">Girdiyi iptal etmek istediğinizden emin misiniz?
+</string>
+    <string name="discard_cheque_confirmation">Çeki iptal etmek istediğinizden emin misiniz?
+</string>
+    <string name="discard_expense_confirmation">Gideri iptel etmek istediğinizden emin misiniz?
+</string>
+    <string name="discard_bill_confirmation">Faturayı iptal etmek istediğinizden emin misiniz?
+    </string>
+    <string name="delete_bill_confirmation">Faturayı silmek istediğinizden emin misiniz?
+</string>
+    <string name="delete_bill_last_item_confirmation">Faturadaki son kalemin silinmesi tüm faturayı silecektir \n, Faturayı silmek istediğinizden emin misiniz?
+</string>
+    <string name="delete_bill">Faturayı Sil
+</string>
+    <string name="calculating">Hesaplanıyor....</string>
+    <string name="delete_confirmation">Silmek istediğinizden emin misin?
+</string>
+    <string name="delete_entry_confirmation">Girdiy silmek istediğinizden emin misiniz?
+</string>
+
+    <string name="delete_entry_confirmation2">Not: Bu Girdi Fatura ile bağlı! \n Girdiyi silmek istediğinizden emin misiniz?
+</string>
+    <string name="delete_cheque_confirmation">Çeki silmek istediğinizden emin misiniz?
+</string>
+    <string name="add_promotion_confirmation">Bu promosyonu eklemek istediğinizden emin misiniz?
+</string>
+    <string name="exit_application_confirmation">Çıkmak istediğizden emin misin?
+</string>
+    <string name="clear_saved_data_confirmation">Kaydedilen verileri temizlemek istediğinizden emin misiniz?
+</string>
+    <string name="personal_name">Kişisel Ad
+</string>
+    <string name="price_whole">Toptan Fiyat
+e</string>
+    <string name="price_half">Yarı Fiyat
+</string>
+    <string name="price_vendor">Satıcı Fiyatı
+</string>
+    <string name="price_export">İhracat Fiyatı
+</string>
+    <string name="price_retail">Perakende Fiyatı
+</string>
+    <string name="price_end_user">Son Kullanıcı Fiyatı
+</string>
+    <string name="price_whole_print">Toptan
+</string>
+    <string name="price_half_print">Yarı
+</string>
+    <string name="price_vendor_print">Satıcı
+</string>
+    <string name="price_export_print">İhracat
+</string>
+    <string name="price_retail_print">Perakende
+</string>
+    <string name="price_end_user_print">Son Kullanıcı
+</string>
+    <string name="connecting">Bağlanıyor
+</string>
+    <string name="please_wait">Lütfen bekleyin…</string>
+    <string name="total_quantity">Toplam Adet</string>
+    <string name="modify">Düzenle
+</string>
+    <string name="modified">Düzenlenmiş
+</string>
+    <string name="delete">Sil
+</string>
+    <string name="first_payment">İlk Ödeme
+</string>
+    <string name="first_payment2">İlk Ödeme
+</string>
+    <string name="first_payment3">الدفعة الأولى</string>
+    <string name="addressAr">العنوان</string>
+    <string name="dept">Borç
+</string>
+    <string name="open">Açık
+</string>
+    <string name="open_bill">Faturayı Aç
+ </string>
+    <string name="view_bill">Faturayı Görüntüle
+ </string>
+    <string name="open_entry">Girdiyi Aç
+ </string>
+    <string name="open_cheque">Çeki Aç
+ </string>
+    <string name="max_debt">Maksimum Borç
+</string>
+    <string name="min_pay_req">Gereken Minimum Ödeme
+</string>
+    <string name="pay_req">Gereken Ödeme
+</string>
+    <string name="zero">0</string>
+    <string name="_class">Sınıf
+</string>
+    <string name="print_entry_confirmation">Girdiyi yazdırmak istediğinizden emin misiniz?
+</string>
+    <string name="print_all_entries_confirmation">Girdileri yazdırmak istediğinizden emin misiniz?
+</string>
+    <string name="can_not_sync_data_without_zero_distributor_balance">Sıfır distribütör bakiyesi olmadan veriler senkronize edilemez!
+</string>
+    <string name="customer_data">Müşteri İşlemleri
+</string>
+    <string name="set_quantity">Adeti Ayarla
+</string>
+    <string name="loading">Veri tabanı Dosyaları Yükleniyor…
+ </string>
+    <string name="loading_distributor">Distribütör Yükleniyor....</string>
+    <string name="initializing_distributor_data">Distribütör Verilerini Başlatılıyor
+    </string>
+    <string name="loading_options">Yükleme Seçenekleri
+</string>
+    <string name="loading_route_days">Rota Günleri Yükleniyor
+</string>
+    <string name="loading_customers">Müşteriler Yükleniyor
+</string>
+    <string name="loading_customers_accounts">Müşteri Hesapları Yükleniyor
+</string>
+    <string name="loading_distribution_channels">Dağıtım Kanalları Yükleniyor
+</string>
+    <string name="loading_customers_types">Müşteri Tipleri Yükleniyor
+</string>
+    <string name="loading_products_groups">Ürün Grupları Yükleniyor
+</string>
+    <string name="loading_products">Ürünler Yükleniyor
+</string>
+    <string name="loading_trip">Yolculuk Yükleniyor
+</string>
+    <string name="loading_invoice_types">Fatura Tipleri Yükleniyor
+</string>
+    <string name="loading_entry_types">Girdi Tipleri Yükleniyor
+</string>
+    <string name="loading_products_stock">Ürün Stokları Yükleniyor
+    </string>
+    <string name="loading_discounts_details">İndirim Detayları Yükleniyor
+</string>
+    <string name="loading_customer_type_for_discount">İndirimli Müşteri Tipleri Yükleniyor
+</string>
+    <string name="loading_discounts">İndirimler Yükleniyor
+</string>
+    <string name="loading_promotions">Promosyonlar Yükleniyor
+</string>
+    <string name="loading_promotionsBudget">Promosyon Bütçesi Yükleniyor
+</string>
+    <string name="loading_promotions_details">Promosyon Detayları Yükleniyor
+</string>
+    <string name="loading_promotions_budgets">Promosyon Bütçeleri Yükleniyor
+</string>
+    <string name="loading_customers_statements">Müşteri Açıklamaları Yükleniyor
+</string>
+    <string name="loading_expenses">Giderler Yükleniyor
+</string>
+    <string name="loading_no_sales_and_activities">Satış olmama sebepleri ve etkinlikler yükleniyor
+</string>
+    <string name="loading_products_templates">Ürün Şablonları Yükleniyor
+</string>
+    <string name="loading_dist_companies">Dağıtım Şirketleri Yükleniyor
+</string>
+    <string name="loading_customers_stock">Müşteri Stokları Yükleniyor
+</string>
+    <string name="loading_questionnaires">Anketler Yükleniyor
+</string>
+    <string name="loading_questionnaires_questions">Anket Soruları Yükleniyor
+</string>
+    <string name="loading_questionnaires_questions_choices">Anket Soruları Seçenekleri Yükleniyor
+</string>
+    <string name="loading_accounting_periods">Muhasebe Dönemleri Yükleniyor
+</string>
+    <string name="loading_dist_targets">Distribütör Hedefleri Yükleniyor
+</string>
+    <string name="loading_targets">Hedefler Yükleniyor
+</string>
+    <string name="loading_cust_targets">Müşteri Hedefleri Yükleniyor
+</string>
+    <string name="loading_stores">Mağazalar Yükleniyor
+</string>
+    <string name="loading_check_types">Çek Tipleri Yükleniyor
+</string>
+    <string name="loading_banks">Bankalar Yükleniyor
+</string>
+    <string name="deleting_old_data">Eski Veriler Siliniyor
+</string>
+    <string name="no_image">Görüntü Yok!
+</string>
+    <string name="scan_barcode">Barkodu Tara
+</string>
+    <string name="customer_not_exists">Müşteri yok!
+</string>
+    <string name="customer_bar_code_error">Geçersiz Barkod!
+</string>
+    <string name="bar_code_error">Barkod Mevcut Değil!
+</string>
+    <string name="must_use_customer_barcode_to_start_visit">Ziyarete başlamak için müşteri barkodu kullanılmalı.
+</string>
+    <string name="must_use_customer_barcode_to_end_visit">Ziyareti sonlandırmak için müşteri barkodu kullanılmalı.
+</string>
+    <string name="must_use_barcode_to_add_product">Ürün eklemek için barkod kullanılmalıdır.
+</string>
+    <string name="start_sync_data">Veri senkronizasyonunu başlat
+</string>
+    <string name="cannot_add_more_than_promotion_bonus_quantity">Promosyon bonusu adetinden fazlası eklenemez!
+</string>
+    <string name="alert">Uyarı
+</string>
+    <string name="confirmation">Onayla
+</string>
+    <string name="cannot_modify_pro_item">Promosyon kalemi düzenlenemez!
+</string>
+    <string name="delete_bill_item_confirmation">Bu kalemi silmek istediğinizden emin misiniz?
+</string>
+    <string name="delete_pro_item_will_delete_all_pro_items">Promosyon kalemini silmek, tüm promosyon kalemlerini silecektir!
+</string>
+    <string name="must_set_bonus_before_closing">Kapatmadan önce bonusu ayarlamalısınız!
+</string>
+    <string name="count_of_pro_is_out_of_budget">Promosyon sayısı bütçenin dışında!
+</string>
+    <string name="expenses">Giderler
+</string>
+    <string name="distance">Mesafe
+</string>
+    <string name="work_online">Çevrimiçi Çalışma
+</string>
+    <string name="background_sync">Arkaplan senkronizasyonu
+</string>
+    <string name="post_unposted_data">Gönderilmemiş verileri gönder
+</string>
+    <string name="cannot_start_visit_before_sync_date">Senkronizasyon tarihinden önce ziyaret başlatılamaz!
+</string>
+    <string name="delete_data">Verileri sil
+</string>
+    <string name="feedback">Geri Bildirim Yolla
+</string>
+    <string name="feedback2">Geri Bildirim
+</string>
+    <string name="backup_preferences">Yedekleme veya Geri Yükleme Ayarları
+</string>
+    <string name="backup_data">Verileri Yedekleme veya Geri Yükleme
+</string>
+    <string name="backup_created">Ayarlar yedeklemesi başarıyla oluşturuldu
+</string>
+    <string name="backup_restored">Yedek başarıyla geri yüklendi
+</string>
+    <string name="delete_data_confirmation">Verileri silmek istediğinizden emin misiniz?
+</string>
+    <string name="delete_data_info_message">Veriler başarıyla silindi.
+</string>
+    <string name="device_does_not_support_bluetooth">Cihaz Bluetooth\'u desteklemiyor
+</string>
+    <string name="delete_data_error_message">Veriler silinirken hata oluştu!
+</string>
+    <string name="currency">Para Birimi
+</string>
+    <string name="loading_currencies">Para birimleri yükleniyor</string>
+    <string name="cannot_delete_synced_invoice">Senkronize edilmiş fatura silinemez!
+</string>
+    <string name="cannot_delete_synced_entry">Senkronize edilmiş girdi silinemez!
+</string>
+    <string name="cannot_delete_synced_cheque">Senkronize edilmiş çek silinemez!
+</string>
+    <string name="cannot_delete_releted_bill_entry">Bu girdi fatura ile bağlı olduğu için silinemiyor
+</string>
+    <string name="cannot_delete_releted_bill_cheque">Bu çek fatura ile bağlı olduğu için silinemiyor
+</string>
+    <string name="cannot_delete_synced_data">Senkronize edilmiş veriler silinemez!
+</string>
+    <string name="cannot_add_invoice_with_no_sales_exists">Satış olmama sebebi varken fatura eklenemez!
+</string>
+    <string name="cannot_add_no_sales_with_invoice_exists">Satış olmayan fatura eklenemez!
+</string>
+    <string name="more">Daha
+</string>
+    <string name="back">Geri
+</string>
+    <string name="customer_notes">Müşteri Notları
+</string>
+    <string name="distributor_notes">Distribütör Notları
+</string>
+    <string name="type_barcode_here">Barkodu Yazdır
+</string>
+    <string name="customer_not_found">Müşteri bulunamadı!
+</string>
+    <string name="product_not_found">Ürün bulunamadı!
+</string>
+    <string name="no_expenses_declared">Hiçbir masraf beyan edilmedi!
+</string>
+    <string name="questionnaire">Anket
+</string>
+    <string name="distributor">Distribütör
+</string>
+    <string name="distributor2">Distribütör
+</string>
+    <string name="distributor3">الموزع</string>
+    <string name="distributor_Code">Distribütör Kodu</string>
+    <string name="number">Numara
+</string>
+
+    <string name="billnumber">Fatura Numarası
+</string>
+    <string name="totalafterDisc">İndirim Sonrası Toplam
+</string>
+    <string name="totalTax">Vergiler
+</string>
+    <string name="printing_footer_fields">Altbilgi Alanlarını Yazdırma
+</string>
+    <string name="printing_header_fields">Üstbilgi Alanlarını Yazdırma
+</string>
+    <string name="printing_address_fields">Adres Alanlarını Yazdırma
+</string>
+
+    <string name="quantity">Adet
+</string>
+    <string name="qty">Adet
+</string>
+    <string name="product">Ürün
+</string>
+    <string name="product_group">Ürün/Grup
+</string>
+    <string name="unit">Birim
+</string>
+    <string name="single_price">Fiyat
+</string>
+    <string name="printed_price">Basılı Fiyat
+</string>
+    <string name="tax_value">KDV Değeri
+</string>
+    <string name="tax_ratio">KDV Oranı
+</string>
+
+    <string name="use_detailed_printed_way">Ayrıntılı baskı yöntemi kullan
+</string>
+    <string name="total1">Toplam
+</string>
+    <string name="bonus">Bonus</string>
+    <string name="bonus3">هدية</string>
+    <string name="address">Adres</string>
+    <string name="address_name">Adres Adı </string>
+    <string name="discount">İndirim</string>
+    <string name="item_disc">Kalem İndirimi
+</string>
+    <string name="extras">Ekstralar
+</string>
+    <string name="bill_arround">Fatura Yuvarlaması
+</string>
+    <string name="no_elments_for_this_discount">Bu İndirim için hiçbir öğe yok
+</string>
+    <string name="net">Net</string>
+    <string name="balance3">رصيد الزبون</string>
+    <string name="payment">Ödeme
+</string>
+    <string name="payment3">دفعة</string>
+    <string name="remaining3">الباقي</string>
+    <string name="thanks">"== Teşekkürler =="</string>
+    <string name="choose_backgound_title">Arkaplan Seç
+ </string>
+    <string name="choose_backgound_gralley">Fotoğraf Galerisi
+</string>
+    <string name="choose_backgound_default">Varsayılan
+</string>
+    <string name="title_activity_shelve_share">Raf Paylaşımı
+</string>
+    <string name="action_settings">Ayarlar
+</string>
+    <string name="title_activity_more_visit_operations">Daha
+</string>
+    <string name="shelve_share">Raf Paylaşımı</string>
+    <string name="select_answer">Cevap Seçin
+</string>
+    <string name="write_answer">Cevap Yaz
+</string>
+    <string name="no_questionnaires_declared">Anket beyan edilmedi!
+</string>
+    <string name="cannot_save_synced_invoice">Senkronize edilmiş fatura kaydedilemez!
+</string>
+    <string name="cannot_save_synced_entry">Senkronize edilmiş girdi kaydedilemez!
+</string>
+    <string name="cannot_save_synced_cheque">Senkronize edilmiş çek kaydedilemez!
+</string>
+    <string name="no_permission_to_update_invoice">Faturayı güncelleme izni yok
+</string>
+    <string name="no_permission_to_update_entry">Girdiyi güncelleme izni yok
+</string>
+    <string name="no_permission_to_update_cheque">Çeki güncelleme izni yok
+</string>
+    <string name="bill_value">Fatura Değeri
+</string>
+
+    <string name="connect_to_printer">"Yazıcıya bağlan"
+</string>
+    <string name="connect">Bağlan
+"</string>
+    <string name="dev_conn_btn">Bağlan
+</string>
+    <string name="dev_disconn_btn">Bağlantıyı Kes
+</string>
+    <string name="connecting_msg">Bağlanıyor
+</string>
+    <string name="dev_check_msg">Yazıcı durumunu veya ayarlarını kontrol edin.
+</string>
+    <string name="exportserialnumber">Seri numaraları
+</string>
+    <string name="cannotusingserialnumber">Kalem Sadece Seri Numarası ile Girilebilir
+</string>
+    <string name="usingserialnumber">Seri Numaralarını Kullanmaya Zorla
+</string>
+    <string name="choiceserialnumber">Seri Numarası Seç
+</string>
+    <string name="insertserialnumber">Seri Numarasını Girin
+</string>
+    <string name="no_serial_number">Bu Ürün İçin Seri Numarası Yok
+</string>
+
+    <!-- Bluetooth -->
+    <string name="bt_search_btn">Bluetooth Cihazlarını Ara
+</string>
+    <string name="bt_stop_search_btn">Bluetooth Cihazlarını Aramayı Durdur
+</string>
+    <string name="bt_tab">Bluetooth</string>
+    <string name="bt_disconn_msg">Bluetooth Bağlantısı Kesildi
+</string>
+    <string name="bt_conn_msg">Bluetooth Bağlı
+</string>
+    <string name="bt_conn_fail_msg">"Bluetooth Bağlantısı Başarısız"
+</string>
+    <string name="bt_notconn_msg">"Bluetooth bağlı değil."
+</string>
+    <string name="bluetooth_not_supported">Bluetooth desteklenmiyor!
+</string>
+    <string name="bluetooth_not_enabled">Bluetooth etkinleştirilmedi!
+    </string>
+    <string name="save_customer_confirmation">Müşteriyi kaydetmek istediğinizden emin misiniz?
+</string>
+    <string name="save_address_confirmation">Adresi kaydetmek istediğinizden emin misiniz?
+</string>
+    <string name="getting_stock_success">Stok başarıyla yüklendi!
+</string>
+    <string name="getting_stock_fail">Stok yüklemesi başarısız!
+</string>
+    <string name="getting_targets_success">Hedefler başarıyla yüklendi!
+</string>
+    <string name="getting_targets_fail">Hedefler yüklemesi başarısız!
+</string>
+    <string name="cannot_sync_data_again">Veriler tekrar senkronize edilemez!
+</string>
+    <!-- Data /tables Name -->
+    <string name="distributor_table">Dağıtım Ayarlarını Başlatın ve Yükleyin
+</string>
+    <string name="customer_table">Müşterileri Yükle
+</string>
+    <string name="distributorchannel_table">Dağıtım Kanallarını Yükle
+</string>
+    <string name="product_table">Ürünleri Yükle
+</string>
+    <string name="stores_table">Mağazaları Yükle
+</string>
+    <string name="material_stock_table">Ürün Stokunu Yükle
+</string>
+    <string name="discounts_table">İndirimleri Yükle
+</string>
+    <string name="promotion_table">Promosyonları Yükle
+</string>
+    <string name="promotionBudget_table">Promosyon Bütçesini Yükle
+</string>
+    <string name="targets_table">Hedefleri Yükle
+</string>
+    <string name="statement_table">Müşteri Açıklamalarını Yükle
+</string>
+    <string name="expenses_table">Giderleri Yükle
+</string>
+    <string name="unsale_and_activity_table">Aktiviteleri Yükle
+</string>
+    <string name="mat_template_table">Ürün Şablonlarını Yükle
+</string>
+    <string name="dist_company_table">Dağıtım Firmalarını Yükle
+</string>
+    <string name="customers_stock_table">Müşteri Stoklarını Yükle
+</string>
+    <string name="questionnaire_table">Anketleri Yükle
+</string>
+    <string name="check_types_table">Kontrol Tiplerini Yükle
+</string>
+    <string name="serial_number_table">Seri Numarasını Yükle
+</string>
+    <string name="banks_table">Bankaları Yükle
+</string>
+    <string name="select_data_to_sync">Senkronize Edilecek Verileri Seçin
+</string>
+    <string name="post_data">Verileri Gönder
+</string>
+    <string name="full_sync">Tam senkronizasyon
+</string>
+    <string name="serial_number_error1">Seri numarası Ürün adetinden fazla
+</string>
+    <string name="serial_number_error2">Seri numarası Ürün adetinden az
+</string>
+    <string name="serial_number_error3">Bu Ürünün seri numarası:
+</string>
+    <string name="serial_number_error4">Tam Seri Numarasında Hata Var
+</string>
+    <string name="serial_number_complete">Tam Seri Numarası
+</string>
+    <string name="serial_number">Bu ürünün bir seri numarası var, \n Seri numarası eklemek istiyor musunuz?
+</string>
+    <string name="serial_number_error">Seri numarası güncellemede hata var
+</string>
+    <string name="error">Hata
+</string>
+    <string name="error2">Hata!</string>
+    <string name="serial_number_notfound">(+) Numarası Seri numaralarında yok</string>
+    <string name="serial_number_notfound2">(+) Numaraları Seri numaralarında yok
+</string>
+    <string name="serial_number_founded">(+) Numarası daha önce başka bir faturada kullanılmış
+</string>
+    <string name="serial_number_founded2">(+) Numaraları daha önce başka bir faturada kullanılmış
+</string>
+    <string name="serial_number_duplicate">(+) Numarası daha önce başka bir alanda tekrarlanmış
+</string>
+    <string name="serial_number_duplicate2">(+) Numaraları daha önce başka bir alanda tekrarlanmış
+</string>
+    <string name="you_must_sync_all_data_at_first_time">Tüm Verileri ilk seferde senkronize etmelisiniz
+</string>
+    <string name="loading_stock">Stok yükleniyor \n Lütfen bekleyin</string>
+    <string name="can_not_use_offline_mode">Çevrimdışı modu kullanamazsınız! \n Uygulama Ayarlarında çevrimiçi çalışmalısınız
+</string>
+    <string name="must_set_external_host_address">Harici host adresi ayarlanmalıdır
+</string>
+    <string name="target">Hedef</string>
+    <string name="distributor_target">Distribütör Hedefi
+</string>
+    <string name="distributor_customers_target">Distribütör Müşterilerinin Hedefi
+</string>
+    <string name="customer_target">Müşteri Hedefi
+</string>
+    <string name="diff">Fark
+</string>
+    <string name="difference">Fark
+</string>
+    <string name="item_target_excess_affects_total">Kalem hedef fazlası toplamı etkiler
+</string>
+    <string name="hide_achieved_products">Gerçekleştirilen Ürünleri Gizle
+</string>
+    <string name="send_my_location_to_server">Konumumu her 5 dakikada bir otomatik olarak sunucuya gönder
+</string>
+    <string name="customer_stock">Müşteri Stoku
+</string>
+    <string name="ratio">Oran
+</string>
+    <string name="customer_exists">Müşteri var
+</string>
+    <string name="set_customer_type">Müşteri tipini ayarlayın
+</string>
+    <string name="set_customer_channel">Müşteri kanalını ayarlayın
+</string>
+    <string name="viewOptions">Seçenekleri Görüntüle
+</string>
+    <string name="latinName">Latin Ad
+</string>
+    <string name="log_success">(başarılı)
+</string>
+    <string name="log_failed">(başarısız oldu)
+</string>
+    <string name="not_exists">(mevcut değil)
+</string>
+    <string name="na">Yok
+</string>
+    <string name="promotion_specify">belirtilmiş
+</string>
+    <string name="promotion_unspecify">belirtilmemiş
+</string>
+    <string name="vat">KDV
+</string>
+    <string name="ratio_print">oran
+</string>
+    <string name="value_tax">değer
+</string>
+    <string name="loading_sales_taxes">Satış Vergileri Yükleniyor</string>
+    <string name="salesTax">Satış Vergisi
+</string>
+    <string name="destination">Hedef
+</string>
+    <string name="invoice_net_is_0">Fatura neti 0!
+</string>
+    <string name="cannot_set_previous_date">Önceki tarih ayarlanamaz!
+</string>
+    <string name="set_check_number">Çek numarasını ayarla
+</string>
+    <string name="VATTaxTotal">KDV Vergi Toplamı
+</string>
+    <string name="tax">Vergi
+</string>
+    <string name="no_checks_declared">Çek beyan edilmedi!
+</string>
+    <string name="no_bank_declared">Banka beyan edilmedi!
+</string>
+    <string name="no_company_declared">(Seçenekler-> Dağıtım-> Dağıtım Şirketleri)\'nden hiçbir Şirket beyan edilmedi!
+</string>
+    <string name="no_material_template_declared">(Seçenekler-> Dağıtım-> Malzeme Şablonu) \'ndan Malzeme Şablonu beyan edilmedi!
+</string>
+    <string name="there_are_late_payments">Geç ödemeler var
+</string>
+    <string name="signature">İmza
+</string>
+    <string name="sign_below">Aşağıyı imzalayın
+</string>
+    <string name="clear">Temiz
+</string>
+    <string name="select_bluetooth_device">Bluetooth cihazı seçin
+</string>
+    <string name="returns">İadeler
+</string>
+    <string name="cash_sales">Nakit Satış
+</string>
+    <string name="debit_sales">Borçlu Satışlar
+</string>
+    <string name="check_sales">Çekle Satışlar
+</string>
+    <string name="check_return">Çek İade
+</string>
+    <string name="returns_cash">Nakit İade
+</string>
+    <string name="returns_debit">Borç İade
+</string>
+    <string name="customer_account">Müşteri Hesabı
+</string>
+    <string name="count_customer">müşteri sayısı:</string>
+
+    <string name="visits_report">Ziyaret Raporu
+</string>
+
+    <string name="daily_visit_report_title_checkBox_active_visit">Aktif Ziyareti Göster
+</string>
+    <string name="daily_visit_report_title_checkBox_inactive_visit">Etkin Olmayan Ziyareti Göster
+</string>
+
+    <string name="daily_visit_report_title_tv_customer_name">Müşteri Adı
+</string>
+    <string name="daily_visit_report_title_tv_date">Tarih
+</string>
+    <string name="daily_visit_report_title_tv_visit_state">Durum
+</string>
+    <string name="daily_visit_report_title_tv_start_time">Başlat
+</string>
+    <string name="daily_visit_report_title_tv_end_time">Son
+</string>
+    <string name="daily_visit_report_title_tv_duration">Süre
+</string>
+
+    <string name="daily_visit_report_title_tv_total_active_visit">Aktif Ziyaretler
+</string>
+    <string name="daily_visit_report_title_tv_total_unactive_visit">Etkin Olmayan Ziyaretler
+</string>
+    <string name="daily_visit_report_title_tv_total_visit">Toplam Ziyaret
+</string>
+    <string name="daily_visit_report_title_tv_total_duration">Toplam Süre
+</string>
+
+    <string name="visit_state_active">Aktif Ziyaretler
+</string>
+    <string name="visit_state_inactive">Etkin Olmayan Ziyaretler
+</string>
+    <string name="state_active">Aktif
+</string>
+    <string name="state_inactive">Etkin değil
+</string>
+
+
+    <string name="print_string_size_title">Yazı Boyutu
+ </string>
+    <string name="no_entries_declared">Hiçbir girdi beyan edilmedi!
+</string>
+    <string name="show_sync_reminder_message">Senkronizasyon hatırlatıcı mesajını göster
+</string>
+    <string name="enforce_daily_sync">Günlük senkronizasyonu zorunlu kıl
+</string>
+    <string name="sync_welcome">Günaydın, başlamadan önce lütfen verileri senkronize edin.
+</string>
+    <string name="customer_info">Müşteri Bilgisi
+</string>
+    <string name="db_name">Veri tabanı
+</string>
+    <string name="no_databases_specified_in_ameen_connection_service">Ameen Bağlantı Hizmetinde veri tabanı belirtilmedi!
+</string>
+
+    <string name="print_paper_size_title">Kağıt Boyutu
+ </string>
+
+
+    <string name="numbers_format">Sayı Biçimi
+</string>
+
+
+    <string name="summary">Özet
+</string>
+    <string name="pay">Ödeme
+</string>
+    <string name="receipt">Fiş
+</string>
+    <string name="group_product">Ürün Gruplarını Yazdır
+</string>
+
+
+    <string name="print_string_type_title">Metin Tipi
+</string>
+
+    <string name="copy_number">Kopya numarası
+</string>
+
+    <string name="in_bill">Gelen Fatura
+ </string>
+    <string name="out_bill">Giden Fatura
+ </string>
+    <string name="bill_type_title">Fatura Tipi Başlığı
+</string>
+    <string name="vat_tax">Müşteri Vergi Numarası
+ </string>
+    <string name="price_is_lower_than_allowed_level">Fiyat izin verilen seviyeden düşük!
+</string>
+    <string name="discount_is_greater_than_allowed_level">İndirim izin verilen seviyeden yüksek!
+</string>
+    <string name="some_bonus_stock_is_negative">Bazı bonus stokları negatif!
+</string>
+    <string name="arround_discount">Yaklaşık İndirim
+</string>
+    <string name="arround_extra">Yaklaşık Ekstra
+</string>
+    <string name="duplicated_product">Mükerrer Ürün
+</string>
+    <string name="auto_check_offers">Teklifleri otomatik kontrol et
+</string>
+    <string name="add_decimal_number_bonus">Bonusa ondalık sayı ekle
+</string>
+    <string name="convet_to_India">Hint numaralarını görüntüle
+</string>
+    <string name="dialog_warning">Uyarı
+ </string>
+    <string name="dialog_Entry_warning">Önce Girdiyi Kaydedin
+ </string>
+    <string name="dialog_cheque_warning">Önce Çeki Kaydedin
+ </string>
+    <string name="view_entry">Girdiyi Görüntüle
+</string>
+    <string name="view_cheque">Çeki Görüntüle
+</string>
+    <string name="save_invoice_first">Önce Faturayı Kaydet
+</string>
+    <string name="Infinate">9 numaradan fazla eklenemez
+</string>
+    <string name="comma">Ondalık Sayı olmalı
+</string>
+    <string name="show_item_name">Kalem adını yatay olarak görüntüle
+</string>
+    <string name="journal_cash">Nakit
+</string>
+    <string name="all_tax">Tüm Vergiler
+</string>
+    <string name="save_invoice_in_database">Fatura veri tabanına kaydedilmiyor. \n Önce Faturayı kaydedin.
+</string>
+    <string name="tax_number">Vergi Numarası
+</string>
+    <string name="tax_invoice_ar">فاتورة ضريبية</string>
+    <string name="num_invoice">الرقم الضريبي</string>
+    <string name="no_such_product">Böyle bir ürün yok
+</string>
+    <string name="select_all">Tümünü Seç
+</string>
+    <string name="bar_code">Barkod
+</string>
+    <string name="bar_code_exists_with_other_customer">Barkod başka Müşteride mevcuttur
+</string>
+    <string name="title_activity_bill_after_save">Başarıyla kaydedildi
+</string>
+    <string name="can_not_update_invoice_invoice_synced">Fatura güncellenemiyor, Fatura senkronize edildi
+</string>
+
+
+    <string name="promotion_message_budget">لا يمكن احتساب العروض، كمية الهدية غير كافية</string>
+    <string name="promotion_message_condition">لا يمكن احتساب العروض، كمية الشرط غير متطابقة</string>
+    <string name="pager">Çağrı Cihazı
+</string>
+    <string name="address_details">Adres</string>
+    <string name="zip_code">Posta kodu
+</string>
+    <string name="discard_customer_confirmation">Müşteri kartı değişikliklerini iptal etmek istediğinizden emin misiniz?
+</string>
+    <string name="discard_address_confirmation">Müşteri kartı değişikliklerini iptal etmek istediğinizden emin misiniz?
+</string>
+
+    <string name="phone1">Telefon 1
+</string>
+    <string name="phone2">Telefon 2</string>
+    <string name="cur">الحالى</string>
+    <string name="BillUAENoteAR">البيان</string>
+    <string name="customer_location_not_exists">yok!</string>
+    <string name="serial_number_used">Bu Seri Numarası (*) Başka bir faturada kullanılmakta. Fatura numarası senkronize edilemez (+) Kalem Adı (-)
+    </string>
+    <string name="total_balance">Toplam Nakit
+</string>
+    <string name="filter">Filtrele
+</string>
+    <string name="save_change">Değişikliği Kaydet
+</string>
+    <string name="discount_value">İndirim Değeri
+</string>
+    <string name="discount_percent">İndirim Yüzdesi
+</string>
+    <string name="please_save">Lütfen kaydedin veya iptal edin
+</string>
+    <string name="error_discount">İndirim değiştirilemez
+</string>
+    <string name="no_syn_custumer">Fatura senkronize değil, lütfen müşterinin Alameen\'e kaydedilip kaydedilmediğini kontrol edin
+</string>
+    <string name="license">Lisans</string>
+    <string name="wrong_license_no">Lisans Numarası yanlış
+</string>
+
+    <string name="wrong_ip">Bağlantı sorunu, lütfen IP adresinizi kontrol edin
+</string>
+    <string name="wrong_ip_services">Bağlantı sorunu, lütfen Web Servisini kontrol edin
+</string>
+    <string name="error_discount_Condition">İndirim değiştirilemez, indirim koşulu sıfır
+</string>
+    <string name="last_Material_price_table">Son fiyat yükleniyor…</string>
+    <string name="DuePayment">Gecikmiş ödeme
+</string>
+    <string name="last_customer_price">Son müşteri fiyatı
+</string>
+    <string name="memoryerror">Hata, RAM dolu
+</string>
+    <string name="general">Genel
+</string>
+    <string name="country">Ülke
+</string>
+    <string name="city">Şehir
+</string>
+    <string name="select_country">Ülke Seçin
+</string>
+    <string name="select_city">Şehir Seçin
+</string>
+    <string name="select_area">Alan Seçin
+</string>
+    <string name="select_street">Sokak Seçin
+</string>
+    <string name="no_area">Alan Bulunamadı!
+</string>
+    <string name="no_city">Şehir Bulunamadı!
+</string>
+    <string name="no_country">Ülke Bulunamadı!
+</string>
+    <string name="no_street">Sokak Bulunamadı!
+</string>
+    <string name="addresses">Adresler
+</string>
+    <string name="work_days">Çalışma Günleri
+</string>
+    <string name="cf_field">Özel Alanlar
+</string>
+    <string name="holiday_">Tatil
+</string>
+    <string name="start">Başlat
+</string>
+    <string name="finish">Bitir
+</string>
+    <string name="friday">Cuma
+</string>
+    <string name="thursday">Perşembe
+</string>
+    <string name="wednesday">Çarşamba
+</string>
+    <string name="tuesday">Salı
+</string>
+    <string name="monday">Pazartesi
+</string>
+    <string name="sunday">Pazar
+</string>
+    <string name="saturday">Cumartesi
+</string>
+    <string name="loading_address_customer">Müşteri Adresleri Yükleniyor…
+</string>
+    <string name="loading_work_days_customer">Çalışma Günleri yükleniyor…
+</string>
+    <string name="card_addresses">Adres Kartlarını Yükle
+</string>
+    <string name="loading_card_addresses">Kart Müşterileri Yükleniyor…
+</string>
+    <string name="loading_customer_city">Şehir Kartlarını Yükle…
+</string>
+    <string name="loading_customer_country">Ülke Kartlarını Yükle…
+</string>
+    <string name="loading_customer_area">Alan Kartlarını Yükle…
+</string>
+    <string name="new_card">Yeni Kart
+</string>
+    <string name="country_card">Ülke Kartı
+</string>
+    <string name="city_card">Şehir Kartı
+</string>
+    <string name="area_card">Bölge Kartı
+</string>
+    <string name="please_insert_country">Alan boş, lütfen ülke girin
+</string>
+    <string name="please_insert_city">Alan boş, lütfen şehir girin
+</string>
+    <string name="please_insert_name">Alan boş, lütfen ad girin
+</string>
+    <string name="please_insert_code">Alan boş, lütfen kodu girin
+</string>
+    <string name="save_card">Bir kart kaydetmek istiyor musunuz?
+</string>
+    <string name="code_exist">Kod zaten mevcut!</string>
+    <string name="name_exist">Ad zaten var!</string>
+    <string name="latin_name_exist">Latin ad zaten var!
+</string>
+    <string name="set_default_address">Varsayılan Adresi Ayarla
+</string>
+    <string name="select_date">Adresi Ayarla
+</string>
+    <string name="pobox">Posta Kutusu</string>
+    <string name="buliding_number">Bina</string>
+    <string name="floor_number">Kat</string>
+    <string name="complete_customer_info">Lütfen adres bilgilerini giriniz
+</string>
+    <string name="error_in_location">Boylam (-180, + 180) ile enlem (-90, + 90) arasında olmalıdır</string>
+    <string name="set_address_name">Adres alanı boş, lütfen adres adını girin</string>
+    <string name="customer_error_update">Müşteri Verileri Güncellenemedi</string>
+    <string name="address_error_update">Adres Verileri Güncellenemedi
+</string>
+    <string name="cf_value_error_save">Özel Alanları Kaydedilemedi
+</string>
+    <string name="cf_value_error_update">Özel Alanlar Güncellenemedi
+</string>
+    <string name="add_customer_confirmation">Bu Müşteriyi eklemek istediğinizden emin misiniz?
+</string>
+    <string name="save_customer">Müşteri kaydı başarılı
+</string>
+    <string name="save_address_successfull">Adres kaydı başarılı
+</string>
+    <string name="no_connection_address_will_synced_when_connection_available">Bağlantı yok! \n Bağlantı kurulduğunda müşteri senkronize edilecek</string>
+    <string name="address_card_error">Bağlantı yok! \n Bağlantı kurulduğunda adres kartları senkronize edilecek
+</string>
+    <string name="add_address">Yeni müşteri adresi eklemek istiyor musunuz?
+</string>
+    <string name="error_saving_card">Adres Kartını Kaydetme Hatası
+</string>
+    <string name="done_saving_card">Adres Kartını Kaydetme başarılı
+</string>
+    <string name="address_exists">Adres zaten var!
+</string>
+    <string name="add_address_confirmation">Yeni adresi kaydetmek istiyor musunuz?
+</string>
+    <string name="empty_time">Boş zamanlar
+</string>
+    <string name="start_time_bigger_than_end_time">Bitiş zamanı, başlangıç ​​zamanından daha önce
+</string>
+    <string name="create_city">Bu ülkede şehir yok, yeni şehir oluşturmak ister misiniz?
+</string>
+    <string name="create_area">Bu şehirde alan yok, yeni alan oluşturmak ister misiniz?
+</string>
+    <string name="set_default_address_msg">Bu adresi varsayılan adres olarak ayarlamak istiyor musunuz?
+</string>
+    <string name="failure">Başarısız oldu
+</string>
+    <string name="set_default_address_fail">Adresi varsayılan olarak ayarlanamadı
+</string>
+    <string name="set_default_error">Adres kartı kaydedilmeli
+</string>
+    <string name="days">Günler
+</string>
+    <string name="from">den
+</string>
+    <string name="to">e
+</string>
+    <string name="error_save_address">Adres Değişikliğini Kaydetmede Hata
+</string>
+    <string name="print_error">Değişikliği yazdırmadan önce kaydetmelisiniz
+</string>
+    <string name="all_street">Tüm Sokaklar
+</string>
+    <string name="all_areas">Tüm Alanlar
+ِ</string>
+    <string name="all_cities">Tüm Şehirler
+</string>
+    <string name="all_countries">Tüm Ülkeler
+</string>
+    <string name="cu_fld">Özel Alanları Yükle
+</string>
+    <string name="custom_field">Özel Alanlar yükleniyor…
+</string>
+    <string name="custom_field_Group">Özel Alan Grubu yükleniyor…
+</string>
+    <string name="custom_field_mapping">Özel Alan Haritası yükleniyor…
+</string>
+    <string name="custom_field_multi_value">Özel Alan Çoklu Değerleri yükleniyor…
+</string>
+    <string name="no_modified_cus">Müşteride değişiklik yok
+</string>
+    <string name="without">Olmadan
+</string>
+    <string name="error_current_customer">Hata! lütfen mevcut müşteriyi yeniden seçin
+</string>
+    <string name="pixel">Piksel</string>
+    <string name="error_mandatory">Hata, Lütfen değeri bu alana girin:</string>
+    <string name="empty_field">Boş Alan
+</string>
+    <string name="unique_field">Yegane Alan</string>
+    <string name="error_unique">Hata, Bu Alan Yegane Bir Değerdir:</string>
+    <string name="tel_support">Çağrı Uygulaması, Cihazınızda Desteklenmiyor</string>
+    <string name="timeout_execption">Hata! İşlem Süresini Doldu</string>
+    <string name="deplicate_primary_key">%1$s tablosunda hata, birincil Anahtar %2$s Veritabanında mükerrer</string>
+    <string name="no_unit">Üründe Hata (% 1$s),%2$s içermeyen</string>
+    <string name="bill_syn">Faturaları kaydederken hata
+</string>
+    <string name="entry_syn">Girdileri kaydederken hata
+</string>
+    <string name="country_failair">Sunucuya gönderilemeyen ülkeler var
+</string>
+    <string name="areas_failair">Alanlar sunucuya gönderilemiyor
+</string>
+    <string name="cities_failair">Şehirler sunucuya gönderilemiyor
+</string>
+    <string name="address_failair">Adresler sunucuya gönderilemiyor
+</string>
+    <string name="error_initializing_distributor_data">Distribütör verilerini başlatırken hata oluştu
+</string>
+    <string name="hide_negative_products">Negatif malzemeleri boş malzemeler olarak değerlendirin
+</string>
+    <string name="restore_date">Verileri Geri Yükle
+</string>
+    <string name="ask_backup">Verileri yedeklemek istiyor musunuz?
+</string>
+    <string name="error_store_data">EHata! Verileri geri yüklemede sorun var, tekrar deneyin!</string>
+    <string name="show_stock_order_qty">Sipariş Stokundaki Adeti Göster
+</string>
+    <string name="stock_order">Sipariş Stoku
+</string>
+    <string name="load_order_statement">Sipariş Raporlarını Yükle
+</string>
+    <string name="order_report">Sipariş Raporu
+</string>
+    <string name="share_confirmation">Bu içeriği paylaşmak istediğinizden emin misiniz?
+</string>
+    <string name="order">Sipariş
+</string>
+    <string name="require">Gereken
+</string>
+    <string name="state">Durum
+</string>
+    <string name="achieved_order">Gerçekleşen
+</string>
+    <string name="state0">Aktif
+</string>
+    <string name="state1">Kapalı
+</string>
+    <string name="state2">İptal Edilen
+</string>
+    <string name="remaind">Hatırlat
+</string>
+    <string name="achieved">Gerçekleşen
+</string>
+    <string name="must_enable_internet_service">İnternet hizmetini etkinleştirmelisiniz
+</string>
+    <string name="neg_warning_permissions">Negatif Satış Uyarıları
+</string>
+    <string name="total_qty">Toplam Adet
+</string>
+    <string name="total_bonus">Toplam Bonus
+</string>
+    <string name="total_items">Kalem Numarası</string>
+    <string name="no_output_bill">Çıkış faturası yok</string>
+    <string name="no_input_bill">Giriş faturası yok</string>
+    <string name="no_bill">Fatura Yok</string>
+    <string name="no_checks">> Fatura için Çek yok!</string>
+    <string name="duplicate_cus_name">Müşteri Adı başka kartta kullanılmakta! Bu kart kaydedilemiyor</string>
+    <string name="duplicate_cus_name_asyn">Müşteri Adı (%1$s) başka bir kartta kullanılmakta, lütfen müşteri adını değiştirin ve tekrar deneyin</string>
+    <string name="print_item">Kalemi Şuradan Yazdır</string>
+    <string name="wait_finish_print">Lütfen yazdırma bitene kadar bekleyin</string>
+    <string name="page">Sayfa</string>
+    <string name="share_error">Paylaşımda Hata</string>
+    <string name="no_location">Mevcut Konum Yok
+</string>
+    <string name="show_bonus_col">Müşteri açıklamasında bonus sütununu göster</string>
+    <string name="using_print_model_1">Baskı Modeli 1</string>
+    <string name="using_print_model_2">Baskı Modeli 2</string>
+    <string name="using_print_order_model">Sipariş Modelini Yazdırma</string>
+    <string name="and_" > Ve </string>
+    <string name="confirm_delete_non_syn_data">Henüz senkronize edilmemiş veriler var. Bu verileri silerseniz, tamamen silmiş olacaksınız. Silmek istediğinizden emin misiniz?</string>
+    <string name="cust_exempt_from_tax">Vergiden Muaf Müşteri
+</string>
+    <string name="tax_num">Vergi Numarası
+</string>
+    <string name="taxes">Vergiler
+</string>
+    <string name="reverse_charges">Reverse Charge
+</string>
+    <string name="type_tax">Vergi Tipi
+</string>
+    <string name="tax_code">Vergi Kodu
+</string>
+    <string name="location_error">Lütfen Vergi Konumunu Ayarlayın</string>
+    <string name="tax_code_error">Lütfen Vergi Kodunu Ayarlayın</string>
+    <string name="taxes_failair">Müşteri Vergilerinin Gönderilmesinde Hata</string>
+    <string name="bill_num">Asıl Fatura Numarası</string>
+    <string name="bill_date">Asıl Fatura Tarihi</string>
+    <string name="returend_bill_date">Lütfen Vergiler Düğmesinde Asıl Fatura Tarihini ve Numarasını Ayarlayın
+</string>
+    <string name="page_header_space">Üstten üstbilgi boyutunu seçin
+</string>
+    <string name="page_footer_space">Alttan altbilgi boyutunu seçin
+</string>
+    <string name="header">Sayfa Üstbilgisi
+</string>
+    <string name="footer">Sayfa Altbilgisi
+</string>
+    <string name="page_title">Santimetre ile Boyutu Girin
+</string>
+    <string name="footer_logo">Faturaya Altbilgi Resmi Ekle
+</string>
+    <string name="balance_zero">Bu bir sıfır bakiyeli müşteri, raporu görüntülenemiyor
+</string>
+    <string name="out_stock_name">Stoktan
+</string>
+    <string name="in_stock_name">Stoka
+</string>
+    <string name="transposition">Aktarım
+</string>
+    <string name="same_store">Çıktı deposu, girdi deposundan farklı olmalı
+</string>
+    <string name="distributor_store">Mağazalardan biri distribütör mağaza olmalı
+</string>
+    <!--<string name="title_activity_tt">ttActivity</string>-->
+
+
+    <string name="warning_Bonus_in_orders">Net envanter hesaplanırken hediyeler dikkate alınmayacağından rezervasyon özelliğini hediyeler üzerinde uygulayamazsınız. \n Bu nedenle siparişe hediye eklenmemesi tavsiye edilir.
+</string>
+    <string name="orders">Siparişler
+</string>
+    <string name="order2">Siparişler</string>
+    <string name="cash_order">Nakit Siparişler
+</string>
+    <string name="debit_order">Borç Siparişler
+</string>
+    <string name="check_order">Çek Siparişleri
+</string>
+
+    <string name="error_stop_date">Tarih, işlemlerin sabitlenmesinden önce, devam edilemiyor.
+</string>
+    <string name="error_stop_bill_date">Tarih, faturaların sabitlenmesinden önce, devam edilemiyor.
+</string>
+    <string name="error_stop_order_date">Tarih, siparişin sabitlenmesinden önce, devam edilemiyor.
+</string>
+    <string name="active_gps">Aktif GPS Hizmeti
+</string>
+    <string name="msg_active_gps">Müşterilerin yerlerini öğrenmek için Konum Hizmetini etkinleştirmelisiniz!
+</string>
+    <string name="try_again">Tekrar Deneyin!</string>
+    <string name="barcode_modify">Barkod Düzenleme
+</string>
+    <string name="bar_code_modifiy">Bu müşterinin eski barkodunu düzenlemek istiyor musunuz?
+</string>
+    <string name="bar_code_insert">Bu müşteri için yeni barkod girmek istiyor musunuz?
+</string>
+    <string name="warning">Uyarı
+</string>
+    <string name="alerm_open_visit">Bu müşteriye bir ziyaret kapatılmadı. Aynı ziyarete devam etmek ister misin?
+</string>
+    <string name="alerm_open_visit2">Henüz kapatılmamış başka bir müşteri ziyareti var. Bu müşteri için yeni bir ziyaretin açılabilmesi için ziyaretin kapatılması gerekiyor: Bu ziyareti şu anda kapatmak istiyor musunuz?</string>
+    <string name="error_visit_type">Alameen\'de ziyaret türleri belirtilmemiştir
+</string>
+
+    <string name="cash_image">Resimleri İndirin veya Silin
+</string>
+    <string name="download">İndir
+</string>
+    <string name="failure_download_images">Ürün resimleri indirilemedi
+</string>
+    <string name="select_pay_type">Lütfen Ödeme Tipi Seçiniz
+</string>
+    <string name="due_date">Vade Tarihi
+</string>
+    <string name="main_account">Ana Hesap
+</string>
+    <string name="cheque_is_repeated">Mükerrer Çek Numarası
+</string>
+    <string name="select_shelve">Malzeme Şablonu Yüzdesi Seçin
+</string>
+    <string name="no_scan">Tarayıcı Uygulaması Bulunamadı
+</string>
+    <string name="download_scan_app">Bir tarayıcı kodu etkinliği mi indiriyorsunuz?
+</string>
+    <string name="customer_tax_code_invalide">Seçilen müşteri geçersiz vergi koduna sahip! \\ n PU-Özel Sağlık / Özel Eğitim / Vatandaşlara ilk konut satışı
+</string>
+    <string name="vat_total">KDV Dahil Toplam
+</string>
+    <string name="waring_msg_print_field">Uyarı, bazı bilgiler tam olarak gösterilmeyecek.
+</string>
+    <string name="load_expire_date_class">Malzemelerin Son Kullanma Tarihi ve Sınıfını Yükle
+</string>
+    <string name="category">Kategori
+</string>
+    <string name="expire_date">Son Kullanma Tarihi
+</string>
+    <string name="expire_date_warning">Süresi dolmuş malzeme, lütfen dikkat edin
+</string>
+    <string name="category_error">Faturayı tamamlayamıyorsunuz, Ürün kategorisi girmelisiniz</string>
+    <string name="expire_error">Faturayı tamamlayamıyorsunuz, Ürünün Son Kullanma Tarihini girmelisiniz</string>
+    <string name="link_expire_date_class_error">Faturayı tamamlayamıyorsunuz, Ürün Kategorisi Son Kullanma Tarihi ile bağlı</string>
+
+    <string name="category_no_exist">Kategorisi Olmayan Malzeme var
+</string>
+    <string name="expire__no_exist">Son kullanma tarihi olmayan malzeme var
+</string>
+    <string name="class__no_exist">Kategorisi Olmayan Malzeme var
+</string>
+    <string name="expire_date_error">Son kullanma tarihi yanlış olan kategori var, devam edilemiyor</string>
+    <string name="show_product_code_on_image" > Ürün Kodunu Resimde Göster</string>
+    <string name="bonus_total">Bonus Değeri</string>
+    <string name="visit_open">Tamamlanmamış ziyaretler var. Tüm bu ziyaretler, veri senkronizasyon tarihinden önce tamamlanacak.  Tekrar senkronize etmeyi deneyin.</string>
+    <string name="no_memory">Cihaz için dahili hafıza yok</string>
+    <string name="target_display">Hedef Sunumu</string>
+    <string name="paired_devices">Eşlendi</string>
+    <string name="tip_have_no_paired_device">Eşleştirilmiş cihaz yok</string>
+    <string name="tip_have_no_found_bluetooth_device">Cihaz Yok</string>
+    <string name="hide">Sakla……</string>
+    <string name="only_distributorStore">Yani Sadece Distribütör Mağazasını Gösterecek</string>
+    <string name="failure_load_store_material">Envanter depolarının En Az Güncellemesinde Senkronizasyonda Hata Var, Bu yüzden Bu Envanter Mağazası Gösterilemiyor, Lütfen Ağ Bağlantısını Kontrol Edin ve Çevrimiçi Form Ayarlarını Çalışın ve Tekrar Deneyin </string>
+    <string name="error_qty" >Sonuç olarak, Toplam Miktar Hatalı</string>
+    <string name="copy_done">kopyalandı</string>
+    <string name="warning_print" >Yazıcı türü, Metin boyutu seçeneğinde belirtilen A4 kağıt boyutunu desteklemiyor</string>
+    <string name="extra_value">Ekleme</string>
+    <string name="extra_ratio">Ekstra %</string>
+    <string name="error_around_discount_Condition">fatura yuvarlama indirimi yapılmaz</string>
+
+    <string name="stock_qty">depo</string>
+    <string name="add_note">not ekle</string>
+    <string name="modify_material_discount">verilen malzemeyi değiştirmek istiyor musunuz? not: onaylanıyorsa tüm verilen malzemeler silinecektir</string>
+    <string name="discount_material_error">idirim hatası (%1$s), ona göre malzeme verilmedi . bu indirime tıklayın ve indirim değeri veya daha fazla malzemeleri girin</string>
+    <string name="cannot_modify_discount_item">bir indirim malzemesi değiştirilmez</string>
+    <string name="cannot_delete_discount_item">bir indirim malzemesi silinmez</string>
+
+<!--////////////////////////////////////////////////////-->
+    <string name="select_currency">Para birimini seçiniz</string>
+
+    <string name="Currencies_bill">Fatuturada birden fazla para birimini ile</string>
+    <string name="insert_expire_date_class">Geçerlilik tarihini ve kategorisini girin</string>
+    <string name="insert_expire_date">Geçerlilik tarihini girin</string>
+    <string name="insert_class">Kategori girin</string>
+
+    <string name="empty_serial_number">Ürün İçin Seri numaraları Yok (%1$s) Seri numaraları Girilmelidir</string>
+    <string name="serial_number_lower_than_bill_qty">seri numarasının ürün miktarından daha azdı(%1$s)Tüm Seri Numaralarını Girmelisiniz</string>
+    <string name="price_sale">satış fiyatını</string>
+    <string name="error_force_no_sale">Bu ziyarette satış yoktur, ziyaret ancak satmama nedenleri kaydedildikten sonra sonlandırılabilir</string>
+    <string name="more_print_paper">Baskı sayısı</string>
+    <string name="no_repeated_print">izin verilen bası sayısını aştınız ,bu yüzden satış fiyatı basılabilir.</string>
+
+    <string name="net_sales_cash">net nakit satışlar</string>
+    <string name="total_entries">Net nakit satışları.</string>
+    <string name="net_sales_Debit">net vadeli satış </string>
+    <string name="total_sales">Toplam satış</string>
+    <string name="pay_entries">ödeme fişi</string>
+    <string name="receipt_entries">makbuz fişi</string>
+    <string name="cheques_total">Toplam çekleri</string>
+    <string name="cheques_sales">cheques sales</string>
+    <string name="cheques_sales_return">Satış iade kontrolleri</string>
+    <string name="set_price_sale">satış fiyatını belirleyin .</string>
+    <string name="no_appear_another">Bir daha görünmemek</string>
+    <string name="expanses_exceed_max"> You have exceeded the maximum allowed on the card </string>
+    <string name="expanses_tv_max">Max Limit</string>
+    <string name="expanses_tv_curent">Kalan Bakiye</string>
+    <string name="loading_images">Görüntüler yükleniyor</string>
+    <string name="no_connection_cheque_will_synced_when_connection_availabl_is_numbering_online">Bağlantı yok. Bağlantı kurulduğunda Çeki senkronize edilecektir. \n Çekinın numaralandırmasının ALameen sistemi ile uyuşması için Çeki senkronize edilinceye kadar yazdırılamaz.</string>
+    <string name="no_connection_entry_will_synced_when_connection_availabl_is_numbering_online">Bağlantı yok. Bağlantı kurulduğunda Girdiyi senkronize edilecektir. \n Girdiyinın numaralandırmasının ALameen sistemi ile uyuşması için Girdiyi senkronize edilinceye kadar yazdırılamaz.</string>
+
+    <string name="no_permission_print">Yazdırma, yalnızca faturayı yeniden bağlayıp senkronize ettikten sonra mümkündür</string>
+    <string name="options">Seçenekler</string>
+    <string name="stores_prices_inventory">Envanter Tüm Mağazalar ve Ürün Fiyatları</string>
+    <string name="disc_extra">İndirimler ve Ekstralar</string>
+    <string name="percent_text" >Yüzde</string>
+    <string name="loading_card_cities">Şehirler Kartları Yükleniyor</string>
+    <string name="loading_card_countries">Ülke Kartları Yükleniyor</string>
+    <string name="quantities">Miktarları</string>
+    <string name="note_unit_inventory">Not: Bir malzeme için bu birimin \n yokluğunda, miktar ve fiyat ilk \n birimde görüntülenecektir.</string>
+    <string name="hide_empty_banlce">Boş bakiyeleri gizle.</string>
+    <string name="qty_sum">"Toplam miktarlar "</string>
+    <string name="no_connection_invoice_will_synced_when_connection_availabl_is_numbering_online">There is no connection.\n The invoice will be synchronized when the connection becomes available.\n The invoice cannot be printed until after it has been synchronized,
+     so that the numbering of the invoice matches with the ALameen system.</string>
+    <string name="add_offer_as_discount">" indirim kalemleri olarak teklif hediyeleri ekleyin"</string>
+    <string name="field_show">Alanları göster</string>
+    <string name="can_not_syn_cheque">Al-Ameen programında aynı numaraya sahip bir ticari sayfa var, bu nedenle bu sayfa Al-Amin\'den silinip yeniden senkronize edilene kadar senkronize edilemez!</string>
+    <string name="can_not_syn_entry">Al-Ameen\'de aynı numaraya sahip bir senet var, bu nedenle bağ Al-Ameen\'den silinip yeniden senkronize edilene kadar senkronizasyon mümkün değil</string>
+    <string name="can_not_syn_bill">Al-Ameen\'de aynı numaraya sahip bir fatura var, bu yüzden bu fatura Al-Ameen\'den silinip yeniden senkronize edilene kadar senkronize edilemez</string>
+    <string name="payments2">Ödemeler</string>
+    <string name="duplicate_cheque_num">Ticari kağıt numarası başka bir kartta kullanılır, bu nedenle ticari kağıt için numara değiştirilene kadar senkronize edilemez.</string>
+    <string name="msg_active_gps2">Müşteri Konumunu Kaydetmeyi Öğrenmek İçin Konum Hizmetini (GPS) Etkinleştirmelisiniz!</string>
+    <string name="load_MandatoryFields" >Müşteri kartının zorunlu değerlerinin yüklenmesi</string>
+    <string name="error_numbering_online_with_ameen_bill">Fatura Ekleyemiyorsunuz, Çevrimiçi Çalışmalı ve İnternete Bağlı Olmalıdır</string>
+    <string name="error_numbering_online_with_ameen_entry">Girdiyi Ekleyemiyorsunuz, Çevrimiçi Çalışmalı ve İnternete Bağlı Olmalıdır</string>
+    <string name="error_numbering_online_with_ameen_cheque">Çeki Ekleyemiyorsunuz, Çevrimiçi Çalışmalı ve İnternete Bağlı Olmalıdır</string>
+    <string name="loading_mandatory_field">Müşteri Kartı İçin Zorunlu Alanları Yükle…</string>
+    <string name="set_personal_name">Adınızı giriniz</string>
+    <string name="set_phone1">Telefon numarası girin</string>
+    <string name="set_phone2">Telefon numarası girin</string>
+    <string name="set_barcode">Barkodu girin</string>
+    <string name="set_mobile">Mobil cihazı ayarla</string>
+    <string name="set_pager">çağrı kodu girin</string>
+    <string name="set_street">Sokak adresini girin</string>
+    <string name="set_area">ilçeyi girin</string>
+    <string name="set_city">şehri girin</string>
+    <string name="set_country">ülkeyi girin</string>
+    <string name="set_zipCode">posta kodunu girin</string>
+    <string name="set_PostBox">"posta kutusunu girin "</string>
+    <string name="set_details">Ayrıntıları girin</string>
+    <string name="email">e-posta</string>
+    <string name="set_Email">e-postayı girin</string>
+    <string name="set_latin_name">Latince adınızı girin</string>
+    <string name="account_sync_done">Mevcut bakiyeler başarıyla güncellendi</string>
+    <string name="account_sync_failure">Mevcut bakiyeler güncellenemedi</string>
+    <string name="must_sync_acounts">"Mevcut bakiyelerde değişiklikler olabilir, bu nedenle bakiyeler para birimleri için güncellenmelidir. Güncellemek istiyormusunuz ?   "</string>
+    <string name="error_save_expenses">Değerlerle ilgili bir sorun var, tekrar deneyin</string>
+    <string name="language">Dil</string>
+    <string name="show_distributor_balance">Distribütörün Mevcut Bakiyelerini Özet Günlük Görünümünde Göster</string>
+    <string name="load_condition_table">Loading Condtion…</string>
+    <string name="load_condition_item_table">Loading Condtion Details…</string>
+    <string name="distributor_operation">Distributor operation </string>
+    <string name="error_add_item" />
+    <string name="open_order">Open Order </string>
+    <string name="delete_order">Delete Order </string>
+    <string name="error_save_transposition">Error, there problem in save Transposition ,Try Again !</string>
+    <string name="distributor_order">Distributor Order</string>
+    <string name="lockSetting">Distribütörün cihaz ayarlarına erişmesine izin vermeyin</string>
+    <string name="stock_name">Store Stock</string>
+    <string name="change_store">The Items will be deleted</string>
+    <string name="product_is_not_exist_into_bill_print">the Bill cann\'t be Printed because it contains Bill Items for Products that not included Store Inventory</string>
+    <string name="product_is_not_exist_into_bill_view">there Error in View Invoice and Total operations on it,because it contains Bill Items for Products that not included Store Inventory </string>
+    <string name="signature_store_admin">Signature of the Storekeeper</string>
+    <string name="name_signature_recipient">Name and Signature of the Recipient</string>
+    <string name="design">Design Edit</string>
+    <string name="error_loaded_currencies">Distribütörde para birimleri mevcut değildir. Lütfen AL Ameen\'deki distribütör kartındaki döviz hesaplarını kontrol edin.</string>
+    <string name="select_language">Dil Seçin</string>
+    <string name="show_customer_balance">Müşteri bakiyesini göster</string>
+    <string name="net_col">Ürün Ağı</string>
+    <string name="device_name_error">Cihaz Adında Hata, Lütfen Cihaz Adını Distribütör Kartına Kontrol Edin</string>
+    <string name="error_forms_management">Veritabanı ile açık bir bağlantı olduğu için senkronizasyon başarısız oldu, Alameen\'de henüz kapatılmamış Format Yönetimi için Görünümler olabilir</string>
+    <string name="loading_transposition_type">Loading  Transposition Types</string>
+    <string name="late_payments">Geç ödemesi olan müşteriye fatura eklenmesini engelleyin</string>
+    <string name="late_payments_error" >Müşteriye geciken ödemeler var Devam etmek istiyor musunuz?</string>
+    <string name="loading_barcodes" >Ürün Barkodu Yükleme</string>
+    <string name="total_debit">toplam borç</string>
+    <string name="enter_editeText_value">Değer girin!</string>
+
+    <string name="error_ksa_customer_info">لا يمكن إضافة الفاتورة يرجى التحقق من معلومات الزبون</string>
+    <string name="error_ksa_retrun_bill">لا يمكن إضافة مرتجع الفاتورة</string>
+    <string name="KDV_IDENTIFIER_NAT">الهوية الوطنية</string>
+    <string name="KDV_IDENTIFIER_TIN">الرقم الضريبي المميز</string>
+    <string name="KDV_IDENTIFIER_IQA">رقم الإقامة</string>
+    <string name="KDV_IDENTIFIER_PAS">جواز السفر</string>
+    <string name="KDV_IDENTIFIER_700">رقم 700</string>
+    <string name="KDV_IDENTIFIER_CR">السجل التجاري</string>
+    <string name="KDV_IDENTIFIER_MOM">ترخيص وزارة الشؤون البلدية والقروية</string>
+    <string name="KDV_IDENTIFIER_MLS">ترخيص وزارة الموارد البشرية والتنمية الاجتماعية</string>
+    <string name="KDV_IDENTIFIER_SAG">ترخيص الهيئة العامة الاستثمار</string>
+    <string name="KDV_IDENTIFIER_GCC">الهوية الخليجية للعميل</string>
+
+    <string name="using_print_model_KSA">Using Print Model KSA</string>
+    <string name="using_print_model_KSA_simple_type">Using simple address KSA</string>
+
+    <string name="customerType">Customer Type</string>
+
+    <string name="tax_number_size">Please Set The Tax number 15 number</string>
+    <string name="tax_number_start">Please Set The start of Tax number  3</string>
+    <string name="tax_number_end">Please Set The end of Tax number  3</string>
+
+
+    <string name="customer_postnumber_error">The post number should be 5</string>
+    <string name="customer_buildnumber_error">The build number should be 4</string>
+    <string name="customer_unite_error">Please Enter The unit number </string>
+    <string name="customer_street_error">Please Enter Street </string>
+    <string name="customer_extra_number_error">The Extra number should be 4</string>
+    <string name="customer_city_error">Please Enter The City</string>
+    <string name="customer_country_error">Please Enter The Country</string>
+    <string name="customer_area_error">Please Enter The Area</string>
+    <string name="customer_District_error">Please Enter The District</string>
+
+    <string name="KSA_country">Country</string>
+    <string name="KSA_city">City</string>
+    <string name="KSA_governorate">Governorate</string>
+    <string name="KSA_District">District</string>
+    <string name="KSA_extra_number">Extra Number</string>
+    <string name="KSA_unite_number">Unit Number</string>
+    <string name="tax_number_title" >Tax Number  </string>
+    <string name="ksa_code_error" >  </string>
+    <string name="landmark" >Landmark </string>
+    <string name="expense_name">Gider</string>
+    <string name="text_style"> text style</string>
+    <string name="type_txt">type text</string>
+    <string name="cancel_">Cancel</string>
+    <string name="refresh_">Refresh</string>
+    <string name="spaces">spaces </string>
+    <string name="currency_customer_error_msg">tamamlanamıyor bu müşterinin hesap para birimi distribütör kartında görünmelidir</string>
+    <string name="expense_error">Distribütör kartı para birimi hesabı ile harcama kartı hesabı aynı hesap olduğundan işlem tamamlanamıyor.</string>
+    <string name="error_loaded_default_currencies">Sanal para birimi yüklenmedi, lütfen distribütör kartı ile bu para birimi için bir hesabınız olduğundan emin olun.</string>
+    <string name="error_loaded_default_currencies2">Lütfen distribütör kartımın varsayılan para birimini gösterdiğinizden emin olun.</string>
+    <string name="latinName_only">Yalnızca Malzeme Latince Adını Göster</string>
+    <string name="collecting_bill_item">Bir Ürün için Fatura Öğelerinin Toplanması</string>
+    <string name="spaces_horizontal">Hor.Space</string>
+    <string name="no_ask_again">Don\'t Ask again</string>
+    <string name="select_KSA_District">Select District</string>
+    <string name="select_KSA_governorate">Select Governorate</string>
+    <string name="select_KSA_extra_number">Select Extra Number</string>
+    <string name="select_KSA_unite_number">Select Unit Number</string>
+    <string name="error_account_have_more_cusomter">Distributor account for Currency(%1$s) linked to multiple Customers, sync cannot be completed</string>
+    <string name="error_syn_customer">فشل فى مزامنة الزبون</string>
+    <string name="symbols">الرموز</string>
+
+    <string name="ksa_without">without</string>
+    <string name="ksa_personal">personal - commercial non-resident </string>
+    <string name="ksa_trade">commercial</string>
+    <string name="ksa_tradeWithout">Non-taxable commercial</string>
+    <string name="error_ksa_billtype_info">The invoice form doesn\'t generate entry</string>
+    <string name="confirm_delete_non_syn_data_KSA">There are data that are not synced yet.  you can delete this data after syncing it</string>
+    <string name="upload_backup_data"> Upload Backup Data Online</string>
+    <string name="Success_upload_backup">Backup Upload is Successful</string>
+    <string name="failure_upload_backup">Backup Upload is Failure</string>
+    <string name="successful_upload_database">"Save Info On Server is  Successful "</string>
+    <string name="failure_upload_database">"Save Info On Server is Failure "</string>
+    <string name="create_backup">Creating Backup...</string>
+    <string name="upload_data_confirmation">"you Are Sure upload backup from database? "</string>
+    <string name="can_not_duplicated_product">can\'t duplicate this The Item</string>
+    <string name="cancel_confrim">Değişiklikleri iptal etmek istediğinizden emin misiniz?</string>
+    <string name="forget_pass">Forgot password?</string>
+    <string name="register">Registration</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="regist">التسجيل</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="empty_email">E-mail is Required</string>
+    <string name="invalid_email">Enter a valid Email</string>
+    <string name="empty_password" />
+    <string name="count_password" />
+    <string name="empty_company" />
+    <string name="empty_licence" />
+    <string name="failed_login">Failed to Login! check your email and password</string>
+    <string name="company_about">Company Info</string>
+    <string name="check_email">check your email to verify your account</string>
+    <string name="add_item">To add the item, press the (+) button</string>
+    <string name="no_groups">You have no categories yet</string>
+    <string name="add_group">To add a category, press the (+) button</string>
+    <string name="check_email_reset_password">Check your email to reset your password</string>
+    <string name="try_again_wrong_happen">Try Again! Something wrong happened!</string>
+
+</resources>

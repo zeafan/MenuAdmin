@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="read_more">show more</string>
+    <string name="read_less">show less</string>
+    <string name="app_name" translatable="false">My Menu</string>
+    <string name="watermark">Al-Ameen Distribution For Android</string>
+    <string name="background">Background</string>
+    <string name="set_background">Set Background</string>
+    <string name="store_inventory">Store Inventory</string>
+    <string name="inventory">Inventory</string>
+    <string name="please_enter_new_value">Please Enter New Value</string>
+    <string name="new_value_bigger_than_total">Discount value cannot be bigger than invoice total!</string>
+    <string name="item_discount_bigger_than_item_total">Item discount value cannot be bigger than item total!</string>
+    <string name="neg_no_permissions">No permission to Negative Sales</string>
+    <string name="settings">Settings</string>
+    <string name="main">Main</string>
+    <string name="promotion_details">Details</string>
+    <string name="bonus_promotion">Bonus</string>
+    <string name="CurrenciesEntry">Transaction by several currencies</string>
+    <string name="cheque_value">Enter the value of cheque!</string>
+    <string name="cheque_number">Enter the number of cheque!</string>
+    <string name="No_selsectTypeCheque">can\'t save cheque!.. check cheque Types </string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="condition">Condition</string>
+    <string name="available">Available</string>
+    <string name="meter">m</string>
+    <string name="kelo_meter">km</string>
+    <string name="type_product_name">Type product name&#8230;</string>
+    <string name="share">Share</string>
+    <string name="share_by">Share by</string>
+    <string name="realized">Realized</string>
+    <string name="remaining">Remaining</string>
+    <string name="customers">Customers</string>
+    <string name="invoice">Invoice</string>
+    <string name="activities">Activities</string>
+    <string name="no_sale">No Sale</string>
+    <string name="vist_operations">Vist Operations</string>
+    <string name="new_customer">New Customer</string>
+    <string name="over_max_visit_out_of_route">You have exceeded the maximum Visit Out Of Route</string>
+    <string name="over_max_visit_per_day">You have exceeded the maximum Visit Per Day</string>
+    <string name="show_prodcuts_by_groups">Show Prodcuts By Groups</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="phone4">الهاتف</string>
+    <string name="phone3" translatable="false">Phone</string>
+    <string name="Location" translatable="false">Location</string>
+    <string name="Location_ar" translatable="false">الموقع</string>
+    <string name="mobile">Mobile</string>
+    <string name="area">Area</string>
+    <string name="street">Street</string>
+    <string name="type">Type</string>
+    <string name="expense">Expense</string>
+    <string name="channel">Channel</string>
+    <string name="location">Location</string>
+    <string name="save">Save</string>
+    <string name="ok">OK</string>
+    <string name="show_all">Show All</string>
+    <string name="search_hint">Search&#8230;</string>
+    <string name="disc_type">Discount Type</string>
+    <string name="calced_value">Discount Value</string>
+    <string name="custom_value">Custom Value</string>
+    <string name="all">All</string>
+    <string name="today_route">Today Route</string>
+    <string name="specific_day">Specific Day</string>
+    <string name="nearby_customers">Nearby Customer</string>
+    <string name="cash">Cash</string>
+    <string name="cheque">Cheque</string>
+    <string name="cheques">Cheques</string>
+    <string name="no_questionnaires_delete">data not saved for Delete</string>
+    <string name="no_questionnaires_save"> The questionnaire must be entered first </string>
+    <string name="add_check">Add a new cheque</string>
+    <string name="pay_type">Pay Type</string>
+    <string name="pay_type_en" translatable="false">Pay Type</string>
+    <string name="pay_type_ar" translatable="false">طريقة الدفع</string>
+    <string name="stock_quantity">Stock Quantity</string>
+    <string name="store">Store</string>
+    <string name="products">Products</string>
+    <string name="promotion">Promotions</string>
+    <string name="promotion_product">promotions Products</string>
+    <string name="bonus_product">Bonus Products</string>
+    <string name="customer_type">Customer Type</string>
+    <string name="details">Details</string>
+    <string name="select">Select</string>
+    <string name="select_bonus">Select Bonus</string>
+    <string name="discounts">Discounts</string>
+    <string name="discount4" translatable="false">Discount</string>
+    <string name="payments">vouchers</string>
+    <string name="payments2">Payments</string>
+    <string name="set_quantity_or_bonus">Set Quantity or Bonus</string>
+    <string name="printing">Printing</string>
+    <string name="printing_fields">Printing Fields</string>
+    <string name="print">Print</string>
+    <string name="print_all_invoces">Print Invoces</string>
+    <string name="print_all_entries">Print Entries</string>
+    <string name="logo">Logo</string>
+    <string name="select_logo">Max 900w x 900h</string>
+    <string name="size_image_msg1">Failure Loaded Image \n Max Image Size Must is 900w x 900h</string>
+    <string name="size_image_msg2">Max Size Of Image is </string>
+    <string name="size_image_title">Warning</string>
+    <string name="custom_footer">Custom Footer</string>
+    <string name="custom_header">Custom Header</string>
+    <string name="no_permission_to_add_new_customers">No permission to add new customers</string>
+    <string name="set_gps_location">Set GPS location</string>
+    <string name="set_customer_name">Set customer name!</string>
+    <string name="no_connection_customer_will_synced_when_connection_available">No Connection! \n Customer will be synced when connection is available</string>
+    <string name="no_connection_address_card_will_synced_when_connection_available">No Connection! \n Address Card will be synced when connection is available</string>
+    <string name="can_not_get_your_location_Please_check_GPS_enabled_or_change_position">Can not get your location! \n Please cheque the GPS is enabled or change your position.</string>
+    <string name="no_connection_data_will_be_synced_when_connection_available">No Connection! \n Data will be synced when connection is available</string>
+    <string name="no_">No</string>
+    <string name="max_invoices_count_is_10">Max invoices count is 10!</string>
+    <string name="customer_account_over_max_debt">customer account is over max debt!</string>
+    <string name="no_items">You have no items yet</string>
+    <string name="can_not_update_invoice_visit_finished">Can not update invoice! Visit is finished.</string>
+    <string name="visit_crached">Visit is crached!</string>
+    <string name="invoice_saved_previously">Invoice saved previously</string>
+    <string name="stock_saved_previously">Stock saved previously</string>
+    <string name="invoice_saved">Invoice saved</string>
+    <string name="stock_saved">Stock saved</string>
+    <string name="custom_company_name">Company Name</string>
+    <string name="display">Display</string>
+    <string name="add_products_method">Add products method</string>
+    <string name="show_quantity_on_product_image">Show quantity on product image</string>
+    <string name="show_product_name_on_image">Show product name on image</string>
+    <string name="serial_number_check">Check serial number</string>
+    <!--27-3-2017-->
+    <string name="allow_repeat_product_in_bill">Allow to repeat product in bill</string>
+    <!--&lt;!&ndash;29-3-2017&ndash;&gt;-->
+    <!--<string name="show_all_product">Show all product</string>-->
+
+
+    <string name="products_view_style">Products view style</string>
+    <string name="printer">Printer</string>
+    <string name="printer_model">Printer Model</string>
+    <string name="no_connection_invoice_will_synced_when_connection_availabl">No Connection!\nInvoice will be synced when connection is available</string>
+    <string name="error_deleting_invoice">Error deleting invoice!</string>
+    <string name="error_deleting_stock">Error deleting stock!</string>
+    <string name="invoice_deleted">Invoice deleted</string>
+    <string name="delete_entry">delete entry</string>
+    <string name="print_entry">print entry</string>
+    <string name="print_cheque">print cheque</string>
+    <string name="delete_chque">delete cheque</string>
+    <string name="stock_deleted">Stock deleted</string>
+    <string name="no_permission_to_delete_invoice">No permission to delete invoice!</string>
+    <string name="no_permission_to_delete_entry">No permission to delete entry!</string>
+    <string name="no_permission_to_delete_cheque">No permission to delete cheque!</string>
+    <string name="bills">Bills</string>
+    <string name="can_not_start_visit_before_sync_date">Can not start visit before sync date!</string>
+    <string name="can_not_add_bill_before_sync_date">Can not add invoice before sync date!</string>
+    <string name="can_not_add_entry_before_sync_date">Cannot add entry before sync date!</string>
+    <string name="can_not_add_data_before_sync_date">Cannot add data before sync date!</string>
+    <string name="entry_deleted">Entry deleted</string>
+    <string name="cheque_deleted">Cheque deleted</string>
+    <string name="done">Done</string>
+    <string name="default_unit">Default Unit</string>
+    <string name="first_unit">First Unit</string>
+    <string name="second_unit">Second Unit</string>
+    <string name="third_unit">Third Unit</string>
+    <string name="no_products">There are no products in the selected options</string>
+    <string name="there_are_no_products_in_selected_options">There are no products in the selected options</string>
+    <string name="customer">Customer</string>
+    <string name="customer2">Customer</string>
+    <string name="customer3">زبون</string>
+    <string name="using_print_model_UAE">Using Print Model UAE</string>
+    <string name="group">Group</string>
+    <string name="using_print_model2" translatable="false">Using Print Model UAE</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="customer_statement">Customer Statement</string>
+    <string name="error_deleting_entry">Error deleting entry!</string>
+    <string name="error_deleting_cheque">Error deleting cheque!</string>
+    <string name="error_saving_shelve_share">Error saving shelve share!</string>
+    <string name="error_saving_questionnair">Error saving questionnair!</string>
+    <string name="error_saving_SerialNumberTransaction">Error saving serial number Transaction</string>
+    <string name="typeexportserialnumber">Method of entering serial numbers</string>
+    <string name="max_entry_count_is_10">Max Entry count is 10!</string>
+    <string name="max_cheque_count_is_10">Max Cheque count is 10!</string>
+    <string name="enter_value">Enter value!</string>
+    <string name="select_expense">Select Expense!</string>
+    <string name="can_not_update_entry_visit_finished">Can not update entry! Visit is finished.</string>
+    <string name="can_not_save_entry">Can not save entry!there Error.</string>
+    <string name="can_not_save_cheque">Can not save cheque!there Error.</string>
+    <string name="can_not_delete_cheque">cheque not Saved!.So not Delete</string>
+    <string name="no_connection_entry_synced_when_connection_available">No Connection! \n Entry will be synced when connection is available</string>
+    <string name="no_connection_cheque_synced_when_connection_available">No Connection! \nCheque will be synced when connection is available</string>
+    <string name="entry_saved_previously">Entry saved previously</string>
+    <string name="cheque_saved_previously">Cheque saved previously</string>
+    <string name="expense_saved_previously">Expense saved previously</string>
+    <string name="no_customers">No customers!</string>
+    <string name="material_name">Material Name</string>
+    <string name="code">Code</string>
+    <string name="in_qty">In Qty</string>
+    <string name="cur_qty">Current Qty</string>
+    <string name="out_qty">Out Qty</string>
+    <string name="group_name">Group Name</string>
+    <string name="enter_password">Enter password</string>
+    <string name="incorrect_password">Incorrect Password!</string>
+    <string name="sync_data_first">Sync Data First</string>
+    <string name="must_enable_location_service">You must enable location service</string>
+    <string name="cannot_get_current_location">Cannot get current location\n Try again later.</string>
+    <string name="select_bill_type">Select Bill Type</string>
+    <string name="select_check_type">Select Check Type</string>
+    <string name="select_questionnaire">Select Questionnaire</string>
+    <string name="set_ip">Set computer ip that has connection service installed!</string>
+    <string name="set_dns">Set Domain Name that has connection service installed</string>
+    <string name="set_device_name">Set device name!</string>
+    <string name="show_groups">Show Groups</string>
+    <string name="show_products_by_groups">Show Products By Groups</string>
+    <string name="_new">New</string>
+    <string name="change_discount_value">Change Value</string>
+    <string name="close">Close</string>
+    <string name="refresh">Refresh</string>
+    <string name="end_visit">End Visit</string>
+    <string name="view">View</string>
+    <string name="price">Price</string>
+    <string name="price_type">Price Type</string>
+    <string name="none">None</string>
+    <string name="questionnaires_saved">questionnaire exists </string>
+    <string name="product_name">Name</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="date">Date</string>
+    <string name="date2">Date</string>
+    <string name="debit">Debit</string>
+    <string name="cus_balance">Customer Balance</string>
+    <string name="debit1">Credit</string>
+    <string name="credit">Credit</string>
+    <string name="note">Note</string>
+    <string name="store_quantity">Store Quantity</string>
+    <string name="received">Received</string>
+    <string name="receivedTotal">Total Received</string>
+    <string name="notes">Notes</string>
+    <string name="sales">Sales</string>
+    <string name="bill">Bill</string>
+    <string name="entry">Entry</string>
+    <string name="customers_list">Customers List</string>
+    <string name="sort_by">Sort By</string>
+    <string name="stock">Stock</string>
+    <string name="dist_stock">Dist Stock</string>
+    <string name="cust_stock">Cust Stock</string>
+    <string name="balance">Balance</string>
+    <string name="prev_balance">Prev Balance</string>
+    <string name="previous">Previous</string>
+    <string name="current_balance">Current Balance</string>
+    <string name="new_balance">New Balance</string>
+    <string name="value">Value</string>
+    <string name="version">Version</string>
+    <string name="new_visit">New Visit</string>
+    <string name="visit">Visit</string>
+    <string name="entry_type">Entry Type</string>
+    <string name="items_count">Items Count</string>
+    <string name="items_discount">Items Discount</string>
+    <string name="total">Total</string>
+    <string name="current_bal">Current Balance</string>
+    <string name="current">Current</string>
+    <string name="discount_total">Invoice Discount</string>
+    <string name="search">Search</string>
+    <string name="hide_empty_products">Hide Empty Products</string>
+    <string name="daily_round">Journal</string>
+    <string name="show_products">Show Products</string>
+    <string name="password">Password</string>
+    <string name="login_name">Login Name</string>
+    <string name="device_name">Device Name</string>
+    <string name="local_ip">Local IP</string>
+    <string name="static_ip">Static IP</string>
+    <string name="ip">IP</string>
+    <string name="ip_ex" translatable="false">192.168.1.150</string>
+    <string name="domain">DNS</string>
+    <string name="login">Login</string>
+    <string name="sync">Sync</string>
+    <string name="synced">Synced</string>
+    <string name="cancel">Cancel</string>
+    <string name="balance_movement">Balance Movement</string>
+    <string name="list_promotion">Promotion List</string>
+    <string name="check_bonus">Check bonus</string>
+    <string name="add">Add</string>
+    <string name="add2">Product added successfully</string>
+    <string name="distributor_name">Distributor Name</string>
+    <string name="selected_qty">Selected Quantity</string>
+    <string name="bonus_quantity">Bonus Quantity</string>
+    <string name="bonus_unit">Bonus Unit</string>
+    <string name="holiday">Holiday</string>
+    <string name="choose_action">Choose action</string>
+    <string name="open_map">Open Map</string>
+    <string name="Sync_caution">Caution: Syncing may take long time depending on your internet speed and data size, so be patient.</string>
+    <string name="no_connection">No connection!</string>
+    <string name="no_response">No response try again</string>
+    <string name="now_syncing">Now syncing&#8230;</string>
+    <string name="podting_signature_fail">failing post signatures</string>
+    <string name="error_sync_data">Error sync data!</string>
+    <string name="yes">Yes</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="you_cannt_use_expenses">you dont have Permission to use Expenses</string>
+    <string name="your_gps_disale_do_you_want_enable">Your GPS seems to be disabled,  you need to enable it</string>
+    <string name="no">No</string>
+    <string name="num">No.</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="save_confirmation">Are you sure you want to save?</string>
+    <string name="stop_sync_confirmation">Are you sure you want to stop operation?</string>
+    <string name="save_bill_confirmation">Are you sure you want to save invoice?</string>
+    <string name="print_confirmation">Are you sure you want to print?</string>
+    <string name="save_entry_confirmation">Are you sure you want to save entry?</string>
+    <string name="save_cheque_confirmation">Are you sure you want to save cheque?</string>
+    <string name="update_cheque_confirmation">Are you sure you want to Update cheque?</string>
+    <string name="save_expense_confirmation">Are you sure you want to save expense?</string>
+    <string name="new_bill_confirmation">Are you sure you want to create a new invoice?</string>
+    <string name="print_bill_confirmation">Are you sure you want to print invoice?</string>
+    <string name="print_all_bills_confirmation">Are you sure you want to print all invoice?</string>
+    <string name="new_entry_confirmation">Are you sure you want to create a new entry?</string>
+    <string name="new_cheque_confirmation">Are you sure you want to create a new cheque?</string>
+    <string name="new_expense_confirmation">Are you sure you want to create a new expense?</string>
+    <string name="discard_changes_confirmation">Are you sure you want to discard changes?</string>
+    <string name="discard_entry_confirmation">Are you sure you want to discard entry?</string>
+    <string name="discard_cheque_confirmation">Are you sure you want to discard cheque?</string>
+    <string name="discard_expense_confirmation">Are you sure you want to discard expense?</string>
+    <string name="discard_bill_confirmation">Are you sure you want to discard invoice?</string>
+    <string name="delete_bill_confirmation">Are you sure you want to delete invoice?</string>
+    <string name="delete_bill_last_item_confirmation">Deleting last item in invoice will delete the whole invoice \n, Are you sure you want to delete invoice?</string>
+    <string name="delete_bill">Delete invoice</string>
+    <string name="calculating">Calculating&#8230;</string>
+    <string name="delete_confirmation">Are you sure you want to delete?</string>
+    <string name="delete_entry_confirmation">Are you sure you want to delete entry?</string>
+
+    <string name="delete_entry_confirmation2">note: this Entry related with Bill!\n Are you sure you want to delete entry?</string>
+    <string name="delete_cheque_confirmation">Are you sure you want to delete cheque?</string>
+    <string name="add_promotion_confirmation">Are you sure you want to add this promotion?</string>
+    <string name="exit_application_confirmation">Are you sure you want to exit?</string>
+    <string name="clear_saved_data_confirmation">Are you sure you want to clear saved data?</string>
+    <string name="personal_name">Personal Name</string>
+    <string name="price_whole">Whole Price</string>
+    <string name="price_half">Half Price</string>
+    <string name="price_vendor">Vendor Price</string>
+    <string name="price_export">Export Price</string>
+    <string name="price_retail">Retail Price</string>
+    <string name="price_end_user">End User Price</string>
+    <string name="price_whole_print">Whole</string>
+    <string name="price_half_print">Half</string>
+    <string name="price_vendor_print">Vendor</string>
+    <string name="price_export_print">Export</string>
+    <string name="price_retail_print">Retail</string>
+    <string name="price_end_user_print">End User</string>
+    <string name="connecting">Connecting</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="total_quantity">Total Quantity</string>
+    <string name="modify">Modify</string>
+    <string name="modified">Modified</string>
+    <string name="delete">Delete</string>
+    <string name="first_payment">First Payment</string>
+    <string name="first_payment2">First Payment</string>
+    <string name="first_payment3">الدفعة الأولى</string>
+    <string name="addressAr">العنوان</string>
+    <string name="dept">Dept</string>
+    <string name="open">Open</string>
+    <string name="open_bill">Open Invoice </string>
+    <string name="view_bill">View Invoice </string>
+    <string name="open_entry">Open Entry </string>
+    <string name="open_cheque">Open Cheque </string>
+    <string name="max_debt">Max Debt</string>
+    <string name="min_pay_req">Min Pay Required</string>
+    <string name="pay_req">Pay Required</string>
+    <string name="zero">0</string>
+    <string name="_class">Class</string>
+    <string name="print_entry_confirmation">Are you sure you want to print entry?</string>
+    <string name="print_all_entries_confirmation">Are you sure you want to print entries?</string>
+    <string name="can_not_sync_data_without_zero_distributor_balance">Can not sync data without zero distributor balance!</string>
+    <string name="customer_data">Customer Operations</string>
+    <string name="set_quantity">Set Quantity</string>
+    <string name="loading">Loading DataBase Files… </string>
+    <string name="loading_distributor">Loading Distributor&#8230;</string>
+    <string name="initializing_distributor_data">Initializing Distributor Data&#8230;</string>
+    <string name="loading_options">Loading Options&#8230;</string>
+    <string name="loading_route_days">Loading Route Days&#8230;</string>
+    <string name="loading_customers">Loading Customers&#8230;</string>
+    <string name="loading_customers_accounts">Loading Customers Accounts&#8230;</string>
+    <string name="loading_distribution_channels">Loading Distribution Channels&#8230;</string>
+    <string name="loading_customers_types">Loading Customers Types&#8230;</string>
+    <string name="loading_products_groups">Loading Products Groups&#8230;</string>
+    <string name="loading_products">Loading Products&#8230;</string>
+    <string name="loading_trip">Loading Trip&#8230;</string>
+    <string name="loading_invoice_types">Loading Invoice Types</string>
+    <string name="loading_entry_types">Loading Entry Types</string>
+    <string name="loading_products_stock">Loading Products Stock&#8230;</string>
+    <string name="loading_discounts_details">Loading Discounts Details&#8230;</string>
+    <string name="loading_customer_type_for_discount">Loading Customers Type For Discount&#8230;</string>
+    <string name="loading_discounts">Loading Discounts&#8230;</string>
+    <string name="loading_promotions">Loading Promotions&#8230;</string>
+    <string name="loading_promotionsBudget">Loading Promotions Budget&#8230;</string>
+    <string name="loading_promotions_details">Loading Promotions Details&#8230;</string>
+    <string name="loading_promotions_budgets">Loading Promotions Budgets&#8230;</string>
+    <string name="loading_customers_statements">Loading Customers Statements&#8230;</string>
+    <string name="loading_expenses">Loading Expenses&#8230;</string>
+    <string name="loading_no_sales_and_activities">Loading no sales and activities&#8230;</string>
+    <string name="loading_products_templates">Loading Products Templates&#8230;</string>
+    <string name="loading_dist_companies">Loading Distribution Companies&#8230;</string>
+    <string name="loading_customers_stock">Loading Customers Stock&#8230;</string>
+    <string name="loading_questionnaires">Loading Questionnaires&#8230;</string>
+    <string name="loading_questionnaires_questions">Loading Questionnaires Questions&#8230;</string>
+    <string name="loading_questionnaires_questions_choices">Loading Questionnaires Questions Choices&#8230;</string>
+    <string name="loading_accounting_periods">Loading Accounting Periods&#8230;</string>
+    <string name="loading_dist_targets">Loading Distributor Targets&#8230;</string>
+    <string name="loading_targets">Loading Targets&#8230;</string>
+    <string name="loading_cust_targets">Loading Customers Targets&#8230;</string>
+    <string name="loading_stores">Loading Stores&#8230;</string>
+    <string name="loading_check_types">Loading Check Types&#8230;</string>
+    <string name="loading_banks">Loading Banks&#8230;</string>
+    <string name="deleting_old_data">Deleting Old Data&#8230;</string>
+    <string name="no_image">No Image!</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="customer_not_exists">Customer not exists!</string>
+    <string name="customer_bar_code_error">Invalid BarCode!</string>
+    <string name="bar_code_error">BarCode Not Exist !</string>
+    <string name="must_use_customer_barcode_to_start_visit">Must use customer barcode to start visit</string>
+    <string name="must_use_customer_barcode_to_end_visit">Must use customer barcode to end visit</string>
+    <string name="must_use_barcode_to_add_product">Must use barcode to add product</string>
+    <string name="start_sync_data">Start sync data&#8230;</string>
+    <string name="cannot_add_more_than_promotion_bonus_quantity">Cannot add more than promotion bonus quantity!</string>
+    <string name="alert">Alert</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="cannot_modify_pro_item">Cannot modify promotion item!</string>
+    <string name="delete_bill_item_confirmation">Are you sure you want to delete this item?</string>
+    <string name="delete_pro_item_will_delete_all_pro_items">Deleting promotion item will delete all promotion items!</string>
+    <string name="must_set_bonus_before_closing">Must set bonus before closing!</string>
+    <string name="count_of_pro_is_out_of_budget">Count of promotions is out of budget!</string>
+    <string name="expenses">Expenses</string>
+    <string name="distance">Distance</string>
+    <string name="work_online">Work online</string>
+    <string name="background_sync">Background sync</string>
+    <string name="post_unposted_data">Post unposted data&#8230;</string>
+    <string name="cannot_start_visit_before_sync_date">Cannot start visit before sync date!</string>
+    <string name="delete_data">Delete data</string>
+    <string name="feedback">Send Feedback</string>
+    <string name="feedback2">Feedback</string>
+    <string name="backup_preferences">Backup or Restore Settings</string>
+    <string name="backup_data">Backup or Restore Data</string>
+    <string name="upload_backup_data"> Upload Backup Data Online</string>
+    <string name="backup_created">Settings backup created successfully</string>
+    <string name="backup_restored">Backup restored successfully</string>
+    <string name="delete_data_confirmation">Are you sure you want to delete data?</string>
+    <string name="delete_data_info_message">Data deleted successfully.</string>
+    <string name="device_does_not_support_bluetooth">Device does not support Bluetooth</string>
+    <string name="delete_data_error_message">Error deleting data!</string>
+    <string name="currency">Currency</string>
+    <string name="loading_currencies">Loading currencies</string>
+    <string name="cannot_delete_synced_invoice">Cannot delete synced invoice!</string>
+    <string name="cannot_delete_synced_entry">Cannot delete synced entry!</string>
+    <string name="cannot_delete_synced_cheque">Cannot delete synced cheque!</string>
+    <string name="cannot_delete_releted_bill_entry">Cannot delete because this entry related with bill</string>
+    <string name="cannot_delete_releted_bill_cheque">Cannot delete because this cheque related with bill</string>
+    <string name="cannot_delete_synced_data">Cannot delete synced data!</string>
+    <string name="cannot_add_invoice_with_no_sales_exists">Cannot add invoice with no sales exists!</string>
+    <string name="cannot_add_no_sales_with_invoice_exists">Cannot add no sales with invoice exists!</string>
+    <string name="more">More&#8230;</string>
+    <string name="back">Back</string>
+    <string name="customer_notes">Customer Notes</string>
+    <string name="distributor_notes">Distributor Notes</string>
+    <string name="type_barcode_here">Type barcode&#8230;</string>
+    <string name="customer_not_found">Customer not found!</string>
+    <string name="product_not_found">Product not found!</string>
+    <string name="no_expenses_declared">No expenses declared!</string>
+    <string name="questionnaire">Questionnaire</string>
+    <string name="distributor">Distributor</string>
+    <string name="distributor2">Distributor</string>
+    <string name="distributor3">الموزع</string>
+    <string name="distributor_Code">Distributor Code</string>
+    <string name="number">Number</string>
+
+    <string name="billnumber">Bill Number</string>
+    <string name="invoicenum" translatable="false">Inv No. </string>
+    <string name="ordernum" translatable="false">Order No. </string>
+    <string name="totalafterDisc">Total After Discount</string>
+    <string name="totalTax">Taxes</string>
+    <string name="totalTax2" translatable="false">Total Vat</string>
+    <string name="Tax2" translatable="false">Tax</string>
+    <string name="totalTax3" translatable="false">الضريبة</string>
+    <string name="printing_footer_fields">Printing Footer Fields</string>
+    <string name="printing_header_fields">Printing Header Fields</string>
+    <string name="printing_address_fields">Printing Address Fields</string>
+
+    <string name="quantity">Quantity</string>
+    <string name="qty">Qty</string>
+    <string name="qty_2" translatable="false">Qty</string>
+    <string name="qty_3" translatable="false">الكمية</string>
+    <string name="product">Product</string>
+    <string name="product_group">Product/Group</string>
+    <string name="unit">Unit</string>
+    <string name="unit_2" translatable="false">Unit</string>
+    <string name="unit_3" translatable="false">الوحدة</string>
+    <string name="single_price">Price</string>
+    <string name="single_price_2" translatable="false">Price</string>
+    <string name="single_price_3" translatable="false">السعر</string>
+    <string name="printed_price">Printed price</string>
+    <string name="tax_value">Vat Value</string>
+    <string name="tax_ratio">Vat Ratio</string>
+    <string name="tax_value1" translatable="false">الضريبة</string>
+    <string name="tax_value2" translatable="false">Vat</string>
+    <string name="tax_value3" translatable="false">Vat%</string>
+
+    <string name="use_detailed_printed_way">Use detailed printed way</string>
+    <string name="total1">Total</string>
+    <string name="total2" translatable="false">Total</string>
+    <string name="total3" translatable="false">المجموع</string>
+    <string name="bonus">Bonus</string>
+    <string name="bonus2" translatable="false">Bonus</string>
+    <string name="bonus3">هدية</string>
+    <string name="address">Address</string>
+    <string name="address_name">Address Name </string>
+    <string name="address_ar" translatable="false">العنوان</string>
+    <string name="address_en" translatable="false">Address</string>
+    <string name="discount">Disc</string>
+    <string name="discount2" translatable="false">Disc</string>
+    <string name="discount3" translatable="false">الحسم</string>
+    <string name="disc" translatable="false">الخصم</string>
+    <string name="item_disc">Discount</string>
+    <string name="extras">Extras</string>
+    <string name="extras_en" translatable="false">Extras</string>
+    <string name="extras_ar" translatable="false">الاضافات</string>
+    <string name="bill_arround">Bill Around</string>
+    <string name="no_elments_for_this_discount">There is no elements for this Discount</string>
+    <string name="net">Net</string>
+    <string name="net2" translatable="false">Net</string>
+    <string name="net_amount" translatable="false">Net Amount</string>
+    <string name="net3" translatable="false">الصافى</string>
+    <string name="balance2" translatable="false">Customer Balance</string>
+    <string name="balance3">رصيد الزبون</string>
+    <string name="payment">Payment</string>
+    <string name="payment2" translatable="false">Payment</string>
+    <string name="payment3">دفعة</string>
+    <string name="remaining2" translatable="false">Remaining</string>
+    <string name="remaining3">الباقي</string>
+    <string name="thanks">"== Thank you =="</string>
+    <string name="choose_backgound_title">Select Background </string>
+    <string name="choose_backgound_gralley">Gallery</string>
+    <string name="choose_backgound_default">Default</string>
+    <string name="title_activity_shelve_share">Shelve Share</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_more_visit_operations">More</string>
+    <string name="shelve_share">Shelve Share</string>
+    <string name="select_answer">Select Answer</string>
+    <string name="write_answer">Write Answer</string>
+    <string name="no_questionnaires_declared">No questionnaires declared!</string>
+    <string name="cannot_save_synced_invoice">Cannot save synced invoice!</string>
+    <string name="cannot_save_synced_entry">Cannot save synced entry!</string>
+    <string name="cannot_save_synced_cheque">Cannot save synced cheque!</string>
+    <string name="no_permission_to_update_invoice">No permission to update invoice</string>
+    <string name="no_permission_to_update_entry">No permission to update entry</string>
+    <string name="no_permission_to_update_cheque">No permission to update cheque</string>
+    <string name="bill_value">Bill Value</string>
+
+
+    <!-- Common -->
+    <string name="connect_to_printer">"Connect to printer"</string>
+    <string name="connect">"Connect"</string>
+    <string name="dev_conn_btn">Connect</string>
+    <string name="dev_disconn_btn">Disconnect</string>
+    <string name="connecting_msg">Connecting</string>
+    <string name="dev_check_msg">Check the printer status or settings</string>
+    <string name="exportserialnumber">Serial numbers</string>
+    <string name="cannotusingserialnumber">The Item Can Only Be Entered By Serial Number</string>
+    <string name="usingserialnumber">Force Using Serial Numbers</string>
+    <string name="choiceserialnumber">Choice The Serial Number</string>
+    <string name="insertserialnumber">Insert The Serial Number</string>
+    <string name="no_serial_number">No Serial Number For this Product</string>
+
+    <!-- Bluetooth -->
+    <string name="bt_search_btn">Search Bluetooth Devices</string>
+    <string name="bt_stop_search_btn">"Stop Searching Bluetooth Devices"</string>
+    <string name="bt_tab">Bluetooth</string>
+    <string name="bt_disconn_msg">"Bluetooth Disconnected"</string>
+    <string name="bt_conn_msg">"Bluetooth Connected"</string>
+    <string name="bt_conn_fail_msg">"Bluetooth Connection Failed"</string>
+    <string name="bt_notconn_msg">"Bluetooth not connected."</string>
+    <string name="bluetooth_not_supported">Bluetooth not supported!</string>
+    <string name="bluetooth_not_enabled">Bluetooth not enabled!</string>
+    <string name="save_customer_confirmation">Are you sure you want to save customer?</string>
+    <string name="save_address_confirmation">Are you sure you want to save Address?</string>
+    <string name="getting_stock_success">Getting stock success</string>
+    <string name="getting_stock_fail">Getting stock fail!</string>
+    <string name="getting_targets_success">Getting targets success</string>
+    <string name="getting_targets_fail">Getting targets fail!</string>
+    <string name="cannot_sync_data_again">Cannot sync data again!</string>
+    <!-- Data /tables Name -->
+    <string name="distributor_table">Initialize And Load Distributor Settings</string>
+    <string name="customer_table">Load Customers</string>
+    <string name="distributorchannel_table">Load Distribution Channels</string>
+    <string name="product_table">Load Products</string>
+    <string name="stores_table">Load Stores</string>
+    <string name="material_stock_table">Load products Stock</string>
+    <string name="discounts_table">Load Discounts</string>
+    <string name="promotion_table">Load Promotions</string>
+    <string name="promotionBudget_table">Load Promotions Budget</string>
+    <string name="targets_table">Load Targets</string>
+    <string name="statement_table">Load Customers Statements</string>
+    <string name="expenses_table">Load Expenses</string>
+    <string name="unsale_and_activity_table">Load Activities</string>
+    <string name="mat_template_table">Load Products Templates</string>
+    <string name="dist_company_table">Load Distribution Companies</string>
+    <string name="customers_stock_table">Load Customers Stock</string>
+    <string name="questionnaire_table">Load Questionnaires</string>
+    <string name="check_types_table">Load Check Types</string>
+    <string name="serial_number_table">Load Serial Number</string>
+    <string name="banks_table">Load Banks</string>
+    <string name="select_data_to_sync">Select Data To Sync</string>
+    <string name="post_data">Post Data</string>
+    <string name="full_sync">Full sync</string>
+    <string name="serial_number_error1">Serial number more than Quantity of Product</string>
+    <string name="serial_number_error2">Serial number less than Quantity of Product</string>
+    <string name="serial_number_error3">Serial number  of this Product equal :</string>
+    <string name="serial_number_error4">There Error In Complete Serial number</string>
+    <string name="serial_number_complete">Complete Serial Number</string>
+    <string name="serial_number">This product has a serial number, \n Are you want to insert serial number?</string>
+    <string name="serial_number_error">there Error in Update on Serial number</string>
+    <string name="error">Error</string>
+    <string name="error2">Error !</string>
+    <string name="serial_number_notfound">Number (+) Not In Serial Numbers</string>
+    <string name="serial_number_notfound2">Numbers (+) Not In Serial Numbers</string>
+    <string name="serial_number_founded">Number (+) Really Used In Another Previous Bill</string>
+    <string name="serial_number_founded2">Numbers (+) Really Used In Another Previous Bill</string>
+    <string name="serial_number_duplicate">Number (+) Really Duplicate In Another Previous Field</string>
+    <string name="serial_number_duplicate2">Numbers (+) Really Duplicate In Another Previous Field</string>
+    <string name="you_must_sync_all_data_at_first_time">You must sync All Data at first time</string>
+    <string name="loading_stock">Loading Stock \n Please wait</string>
+    <string name="can_not_use_offline_mode">Can not use offline mode! \n You Must Work Online in App Setting</string>
+    <string name="must_set_external_host_address">Must set external host address</string>
+    <string name="target">Target</string>
+    <string name="distributor_target">Distributor Target</string>
+    <string name="distributor_customers_target">Distributor Customers Target</string>
+    <string name="customer_target">Customer Target</string>
+    <string name="diff">Diff</string>
+    <string name="difference">Difference</string>
+    <string name="item_target_excess_affects_total">Item target excess affects total</string>
+    <string name="hide_achieved_products">Hide Achieved Products</string>
+    <string name="send_my_location_to_server">Send my location to server automatically every 5 minutes</string>
+    <string name="customer_stock">Customer Stock</string>
+    <string name="ratio">Ratio</string>
+    <string name="customer_exists">Customer exists</string>
+    <string name="set_customer_type">Set customer type</string>
+    <string name="set_customer_channel">Set customer channel</string>
+    <string name="viewOptions">View Options</string>
+    <string name="latinName">Latin Name</string>
+    <string name="log_success">(success)</string>
+    <string name="log_failed">(failed)</string>
+    <string name="not_exists">(not exists)</string>
+    <string name="na">N/A</string>
+    <string name="promotion_specify">specified</string>
+    <string name="promotion_unspecify">unspecified</string>
+    <string name="vat">VAT</string>
+    <string name="ratio_print">ratio</string>
+    <string name="value_tax">value</string>
+    <string name="loading_sales_taxes">Loading Sales Taxes</string>
+    <string name="salesTax">Sales tax</string>
+    <string name="destination">Destination</string>
+    <string name="invoice_net_is_0">Invoice net is 0!</string>
+    <string name="cannot_set_previous_date">Cannot set previous date!</string>
+    <string name="set_check_number">Set cheque number</string>
+    <string name="VATTaxTotal">VAT Tax Total</string>
+    <string name="tax">Tax</string>
+    <string name="no_checks_declared">No cheques declared!</string>
+    <string name="no_bank_declared">No Banks declared!</string>
+    <string name="no_company_declared">No Company declared from (options->Distribution->Distribution Companies)!</string>
+    <string name="no_material_template_declared">No Material Template declared from (options->Distribution->Material Template)!</string>
+    <string name="there_are_late_payments">There are late payments</string>
+    <string name="signature">Signature</string>
+    <string name="sign_below">Sign below</string>
+    <string name="clear">Clear</string>
+    <string name="select_bluetooth_device">Select bluetooth device</string>
+    <string name="returns">Returns</string>
+    <string name="cash_sales">Cash Sales</string>
+    <string name="debit_sales">Credit Sales</string>
+    <string name="check_sales">Check Sales</string>
+    <string name="check_return">Check Return</string>
+    <string name="returns_cash">Cash Return</string>
+    <string name="returns_debit">Credit Return</string>
+    <string name="customer_account">Customer Account</string>
+    <string name="count_customer">No.Customer :</string>
+
+    <string name="visits_report">Visits Report</string>
+
+    <string name="daily_visit_report_title_checkBox_active_visit">Show the Active Visit</string>
+    <string name="daily_visit_report_title_checkBox_inactive_visit">Show the Inactive Visit</string>
+
+    <string name="daily_visit_report_title_tv_customer_name">Customer Name</string>
+    <string name="daily_visit_report_title_tv_date">Date</string>
+    <string name="daily_visit_report_title_tv_visit_state">State</string>
+    <string name="daily_visit_report_title_tv_start_time">Start</string>
+    <string name="daily_visit_report_title_tv_end_time">End</string>
+    <string name="daily_visit_report_title_tv_duration">Duration</string>
+
+    <string name="daily_visit_report_title_tv_total_active_visit">Active Visits</string>
+    <string name="daily_visit_report_title_tv_total_unactive_visit">Inactive Visits</string>
+    <string name="daily_visit_report_title_tv_total_visit">Total Visits</string>
+    <string name="daily_visit_report_title_tv_total_duration">Total Duration</string>
+
+    <string name="visit_state_active">Active Visits</string>
+    <string name="visit_state_inactive">Inactive Visits</string>
+    <string name="state_active">Active</string>
+    <string name="state_inactive">Inactive</string>
+
+
+    <string name="print_string_size_title">Text Size </string>
+    <string name="no_entries_declared">No entries declared!</string>
+    <string name="show_sync_reminder_message">Show sync reminder message</string>
+    <string name="enforce_daily_sync">Enforce daily sync</string>
+    <string name="sync_welcome">Good morning, kindly sync the data before you start.</string>
+    <string name="customer_info">Customer Info</string>
+    <string name="db_name">Database</string>
+    <string name="no_databases_specified_in_ameen_connection_service">No databases specified in Ameen Connection Service!</string>
+
+    <string name="print_paper_size_title">Paper Size </string>
+
+
+    <string name="numbers_format">Numbers Format</string>
+
+
+    <string name="summary">Summary</string>
+    <string name="pay">Pay</string>
+    <string name="receipt">Receipt</string>
+    <string name="group_product">Print Product Groups</string>
+
+
+    <string name="print_string_type_title">Text Type</string>
+
+    <string name="copy_number">Copies number</string>
+
+    <string name="in_bill">InBill </string>
+    <string name="out_bill">OutBill </string>
+    <string name="bill_type_title">Bill Type Title</string>
+    <string name="vat_tax">Customer Tax Number </string>
+    <string name="price_is_lower_than_allowed_level">Price is lower than allowed level!</string>
+    <string name="discount_is_greater_than_allowed_level">Discount is greater than allowed level!</string>
+    <string name="some_bonus_stock_is_negative">Some bonus stock is negative!</string>
+    <string name="arround_discount">Around Discount</string>
+    <string name="arround_extra">Around Extra</string>
+    <string name="duplicated_product">Duplicated product</string>
+    <string name="auto_check_offers">Auto check offers</string>
+    <string name="add_decimal_number_bonus">Add decimal to bonus</string>
+    <string name="convet_to_India">Display Indian numbers </string>
+    <string name="dialog_warning">Warning </string>
+    <string name="dialog_Entry_warning">Save Entry First </string>
+    <string name="dialog_cheque_warning">Save Cheque First </string>
+    <string name="view_entry">View Entry</string>
+    <string name="view_cheque">View Cheque</string>
+    <string name="save_invoice_first">Save Bill First</string>
+    <string name="Infinate">cann\'t add more than 9 number</string>
+    <string name="comma">must be Decimal Number</string>
+    <string name="show_item_name">Display Item name horizontally</string>
+    <string name="journal_cash">Cash</string>
+    <string name="all_tax">All Tax</string>
+    <string name="save_invoice_in_database">Invoice doesn\'t saved in Database. \n Save Invoise first.</string>
+    <string name="tax_number">Tax Number</string>
+    <string name="tax_invoice" translatable="false">Tax Invoice</string>
+    <string name="tax_invoice2" translatable="false">TRN</string>
+    <string name="tax_invoice_ar">فاتورة ضريبية</string>
+    <string name="num_invoice">الرقم الضريبي</string>
+    <string name="no_such_product">No such product</string>
+    <string name="select_all">Select All</string>
+    <string name="bar_code">Barcode</string>
+    <string name="bar_code_exists_with_other_customer">Bar Code exists with other Customer</string>
+    <string name="title_activity_bill_after_save">Successfully saved </string>
+    <string name="can_not_update_invoice_invoice_synced">Can not update invoice, Invoice synced</string>
+
+
+    <string name="promotion_message_budget">لا يمكن احتساب العروض، كمية الهدية غير كافية</string>
+    <string name="promotion_message_condition">لا يمكن احتساب العروض، كمية الشرط غير متطابقة</string>
+    <string name="pager">Pager</string>
+    <string name="address_details">Address</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="discard_customer_confirmation">Are you sure you want to discard customer card changes?</string>
+    <string name="discard_address_confirmation">Are you sure you want to discard customer card changes?</string>
+
+    <string name="phone1">Phone 1</string>
+    <string name="phone2">Phone 2</string>
+    <string name="cur">الحالى</string>
+    <string name="BillUAENoteEN" translatable="false">Note</string>
+    <string name="BillUAENoteAR">البيان</string>
+    <string name="customer_location_not_exists">not exists!</string>
+    <string name="serial_number_used">This Serial (*) Really Used In Another Bill Cannot Synchronize This Bill Number (+) Item Name (-) </string>
+    <string name="total_balance">Total Cash</string>
+    <string name="filter">Filter</string>
+    <string name="save_change">Save Change</string>
+    <string name="discount_value">Discount Value</string>
+    <string name="discount_percent">Discount Percent</string>
+    <string name="please_save">Please Save Or Cancel</string>
+    <string name="error_discount">Cannot Modify Discount</string>
+    <string name="no_syn_custumer">The invoice is not synchronized, please check that the customer has been saved at Alameen</string>
+    <string name="license">License</string>
+    <string name="wrong_license_no">License Number is wrong</string>
+
+    <string name="wrong_ip">Connection issue, please check your IP address </string>
+    <string name="wrong_ip_services">Connection issue, please check  Web service</string>
+    <string name="error_discount_Condition">Cannot Modify Discount, Discount Condition is zero</string>
+    <string name="last_Material_price_table">Loading Last Price…</string>
+    <string name="DuePayment">late Payment</string>
+    <string name="last_customer_price">Last customer price</string>
+    <string name="memoryerror">Error, RAM is full</string>
+    <string name="general">General</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="select_country">Select Country</string>
+    <string name="select_city">Select City</string>
+    <string name="select_area">Select Area</string>
+    <string name="select_street">Select Street</string>
+    <string name="no_area">No Areas Found!</string>
+    <string name="no_city">No Cities Found!</string>
+    <string name="no_country">No Countries Found!</string>
+    <string name="no_street">No Street Found!</string>
+    <string name="addresses">Addresses</string>
+    <string name="work_days">Working Days</string>
+    <string name="cf_field">Custom fields</string>
+    <string name="holiday_">Holiday</string>
+    <string name="start">Start</string>
+    <string name="finish">Finish</string>
+    <string name="friday">Friday</string>
+    <string name="thursday">Thursday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="monday">Monday</string>
+    <string name="sunday">Sunday</string>
+    <string name="saturday">Saturday</string>
+    <string name="loading_address_customer">Loading Customer Addresses…</string>
+    <string name="loading_work_days_customer">Loading Working Days…</string>
+    <string name="card_addresses">Load Addresses Cards</string>
+    <string name="loading_card_addresses">Loading Cards Customers…</string>
+    <string name="loading_customer_city">Load Cities Cards…</string>
+    <string name="loading_customer_country">Load Countries Cards…</string>
+    <string name="loading_customer_area">Load Areas Cards…</string>
+    <string name="new_card">New Card</string>
+    <string name="country_card">Country Card</string>
+    <string name="city_card">City Card</string>
+    <string name="area_card">Area Card</string>
+    <string name="please_insert_country">The Field is empty, Please Insert Country</string>
+    <string name="please_insert_city">The Field is empty, Please Insert City</string>
+    <string name="please_insert_name">The Field is empty, Please Insert Name</string>
+    <string name="please_insert_code">The Field is empty, Please Insert Code</string>
+    <string name="save_card">Do you want to save a card?</string>
+    <string name="code_exist">The Code is already Exist!</string>
+    <string name="name_exist">The Name is already Exist!</string>
+    <string name="latin_name_exist">Latin Name is already Exist!</string>
+    <string name="set_default_address">Set Default Address</string>
+    <string name="select_date">Set Time</string>
+    <string name="pobox">Postbox</string>
+    <string name="buliding_number">Build Number</string>
+    <string name="floor_number">Floor Number</string>
+    <string name="complete_customer_info">Please, Insert Address Data</string>
+    <string name="error_in_location">The Longitude  Should be between (-180,+180) and latitude (-90,+90)</string>
+    <string name="set_address_name">Address Field Is Empty, Please Insert Address Name</string>
+    <string name="customer_error_update">Failed To Update Customer Data</string>
+    <string name="address_error_update">Failed To Update Address Data</string>
+    <string name="cf_value_error_save">Failed To Save Custom Fields</string>
+    <string name="cf_value_error_update">Failed To Update Custom Fields</string>
+    <string name="add_customer_confirmation">Are you sure you want to add this Customer ?</string>
+    <string name="save_customer">Successful In Save Customer   </string>
+    <string name="save_address_successfull">Successful In Save Address </string>
+    <string name="no_connection_address_will_synced_when_connection_available">No Connection! \n Customer will be synced when connection is available</string>
+    <string name="address_card_error">No Connection! \n Address Cards will be synced when connection is available</string>
+    <string name="add_address">Are you want to add new customer address?</string>
+    <string name="error_saving_card">Error in Save Address Card</string>
+    <string name="done_saving_card">Successful In Save ِAddress Card</string>
+    <string name="address_exists">Address is already Exist!</string>
+    <string name="add_address_confirmation">Are you want to Save new Address ?</string>
+    <string name="empty_time">Empty times</string>
+    <string name="start_time_bigger_than_end_time">The end time is smaller than the start time</string>
+    <string name="create_city">No Cities for this Country, Are You Want to Create New City?</string>
+    <string name="create_area">No Areas for this City, Are You Want to Create New Area?</string>
+    <string name="set_default_address_msg">Are you want to set this address as a default address</string>
+    <string name="failure">Failed</string>
+    <string name="set_default_address_fail">fail in set Address as Default</string>
+    <string name="set_default_error">Must Save Address Card</string>
+    <string name="days">Days</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="error_save_address">Error in Save Change on Address</string>
+    <string name="print_error">You must save the change before printing</string>
+    <string name="all_street">All Streets</string>
+    <string name="all_areas">All Areasِ</string>
+    <string name="all_cities">All Cities</string>
+    <string name="all_countries">All Countries</string>
+    <string name="cu_fld">Load Custom Fields</string>
+    <string name="custom_field">Loading Custom Fields…</string>
+    <string name="custom_field_Group">Loading Custom Field Group…</string>
+    <string name="custom_field_mapping">Loading Custom Field Map…</string>
+    <string name="custom_field_multi_value">Loading Custom Field Multi Values…</string>
+    <string name="no_modified_cus">No modification to the customer</string>
+    <string name="without">Without</string>
+    <string name="error_current_customer">Error! please reselect the current customer</string>
+    <string name="pixel">Pixel</string>
+    <string name="error_mandatory">Error ,Please Insert Value in This Field :</string>
+    <string name="empty_field">Empty Field</string>
+    <string name="unique_field">Unique Field</string>
+    <string name="error_unique">Error ,This Field is Unique Value :</string>
+    <string name="tel_support">Call App is not Support in your Device</string>
+    <string name="timeout_execption">Error Expire  Operation Time  </string>
+    <string name="deplicate_primary_key">Error in Table %1$s ,that the primary Key %2$s is Duplicated in Database</string>
+    <string name="no_unit">Error in Product( %1$s ),that No contain %2$s </string>
+    <string name="bill_syn">Error when saving bills</string>
+    <string name="entry_syn">Error when saving Entries</string>
+    <string name="country_failair">there countries can\'t send to server</string>
+    <string name="areas_failair">areas can\'t send to server</string>
+    <string name="cities_failair">cities can\'t send to server</string>
+    <string name="address_failair">Addresses can\'t send to server</string>
+    <string name="error_initializing_distributor_data">Error initializing distributor data</string>
+    <string name="hide_negative_products">Consider negative materials as empty materials</string>
+    <string name="restore_date">Restore Data</string>
+    <string name="ask_backup">Are you Want Backup from Data ?</string>
+    <string name="error_store_data">Error, There Problem in Restore Data ,Try Again !</string>
+    <string name="show_stock_order_qty">Show Quantity in Order Stock</string>
+    <string name="stock_order">Order Stock</string>
+    <string name="load_order_statement">Load Orders Report</string>
+    <string name="order_report">Orders Report</string>
+    <string name="share_confirmation">Are you sure you want to share this content?</string>
+    <string name="order">Order</string>
+    <string name="require">Required</string>
+    <string name="state">State</string>
+    <string name="achieved_order">Achieved</string>
+    <string name="state0">Active</string>
+    <string name="state1">Closed</string>
+    <string name="state2">Canceled</string>
+    <string name="remaind">Remaind</string>
+    <string name="achieved">Achieved</string>
+    <string name="must_enable_internet_service">You must enable internet service</string>
+    <string name="neg_warning_permissions">Warning Negative Sales</string>
+    <string name="total_qty">Total Qty</string>
+    <string name="total_bonus">Total Bonus</string>
+    <string name="total_items">Num.Items</string>
+    <string name="no_output_bill">There Are No Out invoices</string>
+    <string name="no_input_bill">There Are No Input Bills</string>
+    <string name="no_bill">There Are No Bills</string>
+    <string name="no_checks">>There Are No Cheques for tis bill !</string>
+    <string name="duplicate_cus_name">Customer Name used in other card! this card can not be Saved</string>
+    <string name="duplicate_cus_name_asyn">Customer Name ( %1$s ) IS Used in Another Card ,Please Modify Customer Name ,and Try Again </string>
+
+    <string name="print_item">Print Item From </string>
+    <string name="wait_finish_print">Please Wait Untile Finish Print</string>
+    <string name="page">Page</string>
+    <string name="share_error">Error in Share</string>
+    <string name="no_location">No Exist Location</string>
+    <string name="show_bonus_col">Show bonus column in customer statement</string>
+    <string name="using_print_model_1">Printing Model 1</string>
+    <string name="using_print_model_2">Printing Model 2</string>
+    <string name="using_print_order_model">Printing Orders Model for Distributor Only</string>
+    <string name="bill_to" translatable="false">Bill To</string>
+    <string name="inv_no" translatable="false">Inv No.</string>
+    <string name="pay_uae" translatable="false">Pay</string>
+    <string name="description_en" translatable="false">Description</string>
+    <string name="description_ar" translatable="false">التفاصيل</string>
+    <string name="bonus_en" translatable="false">FOC</string>
+    <string name="total_ar" translatable="false">اجمالي</string>
+    <string name="single_price_uae" translatable="false">افرادي</string>
+    <string name="net_col">Item Net</string>
+    <string name="tax_en" translatable="false">Tax</string>
+    <string name="tax_ar" translatable="false">الضريبة</string>
+    <string name="receiver_sign" translatable="false">Receiver\'s Sign</string>
+    <string name="custom_company_name_uae" translatable="false">Company Name</string>
+    <string name="only" translatable="false">Only</string>
+    <string name="and" translatable="false">And</string>
+    <string name="and_"> and </string>
+    <string name="confirm_delete_non_syn_data">There are data that are not synced yet. If you delete this data, you will be deleted. Are you sure you want to delete it?</string>
+    <string name="num_en" translatable="false">Num</string>
+    <string name="num_ar" translatable="false">رقم</string>
+    <string name="cust_exempt_from_tax">Tax-Exempt Customer</string>
+    <string name="tax_num">Tax Number</string>
+    <string name="taxes">Taxes</string>
+    <string name="reverse_charges">Reverse charge</string>
+    <string name="type_tax">Tax Type</string>
+    <string name="tax_code">Tax Code</string>
+    <string name="without2" translatable="false">بدون</string>
+    <string name="without3" translatable="false">Without</string>
+    <string name="location_error">Please Set The Tax Location</string>
+    <string name="tax_code_error">Please Set The Tax Code</string>
+    <string name="taxes_failair">Failure to Send Customer Taxes</string>
+    <string name="bill_num">Origin Bill Number</string>
+    <string name="bill_date">Origin Bill Date</string>
+    <string name="returend_bill_date">Please Set The Origin Bill date and Number in Taxes Button</string>
+    <string name="page_header_space">Select the header size from the top</string>
+    <string name="page_footer_space">Select the footer size from the bottom</string>
+    <string name="header">Page Header</string>
+    <string name="footer">Page Footer</string>
+    <string name="page_title">Enter Size By centimeter</string>
+    <string name="footer_logo">Add Footer Image To Invoice</string>
+    <string name="balance_zero">This is a zero balance customer cannot view report</string>
+    <string name="out_stock_name">From Stock</string>
+    <string name="in_stock_name">To Stock</string>
+    <string name="transposition">Transpostion</string>
+    <string name="same_store">The output store must be different from the input store </string>
+    <string name="distributor_store">One of the store must be the distributor\'s store</string>
+    <!--<string name="title_activity_tt">ttActivity</string>-->
+
+
+    <string name="warning_Bonus_in_orders"> you can\'t apply the feature of reservation on gifts because gifts will not be taken into account when calculating net inventory. \n It is therefore advisable not to add gifts to the order</string>
+    <string name="orders">Orders</string>
+    <string name="order2">Orders</string>
+    <string name="cash_order">Cash Orders</string>
+    <string name="debit_order">Credit Order</string>
+    <string name="check_order">Cheques Orders</string>
+
+    <string name="error_stop_date">The Date is before operations keeping up date , can\'t continue</string>
+    <string name="error_stop_bill_date">The Date is before bills keeping up date , can\'t continue</string>
+    <string name="error_stop_order_date">The Date is before order keeping up date , can\'t continue</string>
+    <string name="active_gps">Active GPS Service</string>
+    <string name="msg_active_gps">You Must Activate The Location Service To know the locations of customers !</string>
+    <string name="try_again">Try Again !</string>
+    <string name="barcode_modify">Barcode Modify</string>
+    <string name="bar_code_modifiy">Are you want modify Old Barcode of this Customer?</string>
+    <string name="bar_code_insert">Are you want Insert New Barcode for this Customer?</string>
+    <string name="warning">Warning</string>
+    <string name="alerm_open_visit">There is a visit to this customer has not been closed. Do you want to continue on the same visit?</string>
+    <string name="alerm_open_visit2">There is another customer visit that has not been closed yet. The visit must be closed before a new visit is opened for this customer \n Do you want to finish this visit by present time?</string>
+    <string name="error_visit_type">Visit types are not specified at Alameen</string>
+
+    <string name="cash_image">Download or Delete Images</string>
+    <string name="download">Download</string>
+    <string name="failure_download_images">Failed to download product images</string>
+    <string name="select_pay_type">Please Select Pay Type</string>
+    <string name="due_date">Maturity Date</string>
+    <string name="main_account">Main Account</string>
+
+    <string name="cheque_is_repeated">An error in repeating the check number</string>
+    <string name="select_shelve">Select Percent Of Material Template</string>
+    <string name="no_scan">No Scanner Application Found</string>
+    <string name="download_scan_app">Download a scanner code activity?</string>
+    <string name="customer_tax_code_invalide">Selected customer has Invalid tax code!\\n PU-Private Healthcare/Private Education/First house sales to citizens</string>
+    <string name="vat_total">Total with VAT</string>
+    <string name="total_vat_ar" translatable="false">مج+ضريبه</string>
+    <string name="waring_msg_print_field">Warning, some information will not be fully shown.</string>
+    <string name="total_vat_en" translatable="false">Tot+Vat</string>
+    <string name="load_expire_date_class">Load Expire Date And Class for Materials</string>
+    <string name="category">Category</string>
+    <string name="category_ar" translatable="false">الفئة</string>
+    <string name="expire_date_ar" translatable="false">تاريخ الصلاحية</string>
+    <string name="category_en" translatable="false">Category</string>
+    <string name="expire_date">Expiry Date</string>
+    <string name="expire_date_en" translatable="false">Expiry Date</string>
+    <string name="expire_date_warning">"Expired material, please pay attention"</string>
+    <string name="category_error">Can not complete the invoice, you must enter the category of the Product</string>
+    <string name="expire_error">Can not complete the invoice, you must enter the Expire Date of the Product</string>
+    <string name="link_expire_date_class_error">The invoice cannot be completed, because the category is related to the expiry date</string>
+
+    <string name="category_no_exist">There are Material that do not have a Category</string>
+    <string name="expire__no_exist">There are Material that do not have an expiry date</string>
+    <string name="class__no_exist">There are Material that do not have an Category </string>
+    <string name="expire_date_error">There is category with incorrect expiry date, can\'t continue </string>
+    <string name="show_product_code_on_image">Show Product Code on Image</string>
+    <string name="bonus_total">Bonus Value</string>
+    <string name="visit_open">There are visits that have not been Finished … all of those visits will be Finished on the current sync date before the data is synced.Try async again</string>
+    <string name="no_memory">There is no internal memory for the device</string>
+    <string name="target_display">Targets Presentation</string>
+    <string name="percent" translatable="false">%</string>
+    <string name="paired_devices">Paired</string>
+    <string name="tip_have_no_paired_device">NO paired device</string>
+    <string name="tip_have_no_found_bluetooth_device">No Device</string>
+    <string name="hide">Hide…</string>
+    <string name="only_distributorStore">So. Will Show Only Distributor Store</string>
+    <string name="failure_load_store_material">There Error in Sync Least Update of inventory stores ,So Can\'t Show this inventory Store ,Please Check Network Connection,and Work online form setting,and Try Again </string>
+    <string name="error_qty">As a result, The Total Qty is InCorrect</string>
+    <string name="copy_done">Copied</string>
+    <string name="warning_print">the Printer type does not support the A4 paper size specified in the Text size option</string>
+    <string name="extra_value">Addition</string>
+    <string name="extra_ar" translatable="false">الاضافة</string>
+    <string name="extra_en" translatable="false">Extra</string>
+    <string name="extra_ratio">Addition %</string>
+    <string name="error_around_discount_Condition">Cannot modify round off discount</string>
+    <string name="select_currency">Select currency</string>
+    <string name="Currencies_bill">Transaction by several currencies in bill</string>
+    <string name="stock_qty">Inventory</string>
+    <string name="add_note">Add Note</string>
+    <string name="modify_material_discount">Do you want modify the materials granted by Discount ? \n Note: If approved, I will delete all additives beforehand </string>
+    <string name="discount_material_error">Error in Discount (%1$s) No material has been granted on it. \n Click on discount and Add materials for this Discount </string>
+    <string name="cannot_modify_discount_item">The discount item cannot be modified !</string>
+    <string name="cannot_delete_discount_item">The discount item cannot be deleted !</string>
+    <string name="insert_expire_date_class">Insert Expire Date and Classes</string>
+    <string name="insert_expire_date">Insert Expire Date </string>
+    <string name="insert_class">Insert Classes </string>
+    <string name="empty_serial_number">No Serial Number For this Product (%1$s) Must Enter Serial Number</string>
+    <string name="serial_number_lower_than_bill_qty"> Serial number less than Quantity of Product (%1$s) Must Enter all Serial Number</string>
+    <string name="more_print_paper">The number of times printed</string>
+    <string name="no_repeated_print">You have exceeded the allowed print times, so you can print</string>
+    <string name="price_sale">Card Price</string>
+    <string name="error_force_no_sale">There is no sale process for this visit, the visit can only be ended after registering for reasons not to sell</string>
+    <string name="net_sales_cash">Net cash sales</string>
+    <string name="total_entries">Total cash</string>
+    <string name="net_sales_Debit">Net Credit Sales</string>
+    <string name="total_sales">Total Sales</string>
+    <string name="pay_entries"> Pay Entries</string>
+    <string name="receipt_entries">Receipt Entries</string>
+    <string name="cheques_total">Total Cheques</string>
+    <string name="cheques_sales">Cheques Sales</string>
+    <string name="cheques_sales_return">Cheques Sales Return</string>
+    <string name="set_price_sale">Set Card Price</string>
+    <string name="expanses_exceed_max"> You have exceeded the maximum allowed on the Expenses </string>
+    <string name="expanses_tv_max"> Max Limit  </string>
+    <string name="expanses_tv_curent"> Remaining Balance </string>
+    <string name="loading_images">Loading images</string>
+    <string name="no_appear_another">عدم الظهار مرة أخري</string>
+    <string name="type_ar" translatable="false">النمط</string>
+    <string name="type_en" translatable="false">Type</string>
+    <string name="product_ar" translatable="false">المادة</string>
+    <string name="product_en" translatable="false">product</string>
+    <string name="no_connection_invoice_will_synced_when_connection_availabl_is_numbering_online">There is no connection.\n The invoice will be synchronized when the connection becomes available.\n The invoice cannot be printed until after it has been synchronized,
+        so that the numbering of the invoice matches with the ALameen system.</string>
+    <string name="no_connection_cheque_will_synced_when_connection_availabl_is_numbering_online">There is no connection.\n The Cheque will be synchronized when the connection becomes available.\n The Cheque cannot be printed until after it has been synchronized,
+        so that the numbering of the Cheque matches with the ALameen system.</string>
+
+    <string name="no_connection_entry_will_synced_when_connection_availabl_is_numbering_online">There is no connection.\n The Entry will be synchronized when the connection becomes available.\n The Entry cannot be printed until after it has been synchronized,
+        so that the numbering of the Entry matches with the ALameen system.</string>
+    <string name="no_permission_print">Printing is only possible after reconnecting and synchronizing the bill on the Alameen! </string>
+    <string name="options">Options</string>
+    <string name="stores_prices_inventory">Details Inventory by stores</string>
+    <string name="disc_extra">Discounts and Extras</string>
+    <string name="percent_text">Percent</string>
+    <string name="loading_card_cities">Loading  Cities Cards</string>
+    <string name="loading_card_countries">Loading  Countries Cards</string>
+    <string name="quantities">Quantities</string>
+    <string name="note_unit_inventory">Note: In Case Not Exist the unit \n for a material, the quantity and price \n will be displayed in the first unit</string>
+    <string name="hide_empty_banlce">Hide empty balances</string>
+    <string name="qty_sum">Total Qty</string>
+    <string name="add_offer_as_discount">Add offer as an item discount</string>
+    <string name="field_show">Show fields</string>
+    <string name="can_not_syn_cheque">There is Cheque that has the same number on the Alameen, So it cannot be synchronized until this cheque is deleted from Alameen and resynchronized!</string>
+    <string name="can_not_syn_entry">There is Entry that has the same number on the Alameen, So it cannot be synchronized until this Entry is deleted from Alameen and resynchronized!</string>
+    <string name="can_not_syn_bill">There is Invoice that has the same number on the Alameen, So it cannot be synchronized until this Invoice is deleted from Alameen and resynchronized!</string>
+    <string name="duplicate_cheque_num">The cheque number is already used in another card! can\'t sync The cheque until modifying the cheque number</string>
+    <string name="msg_active_gps2">You Must Activate The Location Service (GPS) To know Record Customer Location!</string>
+    <string name="load_MandatoryFields">Load Mandatory Fields For Customer Card</string>
+    <string name="error_numbering_online_with_ameen_bill">You Are Can\'t Add Invoice, It Must Work Online and Connected with Internet</string>
+    <string name="error_numbering_online_with_ameen_entry">You Are Can\'t Add Entry, It Must Work Online and Connected with Internet</string>
+    <string name="error_numbering_online_with_ameen_cheque">You Are Can\'t Add Cheque, It Must Work Online and Connected with Internet</string>
+    <string name="loading_mandatory_field">Loading Mandatory Field &#8230;</string>
+    <string name="set_barcode">Set BarCode</string>
+    <string name="set_personal_name">Set Personal Name</string>
+    <string name="set_phone1">Set Phone1</string>
+    <string name="set_phone2">Set Phone2</string>
+    <string name="set_mobile">Set Mobile</string>
+    <string name="set_pager">Set Pager</string>
+    <string name="set_street">Set Street</string>
+    <string name="set_area">Set Area</string>
+    <string name="set_city">Set City</string>
+    <string name="set_country">Set Country</string>
+    <string name="set_PostBox">Set PostBox</string>
+    <string name="set_zipCode">Set ZipCode</string>
+    <string name="set_details"> Set Details</string>
+    <string name="email">Email</string>
+    <string name="set_Email">Set Email</string>
+    <string name="set_latin_name">Set Latin Name </string>
+    <string name="account_sync_done">The current balances have been successfully synchronized</string>
+    <string name="account_sync_failure">The current balances synchronization process failed</string>
+    <string name="must_sync_acounts">There may be modifications to the current balances, so the balances must be updated for currencies. \n Do you want to update?</string>
+    <string name="error_save_expenses">There Problem in Save Expense, Try again</string>
+    <string name="language">Language</string>
+    <string name="show_distributor_balance">Show Current Balances Of Distributor Into Summary Journal View</string>
+    <string name="load_condition_table">Loading Condtion…</string>
+    <string name="load_condition_item_table">Loading Condtion Details…</string>
+    <string name="distributor_operation">Distributor operation </string>
+    <string name="error_add_item"> is not included in Materials Group of Filter search Dialog Of special form, So it cannot be added</string>
+    <string name="open_order">Open Order </string>
+    <string name="delete_order">Delete Order </string>
+    <string name="error_save_transposition">Error, there problem in save Transposition ,Try Again !</string>
+
+    <string name="distributor_order">Distributor Order</string>
+    <string name="lockSetting">Do not Permission the distributor to access the device settings</string>
+    <string name="stock_name">Store Stock </string>
+    <string name="change_store">The Items will be deleted</string>
+    <string name="product_is_not_exist_into_bill_print">the Bill cann\'t be Printed because it contains Bill Items for Products that not included Store Inventory</string>
+    <string name="product_is_not_exist_into_bill_view">there Error in View Invoice and Total operations on it,because it contains Bill Items for Products that not included Store Inventory </string>
+    <string name="signature_store_admin">Signature of the Storekeeper</string>
+    <string name="name_signature_recipient">Name and Signature of the Recipient</string>
+    <string name="design">Design Edit</string>
+    <string name="error_loaded_currencies">Currencies do not exist with the Distributor. Please check the currencies accounts on the distributor card on AL Ameen</string>
+    <string name="select_language">Select Language</string>
+    <string name="show_customer_balance">Show Customer balance into Customer list View  </string>
+    <string name="device_name_error">Error In Device Name, Please Check Device Name into Distributor Card</string>
+    <string name="error_forms_management">Sync failed because there is an open connection with the database,There may be Views for Forms Management that have not yet been closed on the Alameen </string>
+    <string name="loading_transposition_type">Loading  Transposition Types</string>
+    <string name="late_payments">Prevent adding an invoice to the customer who has late payments</string>
+    <string name="late_payments_error">There are late payments to the customer Do you want to continue?</string>
+    <string name="loading_barcodes">Loading Products Barcode</string>
+    <string name="total_debit">Total Balance</string>
+    <string name="expense_name"> Expense Name</string>
+    <string name="enter_editeText_value">Enter value!</string>
+    <string name="error_ksa_customer_info">You Are Can\'t Add Invoice, complete the customer Information</string>
+    <string name="error_ksa_retrun_bill">You Are Can\'t Add Retrun Invoice</string>
+    <string name="KDV_IDENTIFIER_NAT">الهوية الوطنية</string>
+    <string name="KDV_IDENTIFIER_TIN">الرقم الضريبي المميز</string>
+    <string name="KDV_IDENTIFIER_IQA">رقم الإقامة</string>
+    <string name="KDV_IDENTIFIER_PAS">جواز السفر</string>
+    <string name="KDV_IDENTIFIER_700">رقم 700</string>
+    <string name="KDV_IDENTIFIER_CR">السجل التجاري</string>
+    <string name="KDV_IDENTIFIER_MOM">ترخيص وزارة الشؤون البلدية والقروية</string>
+    <string name="KDV_IDENTIFIER_MLS">ترخيص وزارة الموارد البشرية والتنمية الاجتماعية</string>
+    <string name="KDV_IDENTIFIER_SAG">ترخيص الهيئة العامة الاستثمار</string>
+    <string name="KDV_IDENTIFIER_GCC">الهوية الخليجية للعميل</string>
+
+
+    <string name="using_print_model_KSA">Using Print Model KSA</string>
+
+    <string name="using_print_model_KSA_simple_type">Using simple address KSA</string>
+
+
+    <string name="customerType">Customer Type</string>
+    <string name="tax_number_size">The TAx Number should be 15 number , start with 3  and end with 3</string>
+    <string name="tax_number_start">Please Set The start of Tax number  3</string>
+    <string name="tax_number_end">Please Set The end of Tax number  3</string>
+
+    <string name="customer_postnumber_error">The post number should be 5</string>
+    <string name="customer_buildnumber_error">The build number should be 4</string>
+    <string name="customer_unite_error">Please Enter The unit number </string>
+    <string name="customer_street_error">Please Enter Street </string>
+    <string name="customer_extra_number_error">The Extra number should be 4</string>
+    <string name="customer_city_error">Please Enter The City</string>
+    <string name="customer_country_error">Please Enter The Country</string>
+    <string name="customer_area_error">Please Enter The Governorate</string>
+    <string name="customer_District_error">Please Enter The District</string>
+
+    <string name="KSA_country">Country</string>
+    <string name="KSA_city">City</string>
+    <string name="KSA_governorate">Governorate</string>
+    <string name="KSA_District">District</string>
+    <string name="KSA_extra_number">Extra Number</string>
+    <string name="KSA_unite_number">Unit Number</string>
+    <string name="select_KSA_District">Select District</string>
+    <string name="select_KSA_governorate">Select Governorate</string>
+    <string name="select_KSA_extra_number">Select Extra Number</string>
+    <string name="select_KSA_unite_number">Select Unit Number</string>
+    <string name="tax_number_title">Tax Number  </string>
+    <string name="ksa_code_error"> distributor information does not contain the code for the e-invoice numbering </string>
+    <string name="landmark">Landmark</string>
+    <string name="text_style">Style</string>
+    <string name="type_txt">Type</string>
+    <string name="cancel_"><u>Cancel</u></string>
+    <string name="refresh_"><u>Refresh</u></string>
+    <string name="spaces">Spaces</string>
+    <string name="currency_customer_error_msg">can\'t to complete must appear account currency of this customer into distributor card</string>
+    <string name="expense_error">It can\'t complete, the account of the distributor card  must be different from the expense account</string>
+    <string name="error_loaded_default_currencies">The default currency is not have account, please make sure that you have an account for this currency with the distributor card</string>
+    <string name="error_loaded_default_currencies2">Please make sure to show the default currency of my distributor card</string>
+    <string name="latinName_only">Show Material Latin Name Only</string>
+    <string name="collecting_bill_item">Collection of Bill Items for one Product</string>
+    <string name="spaces_horizontal">Hor.Space</string>
+    <string name="no_ask_again">Don\'t Ask again</string>
+    <string name="error_account_have_more_cusomter">Distributor account for Currency(%1$s) linked to multiple Customers, sync cannot be completed</string>
+    <string name="error_syn_customer">failure in Syn Customer</string>
+    <string name="symbols">الرموز</string>
+
+
+    <string name="ksa_without">without</string>
+    <string name="ksa_personal">personal - commercial non-resident </string>
+    <string name="ksa_trade">commercial</string>
+    <string name="ksa_tradeWithout">Non-taxable commercial</string>
+    <string name="error_ksa_billtype_info">The invoice form doesn\'t generate entry</string>
+    <string name="confirm_delete_non_syn_data_KSA">There are data that are not synced yet.  you can delete this data after syncing it</string>
+    <string name="Success_upload_backup">Backup Upload is Successful</string>
+    <string name="failure_upload_backup">Backup Upload is Failure</string>
+    <string name="successful_upload_database">"Save Info On Server is  Successful "</string>
+    <string name="failure_upload_database">"Save Info On Server is Failure "</string>
+    <string name="create_backup">Creating Backup…</string>
+    <string name="upload_data_confirmation">"you Are Sure upload backup from database? "</string>
+    <string name="can_not_duplicated_product">can\'t duplicate this The Item</string>
+    <string name="cancel_confrim">Are you sure you want to cancel the changes?</string>
+    <string name="forget_pass"><u>Forgot password</u></string>
+    <string name="register"><u>Registration</u></string>
+    <string name="confirm_password">confirm password</string>
+    <string name="regist">Register</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="empty_email">E-mail is Required</string>
+    <string name="invalid_email">Enter a valid Email</string>
+    <string name="empty_password">Enter a valid Password</string>
+    <string name="count_password">Min password length should be 6 character</string>
+    <string name="empty_company">Company Name is Required</string>
+    <string name="empty_licence">licence is Required</string>
+    <string name="failed_login">Failed to Login! check your email and password</string>
+    <string name="company_about">Company Info</string>
+    <string name="check_email">check your email to verify your account</string>
+    <string name="title_activity_items_list">ItemsListActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="add_item">To add the item, press the (+) button</string>
+    <string name="no_groups">You have no categories yet</string>
+    <string name="add_group">To add a category, press the (+) button</string>
+    <string name="check_email_reset_password">Check your email to reset your password</string>
+    <string name="try_again_wrong_happen">Try Again! Something wrong happened!</string>
+</resources>

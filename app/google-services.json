@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1000963520695",
+    "firebase_url": "https://fir-uiandroid-6893e.firebaseio.com",
+    "project_id": "fir-uiandroid-6893e",
+    "storage_bucket": "fir-uiandroid-6893e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000963520695:android:5ed2f6819d0d32956db532",
+        "android_client_info": {
+          "package_name": "com.zeafan.loginactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000963520695-aoeu8iinbfn303d0qf60fiarmshbk21c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6fxydJEs5wcdKizUlnTSolOllrLVkx6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000963520695-aoeu8iinbfn303d0qf60fiarmshbk21c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

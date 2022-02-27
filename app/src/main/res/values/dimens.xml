@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="big_margin">40dp</dimen>
+    <dimen name="barcode_field_margin">64dp</dimen>
+    <dimen name="big_activity_horizontal_margin">32dp</dimen>
+    <dimen name="listview_margin">2dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="button_height">80dp</dimen>
+    <dimen name="min_edit_width">120dp</dimen>
+    <dimen name="listview_vertical_padding">8dp</dimen>
+    <dimen name="button_padding">16dp</dimen>
+    <dimen name="textview_margin">2dp</dimen>
+    <dimen name="text_padding">3dp</dimen>
+    <dimen name="edit_text_height">36dp</dimen>
+
+    <!-- Fonts -->
+    <dimen name="text_size_very_small">10sp</dimen>
+    <dimen name="text_size_small">14dp</dimen>
+    <dimen name="text_size_normal">18dp</dimen>
+    <dimen name="text_size_medium">22dp</dimen>
+    <dimen name="text_size_big">32dp</dimen>
+    <dimen name="text_size_very_big">64dp</dimen>
+
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="text_size_customer_card">10sp</dimen>
+    <dimen name="header_text_size">14sp</dimen>
+    <dimen name="text_size1">14sp</dimen>
+
+    <dimen name="margin_layout">5dp</dimen>
+    <dimen name="margin_layout2">10dp</dimen>
+
+    <dimen name="margin_layout_right">5dp</dimen>
+    <dimen name="margin_layout_left">5dp</dimen>
+    <dimen name="margin_elements">5dp</dimen>
+    <dimen name="hight_progress">35dp</dimen>
+    <dimen name="numb_pad_text_size">22sp</dimen>
+    <dimen name="text_size2">15sp</dimen>
+    <dimen name="text_size3">22sp</dimen>
+    <dimen name="padding_elements">5dp</dimen>
+    <dimen name="padding_elements2">10dp</dimen>
+    <dimen name="hint_size">13sp</dimen>
+    <dimen name="add_mat_text_size">40sp</dimen>
+    <dimen name="margin_add_mat_button">3dp</dimen>
+    <dimen name="hight_rows_items">30dp</dimen>
+    <dimen name="hight_search_row">35dp</dimen>
+    <dimen name="hight_promotions_details_info">80dp</dimen>
+    <dimen name="hight_promotions_details_items">160dp</dimen>
+    <dimen name="hight_rows_header">25dp</dimen>
+    <dimen name="hight_login_password">20dp</dimen>
+    <dimen name="scan_barcod_dims">50dp</dimen>
+    <dimen name="button_dim">65dp</dimen>
+    <dimen name="button_dim1">80dp</dimen>
+    <dimen name="button_dim2">100dp</dimen>
+    <dimen name="button_text_size">11sp</dimen>
+    <dimen name="entry_elements_width">260dp</dimen>
+    <dimen name="spinner_hieght">40dp</dimen>
+    <dimen name="radio_button_hieght">32dp</dimen>
+    <dimen name="top_margin_entry">10dp</dimen>
+    <dimen name="button_setting_dim">64dp</dimen>
+    <dimen name="button_login_dim">140dp</dimen>
+
+    <dimen name="keyboard_numb_pad_height">55dp</dimen>
+    <dimen name="keyboard_numb_pad_text_size">20sp</dimen>
+    <dimen name="margin_table_elements">7dp</dimen>
+
+    <dimen name="numb_pad_width">180dp</dimen>
+    <dimen name="num_pad_height">240dp</dimen>
+
+    <dimen name="left_margin_entry_elements1">65dp</dimen>
+    <dimen name="right_margin_entry_elements1">3dp</dimen>
+
+    <dimen name="left_margin_entry_elements2">3dp</dimen>
+    <dimen name="right_margin_entry_elements2">65dp</dimen>
+
+    <dimen name="padding_elements_left">5dp</dimen>
+    <dimen name="padding_elements_right">0dp</dimen>
+
+    <dimen name="margin_info_layout_right1">15dp</dimen>
+    <dimen name="margin_info_layout_left1">0dp</dimen>
+
+    <dimen name="margin_info_layout_right2">0dp</dimen>
+    <dimen name="margin_info_layout_left2">15dp</dimen>
+
+    <dimen name="margin_elements_right">5dp</dimen>
+    <dimen name="margin_elements_left">0dp</dimen>
+
+    <dimen name="margin_elements_left1">5dp</dimen>
+    <dimen name="margin_elements_right1">0dp</dimen>
+
+    <dimen name="margin_elements_right2">15dp</dimen>
+    <dimen name="margin_elements_left2">0dp</dimen>
+
+    <dimen name="margin_elements_right3">0dp</dimen>
+    <dimen name="margin_elements_left3">15dp</dimen>
+
+    <dimen name="margin_elements_right4">25dp</dimen>
+    <dimen name="margin_elements_left4">5dp</dimen>
+
+    <dimen name="margin_elements_right5">5dp</dimen>
+    <dimen name="margin_elements_left5">25dp</dimen>
+
+
+    <dimen name="layout_margin">15dp</dimen>
+    <dimen name="larg_activity_text_size_25sp">25sp</dimen>
+    <dimen name="xlarg_activity_text_size_40sp">40sp</dimen>
+    <dimen name="larg_activity_text_size_20sp">20sp</dimen>
+    <dimen name="xlarg_activity_text_size_35sp">35sp</dimen>
+    <dimen name="xlarg_activity_text_size_30sp">30sp</dimen>
+    <dimen name="larg_activity_rows_items">35dp</dimen>
+    <dimen name="xlarg_activity_rows_items">40dp</dimen>
+    <dimen name="xlarg_activity_rows_items_head">35dp</dimen>
+    <dimen name="larg_activity_rows_items_head">30dp</dimen>
+    <dimen name="numb_pad_buttons_hight_larg_act">70dp</dimen>
+    <dimen name="numb_pad_buttons_width_larg_act">80dp</dimen>
+    <dimen name="numb_pad_buttons_hight_xlarg_act">85dp</dimen>
+    <dimen name="numb_pad_buttons_width_xlarg_act">100dp</dimen>
+    <dimen name="Margin_0dp">0dp</dimen>
+    <dimen name="Margin_20dp">20dp</dimen>
+    <dimen name="Margin_30dp">30dp</dimen>
+    <dimen name="Margin_25dp">25dp</dimen>
+    <dimen name="Margin_5dp">5dp</dimen>
+    <dimen name="Margin_2dp">2dp</dimen>
+    <dimen name="Margin_3dp">3dp</dimen>
+    <dimen name="Margin_35dp">35dp</dimen>
+    <dimen name="Margin_70dp">70dp</dimen>
+    <dimen name="Margin_15dp">15dp</dimen>
+    <dimen name="Margin_10dp">10dp</dimen>
+    <dimen name="Margin_45dp">45dp</dimen>
+    <dimen name="Margin_50dp">50dp</dimen>
+    <dimen name="Margin_Contint_Elements">20dp</dimen>
+    <dimen name="Margin_TableLayoutElements">25dp</dimen>
+    <dimen name="Margin_TableRowElements">35dp</dimen>
+    <dimen name="Margin_Button25dp">25dp</dimen>
+    <dimen name="Margin_Button5dp">5dp</dimen>
+    <dimen name="relative_elements15">15dp</dimen>
+    <dimen name="relative_elements35">35dp</dimen>
+    <dimen name="relative_elements20">20dp</dimen>
+    <dimen name="numb_pad_buttons_hight">45dp</dimen>
+    <dimen name="numb_pad_buttons_width">70dp</dimen>
+    <dimen name="layout_width_0dp">0dp</dimen>
+    <dimen name="d_200_250_300">200dp</dimen>
+    <dimen name="d_3_5_7_10">5dp</dimen>
+    <dimen name="d_120_90_60">60dp</dimen>
+    <dimen name="d_8_10_12">8dp</dimen>
+    <dimen name="s_25_30_45">25sp</dimen>
+    <dimen name="s_20_25_40">20sp</dimen>
+    <dimen name="d_40_70_100">40dp</dimen>
+    <dimen name="s_14_16_18">14sp</dimen>
+    <dimen name="d_2_3_4">2dp</dimen>
+    <dimen name="s_35_40_50">35sp</dimen>
+    <dimen name="s_16_18_22">16sp</dimen>
+    <dimen name="s_12_14_18">12sp</dimen>
+    <dimen name="d_1_2_4">1dp</dimen>
+    <dimen name="s_18_20_24">18sp</dimen>
+    <dimen name="d_90_100_120">90dp</dimen>
+    <dimen name="d_50_60_80">45dp</dimen>
+    <dimen name="d_25_30_40">25dp</dimen>
+    <dimen name="s_20_25_35">20sp</dimen>
+    <dimen name="d_20_25_35">20dp</dimen>
+    <dimen name="s_2_3_4">2sp</dimen>
+    <dimen name="d_140_160_200">140dp</dimen>
+    <dimen name="d_26_31_41">26dp</dimen>
+    <dimen name="d_40_45_55">40dp</dimen>
+    <dimen name="s_30_35_45">30sp</dimen>
+    <dimen name="s_18_22_28">18sp</dimen>
+    <dimen name="s_16_20_24">16sp</dimen>
+    <dimen name="s_14_18_22">14sp</dimen>
+    <dimen name="s_70_80_100">70dp</dimen>
+    <dimen name="d_320_360_460">320dp</dimen>
+    <dimen name="d_60_70_90">60dp</dimen>
+    <dimen name="d_50_60_70">50dp</dimen>
+    <dimen name="d_45_55_65">45dp</dimen>
+    <dimen name="s_8_18_28">8sp</dimen>
+    <dimen name="s_12_14_16">12sp</dimen>
+    <dimen name="d_10_15_22">10dp</dimen>
+    <dimen name="d_40_50_65">40dp</dimen>
+    <dimen name="d_35_45_55">35dp</dimen>
+    <dimen name="s_10_16_20">10sp</dimen>
+    <dimen name="d_230_280_330">230dp</dimen>
+    <dimen name="d_161_191_251">161dp</dimen>
+    <dimen name="d_120_140_170">120dp</dimen>
+    <dimen name="d_55_65_80">55dp</dimen>
+    <dimen name="d_221_261_341">221dp</dimen>
+    <dimen name="s_8_10_12">8sp</dimen>
+    <dimen name="d_150_180_240">150dp</dimen>
+    <dimen name="d_80_90_110">80dp</dimen>
+    <dimen name="d_500_700_1000">500dp</dimen>
+    <dimen name="d_700_900_1200">700dp</dimen>
+    <dimen name="d_400_600_800">400dp</dimen>
+    <dimen name="d_300_330_420">300dp</dimen>
+    <dimen name="d_200_230_280">200dp</dimen>
+    <dimen name="d_180_210_280">180dp</dimen>
+    <dimen name="s_10_14_16">10sp</dimen>
+    <dimen name="s_6_8_10">6sp</dimen>
+    <dimen name="s_6_8_12">6sp</dimen>
+    <dimen name="s_10_12_14">10sp</dimen>
+</resources>
