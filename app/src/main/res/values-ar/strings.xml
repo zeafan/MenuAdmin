@@ -455,7 +455,7 @@
     <string name="product_group">مادة/مجموعة</string>
     <string name="quantity">الكمية</string>
     <string name="qty">الكمية</string>
-    <string name="unit">الوحدة</string>
+    <string name="unit">بالوحدة</string>
     <string name="single_price">السعر</string>
     <string name="printed_price">طباعة السعر</string>
     <string name="tax_value">قيمة الضريبة</string>
@@ -1166,8 +1166,8 @@
     <string name="error_ksa_billtype_info">نمط الفاتورة لا يولد قيد</string>
     <string name="confirm_delete_non_syn_data_KSA" >هناك بيانات لم يتم مزامنتها بعد يمكنك حذف هذه البيانات بعد مزامنتها</string>
     <string name="Success_upload_backup">تم الرفع بنجاح</string>
-    <string name="failure_upload_backup">فشل في رفع الداتا للخادم.أعد المحاولة</string>
-    <string name="successful_upload_database">تم حفظ المعلومات بنجاح</string>
+    <string name="failure_upload_backup">فشل في رفع الصورة للخادم.أعد المحاولة</string>
+    <string name="successful_upload_database">تم الحفظ  بنجاح</string>
     <string name="failure_upload_database"> فشل فى حفظ المعلومات</string>
     <string name="create_backup">جاري أنشاء قاعدة البيانات…</string>
     <string name="upload_data_confirmation">هل تريد رفع نسخةأحتياطية من البيانات الحالية إلى المخدم؟</string>
@@ -1192,4 +1192,17 @@
     <string name="add_group">To add a category, press the (+) button</string>
     <string name="check_email_reset_password">أفحص البريد الألكتروني لأعادة أدخال الرقم السري</string>
     <string name="try_again_wrong_happen">حاول مرة أخرى , هناك حدث خطأ</string>
+    <string name="sale_type">يتم البيع</string>
+    <string name="weight">بالوزن</string>
+    <string name="take_photo">ألتقاط صورة</string>
+    <string name="more_details">تفاصيل أكتر </string>
+    <string name="new_category">فئة جديدة</string>
+    <string name="empty_name">أدخل أسم المادة</string>
+    <string name="empty_price">أدخل السعر</string>
+    <string name="unit_name">أسم الوحدة</string>
+    <string name="update">تحديث</string>
+    <string name="list">القائمة</string>
+    <string name="my_order">طلباتي</string>
+    <string name="logout">الخروج</string>
+    <string name="upload_file_excel">رفع ملف أكسيل</string>
 </resources>

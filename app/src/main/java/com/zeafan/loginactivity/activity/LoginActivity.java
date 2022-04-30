@@ -2,7 +2,9 @@ package com.zeafan.loginactivity.activity;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Toast;
@@ -33,7 +35,20 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         findViewById(R.id.btn_Login).setOnClickListener(this);;
         et_Email = findViewById(R.id.lgin_et_email);
         et_password = findViewById(R.id.lgin_et_password);
+        getEmail_Password();
+
     }
+
+    private void getEmail_Password() {
+       email = PreferenceManager.getDefaultSharedPreferences(this).getString("email","");
+       password = PreferenceManager.getDefaultSharedPreferences(this).getString("password","");
+       if(email.isEmpty() || password.isEmpty())
+           return;
+       et_Email.setText(email);
+       et_password.setText(password);
+       Login(email,password);
+    }
+
     @Override
     public void onClick(View view) {
         switch (view.getId()){
@@ -45,31 +60,43 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 break;
             case R.id.btn_Login:
                 if(checkValidationData()){
-                    Dialog waitDailog = Utilities.showWaitDialog(LoginActivity.this);
-                    firebaseAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                        @Override
-                        public void onComplete(@NonNull Task<AuthResult> task) {
-                            waitDailog.dismiss();
-                            if(task.isSuccessful()){
-                                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                                if(user!=null) {
-                                    if (user.isEmailVerified()) {
-                                        startActivity(new Intent(LoginActivity.this, MainActivity.class));
-                                    } else {
-                                        user.sendEmailVerification();
-                                        Utilities.showWarningDialog(LoginActivity.this, "", R.string.check_email);
-                                    }
-                                }
-                            }else {
-                                Toast.makeText(LoginActivity.this, getString(R.string.failed_login), Toast.LENGTH_SHORT).show();
-                            }
-                        }
-                    });
+                    Login(email,password);
                 }
 
                 break;
         }
     }
+
+    private void Login(String email, String password) {
+        Dialog waitDailog = Utilities.showWaitDialog(LoginActivity.this);
+        firebaseAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                waitDailog.dismiss();
+                if(task.isSuccessful()){
+                    FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                    if(user!=null) {
+                        if (user.isEmailVerified()) {
+                            saveEmail_Password();
+                            startActivity(new Intent(LoginActivity.this, SplashActivity.class));
+                        } else {
+                            Utilities.showWarningDialog(LoginActivity.this, "", R.string.check_email);
+                        }
+                    }
+                }else {
+                    Toast.makeText(LoginActivity.this, getString(R.string.failed_login), Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+    }
+
+    private void saveEmail_Password() {
+       SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(this).edit();
+       editor.putString("password",password);
+        editor.putString("email",email);
+        editor.apply();
+    }
+
     private boolean checkValidationData() {
         email = et_Email.getText().toString().trim();
         password = et_password.getText().toString().trim();

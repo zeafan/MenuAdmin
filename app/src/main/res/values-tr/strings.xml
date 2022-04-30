@@ -1986,5 +1986,18 @@ e</string>
     <string name="add_group">To add a category, press the (+) button</string>
     <string name="check_email_reset_password">Check your email to reset your password</string>
     <string name="try_again_wrong_happen">Try Again! Something wrong happened!</string>
+    <string name="sale_type">"يتم البيع "</string>
+    <string name="weight" />
+    <string name="take_photo" />
+    <string name="more_details">More Details</string>
+    <string name="new_category">New Category</string>
+    <string name="empty_name">Name is Require</string>
+    <string name="empty_price">Enter Price</string>
+    <string name="unit_name">أسم الوحدة</string>
+    <string name="update">تحديث</string>
+    <string name="list">List</string>
+    <string name="my_order">My Order</string>
+    <string name="logout">Logout</string>
+    <string name="upload_file_excel">رفع ملف أكسيل</string>
 
 </resources>

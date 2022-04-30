@@ -483,7 +483,7 @@
     <string name="qty_3" translatable="false">الكمية</string>
     <string name="product">Product</string>
     <string name="product_group">Product/Group</string>
-    <string name="unit">Unit</string>
+    <string name="unit">By Unit</string>
     <string name="unit_2" translatable="false">Unit</string>
     <string name="unit_3" translatable="false">الوحدة</string>
     <string name="single_price">Price</string>
@@ -1248,8 +1248,8 @@
     <string name="error_ksa_billtype_info">The invoice form doesn\'t generate entry</string>
     <string name="confirm_delete_non_syn_data_KSA">There are data that are not synced yet.  you can delete this data after syncing it</string>
     <string name="Success_upload_backup">Backup Upload is Successful</string>
-    <string name="failure_upload_backup">Backup Upload is Failure</string>
-    <string name="successful_upload_database">"Save Info On Server is  Successful "</string>
+    <string name="failure_upload_backup">Image Upload is Failure</string>
+    <string name="successful_upload_database">"Successful"</string>
     <string name="failure_upload_database">"Save Info On Server is Failure "</string>
     <string name="create_backup">Creating Backup…</string>
     <string name="upload_data_confirmation">"you Are Sure upload backup from database? "</string>
@@ -1269,17 +1269,22 @@
     <string name="failed_login">Failed to Login! check your email and password</string>
     <string name="company_about">Company Info</string>
     <string name="check_email">check your email to verify your account</string>
-    <string name="title_activity_items_list">ItemsListActivity</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="add_item">To add the item, press the (+) button</string>
     <string name="no_groups">You have no categories yet</string>
     <string name="add_group">To add a category, press the (+) button</string>
     <string name="check_email_reset_password">Check your email to reset your password</string>
     <string name="try_again_wrong_happen">Try Again! Something wrong happened!</string>
+    <string name="sale_type">Sales By</string>
+    <string name="weight">Weight</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="more_details">More Details</string>
+    <string name="new_category">New Category</string>
+    <string name="empty_name">Name is Require</string>
+    <string name="empty_price">Enter Price</string>
+    <string name="unit_name">Unit Name</string>
+    <string name="update">تحديث</string>
+    <string name="list">List</string>
+    <string name="my_order">My Order</string>
+    <string name="logout">Logout</string>
+    <string name="upload_file_excel">upload Excel file</string>
 </resources>

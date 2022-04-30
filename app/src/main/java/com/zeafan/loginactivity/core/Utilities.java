@@ -232,6 +232,7 @@ public class Utilities {
         try {
             result &= (GlobalClass.StaticCore.iSAvailabe_Wifi(context) || GlobalClass.StaticCore.isAvailableAcessData(context));
         }catch (Exception e){
+            GlobalClass.SendExceptionToFirebaseServer(e);
             e.printStackTrace();
         }
         return result;
@@ -269,9 +270,9 @@ public class Utilities {
         });
     }
 
-    public static Dialog showWaitDialog(Context context) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-          View view = LayoutInflater.from(context).inflate(R.layout.progress_wait, null);
+    public static Dialog showWaitDialog(Activity activity) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+          View view = LayoutInflater.from(activity).inflate(R.layout.progress_wait, null);
           builder.setView(view);
           builder.create();
          return builder.show();

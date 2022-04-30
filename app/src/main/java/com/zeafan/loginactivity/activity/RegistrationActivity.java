@@ -14,8 +14,13 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 import com.zeafan.loginactivity.R;
+import com.zeafan.loginactivity.core.GlobalClass;
 import com.zeafan.loginactivity.core.Utilities;
-import com.zeafan.loginactivity.data.Company;
+import com.zeafan.loginactivity.data.Category;
+import com.zeafan.loginactivity.data.CompanyInfo;
+import com.zeafan.loginactivity.data.User;
+
+import java.util.ArrayList;
 import java.util.UUID;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -36,31 +41,44 @@ public class RegistrationActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (checkValidationData()) {
-                   Dialog waitDialog = Utilities.showWaitDialog(RegistrationActivity.this);
+                    Dialog waitDialog = Utilities.showWaitDialog(RegistrationActivity.this);
                     firebaseAuth.createUserWithEmailAndPassword(email, password)
                             .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if (task.isSuccessful()) {
-                                        Company company = new Company(companyName, UUID.randomUUID().toString(), password, licence,email);
-                                        FirebaseDatabase.getInstance().getReference("Companies").child(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                                                .setValue(company).addOnFailureListener(new OnFailureListener() {
-                                            @Override
-                                            public void onFailure(@NonNull Exception e) {
-                                                waitDialog.dismiss();
-                                                Toast.makeText(RegistrationActivity.this, ""+e.getMessage(), Toast.LENGTH_SHORT).show();
-                                            }
-                                        }) .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        firebaseAuth.getCurrentUser().sendEmailVerification();
+                                        CompanyInfo companyInfo = new CompanyInfo(companyName, UUID.randomUUID().toString(), password, licence, email);
+                                        Category category = new Category("بدون فئة", GlobalClass.EmptyGuid, "without", "",GlobalClass.EmptyGuid);
+                                        ArrayList<Category> categories = new ArrayList<>();
+                                        categories.add(category);
+                                        User _user = new User(companyInfo);
+                                        FirebaseDatabase.getInstance().getReference(GlobalClass.getSimpleUUID(FirebaseAuth.getInstance().getCurrentUser().getUid()))
+                                                .child(User.key_firebase).setValue(_user)
+                                                .addOnFailureListener(new OnFailureListener() {
                                                     @Override
-                                                    public void onComplete(@NonNull Task<Void> task) {
+                                                    public void onFailure(@NonNull Exception e) {
                                                         waitDialog.dismiss();
-                                                        if(task.isSuccessful()){
-                                                            Toast.makeText(RegistrationActivity.this, getString(R.string.successful_upload_database), Toast.LENGTH_SHORT).show();
-                                                        }else {
-                                                            Toast.makeText(RegistrationActivity.this, getString(R.string.failure_upload_database), Toast.LENGTH_SHORT).show();
-                                                        }
+                                                        Toast.makeText(RegistrationActivity.this, "" + e.getMessage(), Toast.LENGTH_SHORT).show();
                                                     }
-                                                });
+                                                }).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                            @Override
+                                            public void onComplete(@NonNull Task<Void> task) {
+                                                waitDialog.dismiss();
+                                                if (task.isSuccessful()) {
+                                                    FirebaseDatabase.getInstance().getReference(GlobalClass.getSimpleUUID(FirebaseAuth.getInstance().getCurrentUser().getUid()))
+                                                            .child(User.key_firebase).child(Category.Key_firebase_list).child(category.CategoryGuid).setValue(category).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                                        @Override
+                                                        public void onComplete(@NonNull Task<Void> task) {
+                                                            Toast.makeText(RegistrationActivity.this, getString(R.string.check_email), Toast.LENGTH_LONG).show();
+                                                            finish();
+                                                        }
+                                                    });
+                                                } else {
+                                                    Toast.makeText(RegistrationActivity.this, getString(R.string.failure_upload_database), Toast.LENGTH_SHORT).show();
+                                                }
+                                            }
+                                        });
                                     }
                                 }
                             });

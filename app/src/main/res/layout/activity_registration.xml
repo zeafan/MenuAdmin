@@ -29,7 +29,6 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         >
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/rg_et_email"
@@ -60,6 +59,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
         >
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -75,6 +75,7 @@
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
+        app:passwordToggleEnabled="true"
         android:layout_height="wrap_content"
         >
         <com.google.android.material.textfield.TextInputEditText
@@ -114,8 +115,8 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_marginStart="@dimen/s_12_14_16"
-        android:layout_marginEnd="@dimen/s_12_14_16"
+        android:layout_marginStart="@dimen/d_50_60_70"
+        android:layout_marginEnd="@dimen/d_50_60_70"
         android:layout_height="@dimen/d_50_60_70"
         android:text="@string/regist"
         android:textColor="#ffffff"
