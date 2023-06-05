@@ -1287,4 +1287,7 @@
     <string name="my_order">My Order</string>
     <string name="logout">Logout</string>
     <string name="upload_file_excel">upload Excel file</string>
+    <string name="field">Fields</string>
+    <string name="field_excel">الحقل المقابل فى ملف الأكسيل</string>
+    <string name="path_image">Image Path</string>
 </resources>

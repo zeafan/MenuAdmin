@@ -1,9 +1,318 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".activity.MapActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".activity.MapActivity">
+            <LinearLayout
+                android:background="@color/app_color_midnight_blue"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/field"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@color/WhiteSmoke"
+                    android:textStyle="bold"
+                    android:layout_margin="@dimen/d_1_2_4"
+                    android:textSize="@dimen/s_14_16_18"
+                    />
+                <ImageView
+                    android:layout_width="@dimen/d_35_45_55"
+                    android:layout_weight="0"
+                    android:background="@color/WhiteSmoke"
+                    android:layout_height="@dimen/d_35_45_55"
+                    android:src="@drawable/fast_forward" />
+                <TextView
+                    android:background="@color/WhiteSmoke"
+                    android:textStyle="bold"
+                    android:layout_margin="@dimen/d_1_2_4"
+                    android:textSize="@dimen/s_14_16_18"
+                    android:text="@string/field_excel"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/d_45_55_65"
+                android:layout_marginTop="@dimen/d_3_5_7_10"
+                android:layout_marginStart="@dimen/s_2_3_4"
+                android:layout_marginEnd="@dimen/d_2_3_4"
+                android:background="@color/WhiteSmoke"
+                app:cardElevation="@dimen/s_6_8_10"
+                app:cardCornerRadius="@dimen/d_3_5_7_10">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/s_16_18_22"
+                        android:gravity="center_vertical"
+                        android:text="@string/product_name"
+                        android:layout_height="match_parent"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+                    <ImageView
+                        android:layout_width="@dimen/d_35_45_55"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/fast_forward" />
+                    <Spinner
+                        android:id="@+id/sp_name"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/d_45_55_65"
+                android:layout_marginTop="@dimen/d_3_5_7_10"
+                android:layout_marginStart="@dimen/s_2_3_4"
+                android:layout_marginEnd="@dimen/d_2_3_4"
+                android:background="@color/WhiteSmoke"
+                app:cardElevation="@dimen/s_6_8_10"
+                app:cardCornerRadius="@dimen/d_3_5_7_10">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/s_16_18_22"
+                        android:gravity="center_vertical"
+                        android:text="@string/latinName"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/d_35_45_55"
+                        android:layout_height="match_parent"
+
+
+                        android:src="@drawable/fast_forward" />
+                    <Spinner
+                        android:id="@+id/sp_latin_name"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/d_45_55_65"
+                android:layout_marginTop="@dimen/d_3_5_7_10"
+                android:layout_marginStart="@dimen/s_2_3_4"
+                android:layout_marginEnd="@dimen/d_2_3_4"
+                android:background="@color/WhiteSmoke"
+                app:cardElevation="@dimen/s_6_8_10"
+                app:cardCornerRadius="@dimen/d_3_5_7_10">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/s_16_18_22"
+                        android:gravity="center_vertical"
+                        android:text="@string/more_details"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/d_35_45_55"
+                        android:layout_height="match_parent"
+
+
+                        android:src="@drawable/fast_forward" />
+                    <Spinner
+                        android:id="@+id/sp_more_details"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/d_45_55_65"
+                android:layout_marginTop="@dimen/d_3_5_7_10"
+                android:layout_marginStart="@dimen/s_2_3_4"
+                android:layout_marginEnd="@dimen/d_2_3_4"
+                android:background="@color/WhiteSmoke"
+                app:cardElevation="@dimen/s_6_8_10"
+                app:cardCornerRadius="@dimen/d_3_5_7_10">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/s_16_18_22"
+                        android:gravity="center_vertical"
+                        android:text="@string/unit_name"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/d_35_45_55"
+                        android:layout_height="match_parent"
+
+
+                        android:src="@drawable/fast_forward" />
+                    <Spinner
+                        android:id="@+id/sp_unit_name"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/d_45_55_65"
+                android:layout_marginTop="@dimen/d_3_5_7_10"
+                android:layout_marginStart="@dimen/s_2_3_4"
+                android:layout_marginEnd="@dimen/d_2_3_4"
+                android:background="@color/WhiteSmoke"
+                app:cardElevation="@dimen/s_6_8_10"
+                app:cardCornerRadius="@dimen/d_3_5_7_10">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/s_16_18_22"
+                        android:gravity="center_vertical"
+                        android:text="@string/price"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/d_35_45_55"
+                        android:layout_height="match_parent"
+
+
+                        android:src="@drawable/fast_forward" />
+                    <Spinner
+                        android:id="@+id/sp_price"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/d_45_55_65"
+                android:layout_marginTop="@dimen/d_3_5_7_10"
+                android:layout_marginStart="@dimen/s_2_3_4"
+                android:layout_marginEnd="@dimen/d_2_3_4"
+                android:background="@color/WhiteSmoke"
+                app:cardElevation="@dimen/s_6_8_10"
+                app:cardCornerRadius="@dimen/d_3_5_7_10">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/s_16_18_22"
+                        android:gravity="center_vertical"
+                        android:text="@string/bar_code"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/d_35_45_55"
+                        android:layout_height="match_parent"
+
+
+                        android:src="@drawable/fast_forward" />
+                    <Spinner
+                        android:id="@+id/sp_barcode"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/d_45_55_65"
+                android:layout_marginTop="@dimen/d_3_5_7_10"
+                android:layout_marginStart="@dimen/s_2_3_4"
+                android:layout_marginEnd="@dimen/d_2_3_4"
+                android:background="@color/WhiteSmoke"
+                app:cardElevation="@dimen/s_6_8_10"
+                app:cardCornerRadius="@dimen/d_3_5_7_10">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/s_16_18_22"
+                        android:gravity="center_vertical"
+                        android:text="@string/path_image"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/d_35_45_55"
+                        android:layout_height="match_parent"
+
+
+                        android:src="@drawable/fast_forward" />
+                    <Spinner
+                        android:id="@+id/sp_image_path"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+   <ru.katso.livebutton.LiveButton
+       android:id="@+id/btn_confrim"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/d_45_55_65"
+       android:textColor="@color/WhiteSmoke"
+       android:text="@string/confirm"
+       app:backgroundColor ="@color/Green"
+       android:textSize="@dimen/s_16_18_22"
+       android:textStyle="bold"
+       app:shadowColor="@color/DarkGreen"
+       android:layout_margin="@dimen/d_3_5_7_10"
+       app:corners ="@dimen/d_3_5_7_10"
+       />
+</LinearLayout>

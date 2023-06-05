@@ -1999,5 +1999,8 @@ e</string>
     <string name="my_order">My Order</string>
     <string name="logout">Logout</string>
     <string name="upload_file_excel">رفع ملف أكسيل</string>
+    <string name="field">الحقول</string>
+    <string name="field_excel">الحقل المقابل فى ملف الأكسيل</string>
+    <string name="path_image">Image Path</string>
 
 </resources>

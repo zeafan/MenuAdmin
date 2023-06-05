@@ -32,11 +32,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         firebaseAuth = FirebaseAuth.getInstance();
         findViewById(R.id.tv_register).setOnClickListener(this);
         findViewById(R.id.tv_forgotPassword).setOnClickListener(this);
-        findViewById(R.id.btn_Login).setOnClickListener(this);;
+        findViewById(R.id.btn_Login).setOnClickListener(this);
         et_Email = findViewById(R.id.lgin_et_email);
         et_password = findViewById(R.id.lgin_et_password);
         getEmail_Password();
-
     }
 
     private void getEmail_Password() {

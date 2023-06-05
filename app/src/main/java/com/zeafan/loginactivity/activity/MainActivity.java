@@ -28,7 +28,15 @@ import android.widget.Toast;
 import com.google.firebase.auth.FirebaseAuth;
 import com.zeafan.loginactivity.R;
 import com.zeafan.loginactivity.core.GlobalClass;
+
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -104,10 +112,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             getExcelFileFromStorage(new onGetExcelFill(){
                 @Override
                 public void onGetFile(File file) {
-                   String [][] readFile = read(file);
-                   if(readFile.length>1){
+                   if(file != null){
                        Intent i = new Intent(MainActivity.this,MapActivity.class);
-                               i.putExtra(MapActivity.list_key,readFile);
+                               i.putExtra(MapActivity.list_key,file);
                                startActivity(i);
                    }
                 }
@@ -227,41 +234,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     interface  onGetExcelFill {
         void  onGetFile(File file);
     }
-    public String[][] read(File ExcelFile) {
-//        Workbook workbook = null;
-//        try {
-//            WorkbookSettings ws = new WorkbookSettings();
-//            ws.setGCDisabled(true);
-//
-//
-//
-//            workbook = Workbook.getWorkbook(ExcelFile, ws);
-//            Sheet sheet = workbook.getSheet(0);
-//
-//            int rowCount = sheet.getRows();
-//            String[][] result = new String[rowCount][];
-//            for (int i = 0; i < rowCount; i++) {
-//                Cell[] row = sheet.getRow(i);
-//
-//                result[i] = new String[row.length];
-//                for (int j = 0; j < row.length; j++) {
-//                    result[i][j] = row[j].getContents();
-//                }
-//            }
-//            return result;
-//
-//
-//        } catch (BiffException e) {
-//
-//        } catch (IOException e) {
-//        } catch (Exception e) {
-//        } finally {
-//            if (workbook != null) {
-//                workbook.close();
-//            }
-//        }
-        return null;
-    }
+
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         if (grantResults[0] == PackageManager.PERMISSION_GRANTED){
@@ -269,7 +242,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 getExcelFileFromStorage(new onGetExcelFill(){
                     @Override
                     public void onGetFile(File file) {
-                        String [][] readFile = read(file);
+                        if(file != null){
+                            Intent i = new Intent(MainActivity.this,MapActivity.class);
+                            i.putExtra(MapActivity.list_key,file);
+                            startActivity(i);
+                        }
                     }
                 });
             }

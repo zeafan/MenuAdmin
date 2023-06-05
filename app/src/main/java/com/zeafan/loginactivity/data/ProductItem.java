@@ -1,19 +1,10 @@
 package com.zeafan.loginactivity.data;
-import android.app.Activity;
-import android.app.Dialog;
-import android.content.Context;
-import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
-import com.zeafan.loginactivity.R;
-import com.zeafan.loginactivity.activity.RegistrationActivity;
-import com.zeafan.loginactivity.core.Firebase;
 import com.zeafan.loginactivity.core.GlobalClass;
-import com.zeafan.loginactivity.core.Utilities;
 import com.zeafan.loginactivity.interfaces.callbackSaveProductItem;
 
 import java.io.Serializable;
@@ -21,6 +12,9 @@ import java.util.HashMap;
 import java.util.UUID;
 
 import androidx.annotation.NonNull;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
 
 public class ProductItem implements Serializable {
     public static String serial_Key = "KEY_loadedItem";
@@ -52,6 +46,19 @@ public class ProductItem implements Serializable {
         this.ParentKey = ParentKey;
         this.UnitName = UnitName;
     }
+    public ProductItem(String itemName, String itemGuid, String latinItemName,
+                       String barcode, double price, String imagePaths, String describeItem,String UnitName) {
+        this.itemName = itemName;
+        ItemGuid = itemGuid;
+        this.latinItemName = latinItemName;
+        this.categoryGuid = GlobalClass.EmptyGuid;
+        this.barcode = barcode;
+        this.price = price;
+        ParentKey = itemGuid;
+        this.imagePaths = imagePaths;
+        this.describeItem = describeItem;
+        this.UnitName = UnitName;
+    }
 
     public ProductItem() {
         ItemGuid = UUID.randomUUID().toString();
@@ -67,6 +74,31 @@ public class ProductItem implements Serializable {
         ParentKey =UUID.randomUUID().toString();
     }
 
+    public static String getString(Cell cell) {
+        if(cell != null && !cell.getStringCellValue().isEmpty())
+            return cell.getStringCellValue();
+        return "";
+    }
+
+    public static String getString(Row row, int name_index) {
+        if(name_index>0 && row.getCell(name_index-1)!= null)
+            try {
+                return row.getCell(name_index-1).getStringCellValue();
+            }catch (Exception e){
+                return "";
+            }
+        return "";
+    }
+    public static double getDouble(Row row, int index) {
+        if(index>0 && row.getCell(index-1)!= null)
+            try {
+                return row.getCell(index-1).getNumericCellValue();
+            }catch (Exception e){
+                return 0;
+            }
+            
+        return 0;
+    }
     public void deleteFromServer(callbackSaveProductItem successful) {
         FirebaseDatabase.getInstance().getReference(GlobalClass.getSimpleUUID(FirebaseAuth.getInstance().getCurrentUser().getUid()))
                 .child(User.key_firebase).child(ProductItem.Key_firebase_list)
